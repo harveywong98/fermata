@@ -2,6 +2,8 @@
 
 日期：2026-11-06
 
+本地工具：Compose 按 `eval` / `tracing` profile 分别提供 [promptfoo](http://localhost:15500) 与 [Langfuse](http://localhost:13000)，启动见 [项目 README](../README.md)。当前尚未配置项目评测用例或 Agent 轨迹上报。
+
 设计评测时，先把“测什么”“怎么跑”“怎么评分”分开。它们是独立的问题，不是一棵从简单到复杂的分类树。
 
 ## 1. 先看三个维度

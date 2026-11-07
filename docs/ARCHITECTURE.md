@@ -17,6 +17,12 @@ Agent 到知识模块是普通 Python 调用，不需要 `KNOWLEDGE_API_URL` 或
 
 检索内部仍调用 Embedding 服务和数据库；移除内部 HTTP 跳转不代表取消所有基础设施。同步文档接口由 Web 执行；当前是本地单用户、单进程应用。大规模解析与并发对话需要后台任务，暂未实现。
 
+## 本地辅助服务
+
+根 `compose.yaml` 通过 `include` 汇总 `compose/` 下的 Embedding、promptfoo 和 Langfuse 配置；相对路径和 `.env` 均以项目根目录为基准。默认只启动 Embedding，`eval` profile 启用 promptfoo，`tracing` profile 启用 Langfuse 全套。所有容器名以 `fe_` 开头，仅将页面和对象存储端口绑定到本机。Langfuse 使用独立的 PostgreSQL、ClickHouse、Redis 和 MinIO；不会复用应用的 `DATABASE_URL`。数据使用 Docker 命名卷持久化。
+
+部署参考 [promptfoo 自托管说明](https://www.promptfoo.dev/docs/usage/self-hosting/) 和 [Langfuse 官方 Compose](https://github.com/langfuse/langfuse/blob/main/docker-compose.yml)，只保留本地运行所需组件。当前仅提供服务部署，Agent tracing 与项目评测用例尚未接入，规划见 `TASKS.md`。
+
 ## 配置、资源与迁移
 
 统一维护根目录 `pyproject.toml`、`uv.lock`、`.env` 和 `compose.yaml`。根目录 Python 环境同时安装 Agent 与知识能力依赖，代价是安装体积增加，但不必维护两个应用环境。

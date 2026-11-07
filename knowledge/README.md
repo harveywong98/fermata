@@ -13,11 +13,11 @@ Docling解析 → 父子块预览 → BGE-base向量化 → PostgreSQL/pgvector�
 ```sh
 uv sync --locked
 # 本机.env已配置，不要覆盖；新环境参考.env.example。
-docker compose up -d
+docker compose up -d embedding
 uv run python main.py
 ```
 
-PG复用 `127.0.0.1:5432/privacy_knowledge_demo`，账号在未提交的.env中。compose只启动llama.cpp服务（18087），CPU4线程、CLS池化、768维、关闭mmap。首次启动在独立knowledge schema建表，不自动删除旧结构。
+PG复用 `127.0.0.1:5432/privacy_knowledge_demo`，账号在未提交的.env中。上述命令只启动llama.cpp服务（18087），CPU4线程、CLS池化、768维、关闭mmap。首次启动在独立knowledge schema建表，不自动删除旧结构。
 
 默认模型为 `knowledge/models/bge-base-zh-v1.5-f16.gguf`，tokenizer位于 `knowledge/models/tokenizer/`，来自已验证的 [Embedding实验](../docs/research/embedding-benchmark/README.md)：BAAI官方权重经b8576转换。模型文件不进入Git。
 
@@ -45,7 +45,7 @@ PG复用 `127.0.0.1:5432/privacy_knowledge_demo`，账号在未提交的.env中�
 |../web/templates/knowledge.html|单页导入与搜索界面|
 |../web/routes.py|HTTP接口适配|
 |sql/schema.sql|document与document_chunk两张表；父子块自关联|
-|../compose.yaml|现有llama.cpp上游镜像运行Embedding服务|
+|../compose/embedding.yaml|使用llama.cpp上游镜像运行Embedding服务，由根compose.yaml引入|
 
 标题下连续正文形成父块，表格单独形成父块；TXT按段落或行划分。父、子块均保存在document_chunk，用chunk_role区分，子块parent_id指向同表父块。父块只保存完整正文，不向量化；子块保存向量。通过文档与批次复合外键约束关联范围。父块正文有意冗余，避免回读时拼接重叠的子块。
 

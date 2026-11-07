@@ -1,0 +1,17 @@
+# https://www.promptfoo.dev/docs/usage/self-hosting/
+services:
+  promptfoo:
+    profiles: [eval]
+    image: ghcr.io/promptfoo/promptfoo:latest
+    container_name: fe_promptfoo
+    restart: unless-stopped
+    ports:
+    - 127.0.0.1:15500:3000
+    volumes:
+    - promptfoo_data:/home/promptfoo/.promptfoo
+    environment:
+      PROMPTFOO_DISABLE_TELEMETRY: '1'
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
+volumes:
+  promptfoo_data: {}
