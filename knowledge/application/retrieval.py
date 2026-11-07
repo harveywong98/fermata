@@ -1,7 +1,7 @@
 """应用内部检索入口，供 Agent 工具与 Web 共用。"""
-from knowledge.embeddings import embed, profile
-from knowledge.repository import db
-from knowledge.schemas import SearchRequest
+from knowledge.embedding.client import embed, profile
+from knowledge.storage.repository import db
+from knowledge.contracts import SearchRequest
 
 def search(request: SearchRequest):
     vector = embed(['为这个句子生成表示以用于检索相关文章：' + request.query])[0]

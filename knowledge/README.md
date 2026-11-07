@@ -35,16 +35,18 @@ PG复用 `127.0.0.1:5432/privacy_knowledge_demo`，账号在未提交的.env中�
 
 |文件|职责|
 |---|---|
-|service.py|上传、预览、发布、编辑和删除的业务逻辑|
-|retrieval.py|Agent 和 Web 共用的检索入口|
-|repository.py|PG连接及schema初始化|
-|embeddings.py|BGE编码与版本标识|
-|schemas.py / errors.py|共享输入模型与业务错误|
-|chunking.py|Docling解析、父单元组织、token预算及子块切分|
-|drafts.py|临时草稿文件及分块预览，不访问PG|
+|application/service.py|上传、预览、发布、编辑和删除的业务逻辑|
+|application/retrieval.py|Agent 和 Web 共用的检索入口|
+|storage/repository.py|PG连接及schema初始化|
+|embedding/client.py|BGE向量服务调用、输入校验与模型版本标识|
+|embedding/tokenizer.py|模型tokenizer与token计数，供切分和向量输入校验共用|
+|contracts.py|共享输入模型与业务错误|
+|documents/parsing.py|TXT和Docling解析，将文档组织为带来源信息的父单元|
+|documents/chunking.py|按token预算切分父单元，保留标题、表头和字符范围|
+|application/drafts.py|临时草稿文件及分块预览，不访问PG|
 |../web/templates/knowledge.html|单页导入与搜索界面|
 |../web/routes.py|HTTP接口适配|
-|sql/schema.sql|document与document_chunk两张表；父子块自关联|
+|storage/sql/schema.sql|document与document_chunk两张表；父子块自关联|
 |../compose/embedding.yaml|使用llama.cpp上游镜像运行Embedding服务，由根compose.yaml引入|
 
 标题下连续正文形成父块，表格单独形成父块；TXT按段落或行划分。父、子块均保存在document_chunk，用chunk_role区分，子块parent_id指向同表父块。父块只保存完整正文，不向量化；子块保存向量。通过文档与批次复合外键约束关联范围。父块正文有意冗余，避免回读时拼接重叠的子块。

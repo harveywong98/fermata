@@ -3,7 +3,7 @@ from unittest.mock import patch
 import psycopg
 
 from tools import AGENT_TOOLS, search_knowledge
-from knowledge.errors import KnowledgeError
+from knowledge.contracts import KnowledgeError
 
 
 class KnowledgeToolTest(unittest.TestCase):

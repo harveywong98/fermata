@@ -12,6 +12,7 @@
 - [x] 检索结果区分 success / no_results / error，保留来源与截断信息。
 - [x] 分类分级、敏感数据降噪两份业务 Skills 已编写。
 - [x] RAG 已实现解析、父子分块、草稿预览、确认入库、编辑与检索。
+- [x] RAG 内部分离 `documents/` 解析与切分、`embedding/` 分词与向量调用；`application/` 协调草稿、发布和检索，`storage/` 管理数据库连接与表结构。
 - [x] 已有检索工具单元测试、RAG 分块测试和服务 smoke 脚本。
 - [ ] 真实模型 → 工具 → RAG → 最终回答的整体链路尚未验证。
 

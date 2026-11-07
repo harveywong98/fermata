@@ -5,12 +5,12 @@ import shutil
 from uuid import UUID, uuid4
 from psycopg.types.json import Jsonb
 from config import DATA_DIR as DATA
-from knowledge import drafts
-from knowledge.chunking import parse_file
-from knowledge.embeddings import embed, MODEL, profile
-from knowledge.errors import KnowledgeError
-from knowledge.repository import db
-from knowledge.schemas import SplitRequest, PublishRequest
+from knowledge.application import drafts
+from knowledge.documents.parsing import parse_file
+from knowledge.embedding.client import embed, MODEL, profile
+from knowledge.contracts import KnowledgeError
+from knowledge.storage.repository import db
+from knowledge.contracts import SplitRequest, PublishRequest
 
 def digest(text):
     return sha256(text.encode()).hexdigest()

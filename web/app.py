@@ -3,8 +3,8 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, JSONResponse
-from knowledge.errors import KnowledgeError
-from knowledge.repository import initialize
+from knowledge.contracts import KnowledgeError
+from knowledge.storage.repository import initialize
 from web.routes import router
 
 @asynccontextmanager

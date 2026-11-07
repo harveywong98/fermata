@@ -5,13 +5,15 @@
 ## 调用链
 
 ```text
-Agent → tools.search_knowledge → knowledge.retrieval.search
-Web /api/search ───────────────→ knowledge.retrieval.search
-Web 文档与草稿接口 ────────────→ knowledge.service
-                                  ├─ chunking / drafts
-                                  ├─ embeddings → llama.cpp
-                                  └─ repository → PostgreSQL
+Agent → tools.search_knowledge → knowledge.application.retrieval.search
+Web /api/search ───────────────→ knowledge.application.retrieval.search
+Web 文档与草稿接口 ────────────→ knowledge.application.service
+                                  ├─ documents / drafts
+                                  ├─ embedding.client → llama.cpp
+                                  └─ storage.repository → PostgreSQL
 ```
+
+`knowledge/documents/` 负责解析与切分；`knowledge/embedding/` 负责模型 tokenizer、向量调用和版本标识。切分通过共用 tokenizer 计算预算，Embedding 不依赖文档解析或切分。`application/` 协调草稿、发布与检索流程，`storage/` 管理数据库连接和 SQL 表结构。根目录 `contracts.py` 统一放置共享请求模型和异常，供各层与 Web、工具使用。
 
 Agent 到知识模块是普通 Python 调用，不需要 `KNOWLEDGE_API_URL` 或单独 RAG 应用。Web 接口仍保留 `/api/documents`、`/api/drafts`、`/api/search` 的原有请求、响应与状态码。`KnowledgeError` 由 Web 转为 HTTP 响应，由工具转为 `error` 状态，业务代码不依赖 FastAPI。
 

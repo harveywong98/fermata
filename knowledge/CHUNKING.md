@@ -2,6 +2,8 @@
 
 本文记录完整设计方向。当前已实现Docling结构解析、token预算、标题/表头补充、正文重叠和parent_id回读父单元；尚未实现OCR、规则语义推断、跨章节引用和自动上下文预算。实际边界见 [README.md](README.md)。Docling结构块不直接等于检索Chunk。
 
+解析实现在 `documents/parsing.py`，切分实现在 `documents/chunking.py`；两者与向量调用分开。切分预算和向量输入校验共用 `embedding/tokenizer.py`，保证使用同一模型的计数规则。
+
 ## 按文档类型选择切法
 
 先按文件类型解析，再按内容结构切。分页不等于语义边界，字符数也不等于模型token数。
@@ -60,7 +62,7 @@ embedding_text：
 
 ## 与现有DDL的对应关系
 
-见 [sql/schema.sql](sql/schema.sql) 和 [存储约定](sql/README.md)。
+见 [storage/sql/schema.sql](storage/sql/schema.sql) 和 [存储约定](storage/sql/README.md)。
 
 |字段|用途|
 |---|---|

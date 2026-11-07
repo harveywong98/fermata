@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 from threading import RLock
 from uuid import uuid4
-from knowledge.errors import KnowledgeError
-from knowledge.chunking import split_section
+from knowledge.contracts import KnowledgeError
+from knowledge.documents.chunking import split_section
 from config import DATA_DIR
 
 ROOT = DATA_DIR / 'drafts'

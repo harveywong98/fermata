@@ -10,9 +10,9 @@ from openpyxl import Workbook
 from reportlab.pdfgen.canvas import Canvas
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from knowledge import service as app
-from knowledge.errors import KnowledgeError
-from knowledge.schemas import PublishRequest
+from knowledge.application import service as app
+from knowledge.contracts import KnowledgeError
+from knowledge.contracts import PublishRequest
 
 base = '__smoke_' + uuid4().hex
 ids, draft_ids = [], []

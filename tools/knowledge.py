@@ -3,9 +3,9 @@ import os
 import httpx
 import psycopg
 from langchain_core.tools import tool
-from knowledge.errors import KnowledgeError
-from knowledge.retrieval import search
-from knowledge.schemas import SearchRequest
+from knowledge.contracts import KnowledgeError
+from knowledge.application.retrieval import search
+from knowledge.contracts import SearchRequest
 
 
 @tool
