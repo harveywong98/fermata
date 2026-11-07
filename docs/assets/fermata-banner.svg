@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fermata</title>
+  <desc id="desc">米白色乐谱纸上的 Fermata 标题。五线谱中的一段原创短旋律，停留在暖赭色延长记号下的二分音符上。</desc>
+  <!-- Music-symbol outlines: Bravura, copyright Steinberg Media Technologies GmbH.
+       Source: https://github.com/steinbergmedia/bravura
+       SIL Open Font License 1.1; see Bravura-LICENSE.txt. No font file is loaded. -->
+  <defs>
+    <pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="2" r="0.45" fill="#564a3c" opacity="0.045"/>
+      <circle cx="5" cy="6" r="0.4" fill="#564a3c" opacity="0.035"/>
+    </pattern>
+    <g id="quarter" fill="#33322e" stroke="#33322e">
+      <ellipse rx="11" ry="7.5" transform="rotate(-23)" stroke="none"/>
+      <path d="M9 -3V-55" fill="none" stroke-width="2.3"/>
+    </g>
+    <g id="half" stroke="#33322e">
+      <ellipse rx="11" ry="7.5" transform="rotate(-23)" fill="#f7f4ed" stroke-width="2.8"/>
+      <path d="M9 -3V-55" fill="none" stroke-width="2.3"/>
+    </g>
+  </defs>
+
+  <!-- Opaque paper keeps the score legible in both light and dark README themes. -->
+  <rect width="1280" height="420" rx="12" fill="#f7f4ed"/>
+  <rect width="1280" height="420" rx="12" fill="url(#paper)"/>
+
+  <!-- Editorial title: quiet typography, generous whitespace. -->
+  <text x="84" y="147" font-family="Georgia, 'Times New Roman', serif" font-size="96" letter-spacing="-4" fill="#2f302c">Fermata</text>
+  <path d="M88 173H143" stroke="#ba6847" stroke-width="2"/>
+
+  <!-- Bravura fermataAbove (U+E4C0), centered over the held note. -->
+  <path id="fermata" fill="#b65c38" transform="translate(970.68 215) scale(0.08 -0.08)"
+        d="M302 221C515 221 558 63 568 25C569 22 569 19 570 18C577 4 581 -3 591 -3C600 -3 605 1 605 11C605 14 605 17 604 21C542 327 333 329 304 329C272 329 65 327 4 21C3 17 3 13 3 10C3 0 8 -3 16 -3C25 -3 30 4 36 18C37 19 38 23 39 27C51 68 96 221 302 221ZM358 52C358 81 333 106 303 106C274 106 249 81 249 52C249 22 274 -3 303 -3C333 -3 358 22 358 52Z"/>
+
+  <!-- Five staff lines; the notation is an original illustrative phrase. -->
+  <g fill="none" stroke="#888679" stroke-width="1" opacity="0.64">
+    <path d="M84 266H1196M84 282H1196M84 298H1196M84 314H1196M84 330H1196"/>
+  </g>
+
+  <!-- Bravura gClef (U+E050): origin on G4, the second staff line from the bottom. -->
+  <path id="treble-clef" fill="#33322e" transform="translate(112 314) scale(0.064 -0.064)"
+        d="M376 415C374 427 376 428 382 434C398 449 419 470 438 491C522 583 572 702 572 815C572 902 548 988 507 1048C492 1070 466 1098 455 1098C441 1098 410 1072 390 1050C316 968 292 843 292 739C292 681 299 616 306 575C308 563 309 561 297 551C233 498 164 437 112 373C43 287 0 194 0 87C0 -87 119 -252 364 -252C387 -252 413 -250 433 -246C444 -244 446 -243 448 -255C460 -322 475 -409 475 -456C475 -604 375 -622 316 -622C262 -622 236 -606 236 -593C236 -586 245 -583 268 -576C299 -567 335 -540 335 -482C335 -427 300 -380 239 -380C172 -380 132 -433 132 -495C132 -560 171 -658 322 -658C389 -658 519 -628 519 -458C519 -401 501 -306 490 -244C488 -232 489 -233 503 -227C604 -187 671 -102 671 11C671 139 577 252 430 252C404 252 404 252 401 270ZM470 943C503 943 530 916 530 861C530 792 497 728 419 650C403 634 379 611 356 591C349 585 345 586 343 599C339 625 337 659 337 691C337 847 409 943 470 943ZM361 262C364 243 364 244 346 238C258 208 201 129 201 44C201 -46 248 -110 316 -133C324 -136 336 -139 343 -139C351 -139 355 -134 355 -128C355 -121 347 -118 340 -115C298 -97 268 -54 268 -8C268 49 307 92 368 109C384 113 386 112 388 101L438 -197C440 -208 439 -208 424 -211C408 -214 388 -216 368 -216C193 -216 80 -119 80 20C80 79 90 158 173 252C233 319 279 356 326 394C336 402 338 401 340 390ZM430 103C428 115 429 118 441 117C522 110 589 42 589 -46C589 -109 551 -160 495 -188C483 -194 481 -194 479 -182Z"/>
+
+  <!-- Quarter, paired eighths, quarter, quarter: a 4/4 opening measure. -->
+  <use href="#quarter" x="219" y="322"/>
+  <use href="#quarter" x="317" y="306"/>
+  <use href="#quarter" x="371" y="298"/>
+  <path d="M326 251L380 243V250L326 258Z" fill="#33322e"/>
+  <use href="#quarter" x="461" y="290"/>
+  <use href="#quarter" x="559" y="306"/>
+  <path d="M621 266V330" stroke="#66655b" stroke-width="1.3"/>
+
+  <!-- Two quarters lead into a held half note beneath the fermata. -->
+  <use href="#quarter" x="697" y="314"/>
+  <use href="#quarter" x="800" y="298"/>
+  <use href="#half" x="995" y="282"/>
+  <path d="M697 346C785 377 913 367 995 311C909 375 782 384 697 346Z" fill="#55564c" opacity="0.75"/>
+  <g stroke="#55564c">
+    <path d="M1151 266V330" stroke-width="1.4"/>
+    <path d="M1159 266V330" stroke-width="4"/>
+  </g>
+
+  <!-- A small music-direction annotation keeps the illustration score-like. -->
+  <text x="697" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#77766c">dolce</text>
+</svg>

@@ -1,0 +1,1583 @@
+{
+  "source": "/Users/mac/Downloads/电力数据类型.txt",
+  "source_sha256": "67392c54be7aca5ae4ddcf353b37398e49400a1cf444206b2cbbd93915325bf7",
+  "entries": [
+    {
+      "id": "T001",
+      "name": "交易价",
+      "description": "电力交易成交或约定的价格；需结合交易阶段和计价单位解释。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T002",
+      "name": "电价",
+      "description": "电能计价标准的泛称，具体价格环节和时段需结合业务确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T003",
+      "name": "合同名",
+      "description": "合同的名称或标题，用于展示和识别合同。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T004",
+      "name": "合同额",
+      "description": "合同约定的货币金额，不是电量或功率；币种和计量单位需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T005",
+      "name": "合同卖方",
+      "description": "合同中承担出售一方角色的主体。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T006",
+      "name": "交易序列名",
+      "description": "某批次或某场次电力交易序列的名称。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T007",
+      "name": "输配电价",
+      "description": "电网提供输电和配电服务的价格，区别于电能交易价格；适用电压等级和计价方式依政策确定。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T008",
+      "name": "应用系统ID",
+      "description": "用于区分应用软件系统的标识，不是账号或机构标识。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T009",
+      "name": "市场成员名称",
+      "description": "参与电力市场的成员主体名称；与机构名称的映射需业务字典确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T010",
+      "name": "许可证",
+      "description": "许可证明或相关信息的泛称；证照类别以及存储名称、编号还是附件未知。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T011",
+      "name": "电话",
+      "description": "联系电话，可能是固定电话或移动号码，不能仅据名称限定为手机号。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T012",
+      "name": "省份登录时间",
+      "description": "原始字段名称含义不明，可能存在错字；需提供原字段、表说明，不能推定具体登录事件。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T013",
+      "name": "个人实名时间",
+      "description": "个人完成实名认证的时间，区别于账号创建和登录时间。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T014",
+      "name": "用户名称",
+      "description": "用户的名称；具体是登录名、显示名还是业务客户名称需表语义确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T015",
+      "name": "用户类型",
+      "description": "用户的业务类别，枚举含义由所属系统定义。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T016",
+      "name": "机构ID",
+      "description": "组织机构记录的标识；与公司或市场成员标识不保证通用。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T017",
+      "name": "最后一次登录IP",
+      "description": "最近一次登录活动记录的来源IP地址，不是登录时间。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T018",
+      "name": "账号管理部门名称路径",
+      "description": "管理账号的部门在组织树中的完整名称层级链路。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T019",
+      "name": "销售类型",
+      "description": "销售业务的分类，枚举值和分类口径待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T020",
+      "name": "机构名称路径",
+      "description": "机构在组织层级中的完整名称链路，不限于账号管理部门。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T021",
+      "name": "账号类型",
+      "description": "系统账号的类别，具体枚举由账号管理系统定义。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T022",
+      "name": "电压等级",
+      "description": "供电或接入电压的级别，常以kV等单位描述，区别于功率与电量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T023",
+      "name": "子账号数量",
+      "description": "当前已有的下属账号个数，区别于允许创建的数量上限。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T024",
+      "name": "注册来源",
+      "description": "用户或账号注册的入口、渠道或来源系统。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T025",
+      "name": "主键ID",
+      "description": "数据表中用于唯一定位一条记录的键，不能仅凭格式推定业务实体。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T026",
+      "name": "地理区域id",
+      "description": "地理区域实体的标识，编码体系待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T027",
+      "name": "市场成员id",
+      "description": "电力市场成员记录的标识，区别于名称；与主体编码的映射待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T028",
+      "name": "状态",
+      "description": "对象状态的通用字段，缺少所属对象和枚举时无法判断具体业务含义。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T029",
+      "name": "账号管理部门名称",
+      "description": "负责账号管理的部门名称，不是完整层级路径或部门标识。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T030",
+      "name": "备注",
+      "description": "补充说明的自由文本，具体内容取决于所属记录。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T031",
+      "name": "审批状态",
+      "description": "业务审批流程当前所处状态，具体枚举待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T032",
+      "name": "手机盾密码",
+      "description": "手机盾安全认证组件使用的口令，区别于普通账号密码和密钥标识。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T033",
+      "name": "邮箱",
+      "description": "电子邮件地址，用于邮件联系或账号关联。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T034",
+      "name": "父账号ID",
+      "description": "当前账号所属的上级账号标识，用于父子账号关系。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T035",
+      "name": "公司ID",
+      "description": "公司实体的标识，区别于公司名称和统一社会信用代码。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T036",
+      "name": "业务场景",
+      "description": "业务场景信息，具体存储编码、名称还是描述需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T037",
+      "name": "手机盾keyId",
+      "description": "手机盾密钥的标识或引用，不等同于密钥材料本身。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T038",
+      "name": "企业类型",
+      "description": "企业的分类属性，具体是登记类型还是业务类型需字典确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T039",
+      "name": "创建人",
+      "description": "新建记录的操作主体，具体存储人员名称还是账号ID需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T040",
+      "name": "二次认证密钥",
+      "description": "用于第二重身份验证的密钥材料，区别于普通密码和密钥编号；算法未知。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T041",
+      "name": "市场主体编码",
+      "description": "电力市场主体的业务编码，不能直接认定等于数据库主键或统一社会信用代码。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T042",
+      "name": "用户编码",
+      "description": "业务用户的识别编码，区别于用户名称；编码规则待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T043",
+      "name": "更新时间",
+      "description": "记录最近修改的时间，具体精度和时区依字段类型确定。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T044",
+      "name": "用户编码与其他系统对接扩展使用",
+      "description": "供跨系统对接使用的用户编码扩展字段；与本系统用户编码的映射规则待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T045",
+      "name": "密码",
+      "description": "身份认证口令；是否保存明文、哈希或密文不能由字段名称判断。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T046",
+      "name": "isc主账号映射",
+      "description": "与ISC主账号之间的映射信息；ISC定义和实际存储格式待确认。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T047",
+      "name": "联系人姓名",
+      "description": "业务联系人个人姓名，区别于公司或机构名称。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T048",
+      "name": "校验isc密码参数网省id",
+      "description": "ISC密码校验参数中的网省标识；具体取值和校验协议待确认。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T049",
+      "name": "账号管理部门id",
+      "description": "负责账号管理的部门实体标识，不是部门名称或层级路径。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T050",
+      "name": "场景id",
+      "description": "场景实体的标识，不是场景名称。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T051",
+      "name": "所有者表",
+      "description": "原始名称不足以判断是数据库所属表、实体归属还是其他含义，需要字段字典。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T052",
+      "name": "网省名称",
+      "description": "业务中的网省名称；网、省层级定义需系统字典确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T053",
+      "name": "社会信用代码",
+      "description": "通常指法人和其他组织统一社会信用代码；原字段是否采用该标准需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T054",
+      "name": "场景名称",
+      "description": "业务场景的名称，用于展示和识别场景。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T055",
+      "name": "机构名称",
+      "description": "组织机构的名称，区别于机构ID或完整机构名称路径。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T056",
+      "name": "创建时间",
+      "description": "记录首次建立的时间，区别于后续修改时间。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T057",
+      "name": "所属市场主体",
+      "description": "当前对象关联的市场主体；实际保存名称、编码还是ID需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T058",
+      "name": "市场成员类型",
+      "description": "电力市场成员的类别；与商业类型、企业登记类型的边界需字典确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T059",
+      "name": "法人授权时间",
+      "description": "法人授权事件发生的时间，区别于个人实名认证时间。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T060",
+      "name": "更新人",
+      "description": "最近修改记录的操作主体，具体存储名称还是账号ID需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T061",
+      "name": "市场成员商业类型",
+      "description": "市场成员商业属性的分类，不能从名称推定完整枚举。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T062",
+      "name": "用户简称",
+      "description": "用户名称的简写或缩略展示名称。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T063",
+      "name": "更新日期",
+      "description": "记录修改日期；与更新时间是否同义或精度不同需字段类型确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T064",
+      "name": "入市时间",
+      "description": "市场主体进入电力市场的时间，具体以注册、审批还是生效为准需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T065",
+      "name": "最大子账号数量",
+      "description": "允许拥有或创建的子账号数量上限，区别于当前数量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T066",
+      "name": "是否为备案状态",
+      "description": "对象是否处于备案状态的标记，具体真假值编码待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T067",
+      "name": "主体名-买方",
+      "description": "交易或合同中买方主体的名称。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T068",
+      "name": "主体名-卖方",
+      "description": "交易或合同中卖方主体的名称；与合同卖方是否同义需所属表确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T069",
+      "name": "交易量",
+      "description": "交易数量；在电力交易中可能为成交电量，但单位和对象必须确认。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T070",
+      "name": "零售用户售电侧电费",
+      "description": "零售用户在售电侧口径下的电费金额，区别于单位电量价格。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T071",
+      "name": "合同容量",
+      "description": "合同约定容量；具体为用电报装容量、发电容量还是交易容量需合同定义和单位确认。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T072",
+      "name": "机组子类型",
+      "description": "发电机组分类体系中的细分类别，具体枚举待确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T073",
+      "name": "零售用户时段",
+      "description": "零售业务对应的时间区间或分时时段，不是单一时间戳。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T074",
+      "name": "启停调峰电价",
+      "description": "启停调峰服务相关的计价标准，具体计费基准和单位依规则确定。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T075",
+      "name": "丙方",
+      "description": "合同第三方参与主体；具体承担何种职责不能仅凭丙方推断。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T076",
+      "name": "合同备案人",
+      "description": "办理合同备案的人员或操作主体，区别于合同买卖方。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T077",
+      "name": "电力业务许可证编号",
+      "description": "电力业务许可证的证书编号，用于发电、输电或供电业务资质识别，不是统一社会信用代码。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T078",
+      "name": "发电企业周期内市场化结算电量",
+      "description": "指定结算周期内，发电企业按市场交易口径结算的电能数量；周期边界需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T079",
+      "name": "基数外容量电价",
+      "description": "涉及基数外容量的价格项目；基数定义、费用构成及单位需地方规则核实。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T080",
+      "name": "度电转让费",
+      "description": "按每单位电量计收的转让费用标准；具体转让业务和币种需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T081",
+      "name": "发电企业本地区总市场化结算电量",
+      "description": "按本地区范围统计的发电企业市场化结算电能总量，地区和周期口径需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T082",
+      "name": "合同电力",
+      "description": "合同约定的功率或电力水平，通常以kW或MW衡量；不同于按kWh或MWh计量的电能数量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T083",
+      "name": "机组计划投产时间",
+      "description": "发电机组计划开始投产的时间，区别于实际投产及市场入市事件。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T084",
+      "name": "启停调峰电费",
+      "description": "启停调峰业务结算的费用金额，区别于其计价标准。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T085",
+      "name": "发电企业市场成员ID",
+      "description": "属于发电企业这一主体角色的市场成员标识。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T086",
+      "name": "纸质合同编号",
+      "description": "纸质合同文件的编号，区别于合同名称或合同金额。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T087",
+      "name": "购方网损",
+      "description": "购电方相关的网络损耗信息；是损耗电量、比例还是费用，仅凭名称不能确定。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T088",
+      "name": "发电权结算方",
+      "description": "发电权交易中承担结算角色的一方，不能直接推定就是买方或卖方。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T089",
+      "name": "购方电价尖峰",
+      "description": "购电方在尖峰时段适用的电能价格，区别于谷段电量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T090",
+      "name": "购方电量谷",
+      "description": "购电方在谷时段对应的电能数量，区别于单位电量价格。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T091",
+      "name": "零售用户申报电价",
+      "description": "零售用户在申报阶段提交的电价，区别于最终结算阶段采用的价格。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T092",
+      "name": "机组状态",
+      "description": "发电机组所处业务或运行状态，具体状态集合需字典确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T093",
+      "name": "合同结算成分",
+      "description": "合同结算组成项目或成分信息；具体是费用项目、电量构成还是枚举需确认。",
+      "verification": "needs_customer_dictionary"
+    },
+    {
+      "id": "T094",
+      "name": "发电企业水电机组容量",
+      "description": "发电企业水力发电机组的容量，通常为功率容量；具体统计范围需确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T095",
+      "name": "纸质合同名称",
+      "description": "纸质合同文件的标题或名称，区别于文件编号。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T096",
+      "name": "已投运机组容量",
+      "description": "已经投入运行的发电机组容量，区别于尚未投运的计划容量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T097",
+      "name": "发电企业市场化结算电量",
+      "description": "发电企业参与市场交易后用于结算的电能数量，具体周期和地区范围需上下文确认。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T098",
+      "name": "售电方上网电量",
+      "description": "售电方送入电网、在上网侧计量的电能数量，不等同于用户用电侧电量。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T099",
+      "name": "投诉事件id",
+      "description": "用于唯一标识投诉事件的编号，区别于用户或市场成员标识。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    },
+    {
+      "id": "T100",
+      "name": "零售用户结算电价",
+      "description": "零售用户在结算阶段实际采用的电价，区别于申报电价和应付总电费。",
+      "verification": "name_semantics_reviewed_not_customer_verified"
+    }
+  ],
+  "queries": [
+    {
+      "id": "Q001",
+      "group": "price",
+      "short": "价格",
+      "context": "交易结果表中的成交单价，单位元/兆瓦时。",
+      "acceptable_ids": [
+        "T001"
+      ],
+      "target_names": [
+        "交易价"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q002",
+      "group": "price",
+      "short": "价格",
+      "context": "向电网支付的输送和配电服务单价，按接入电压档次确定。",
+      "acceptable_ids": [
+        "T007"
+      ],
+      "target_names": [
+        "输配电价"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q003",
+      "group": "price",
+      "short": "用户价格",
+      "context": "售电业务申报表中客户提交的报价，尚未形成最终账单。",
+      "acceptable_ids": [
+        "T091"
+      ],
+      "target_names": [
+        "零售用户申报电价"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q004",
+      "group": "price",
+      "short": "用户价格",
+      "context": "零售账单核算时最终采用的每度电单价。",
+      "acceptable_ids": [
+        "T100"
+      ],
+      "target_names": [
+        "零售用户结算电价"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q005",
+      "group": "price",
+      "short": "用户费用",
+      "context": "零售客户在售电环节需要支付的总金额，单位元。",
+      "acceptable_ids": [
+        "T070"
+      ],
+      "target_names": [
+        "零售用户售电侧电费"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q006",
+      "group": "price",
+      "short": "调峰费用",
+      "context": "机组启停调峰服务的收费单价，不是本次应付合计。",
+      "acceptable_ids": [
+        "T074"
+      ],
+      "target_names": [
+        "启停调峰电价"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q007",
+      "group": "price",
+      "short": "调峰费用",
+      "context": "本次启停调峰服务应结算的总金额。",
+      "acceptable_ids": [
+        "T084"
+      ],
+      "target_names": [
+        "启停调峰电费"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q008",
+      "group": "price",
+      "short": "尖峰值",
+      "context": "购入电能在尖峰这一时间档的每度单价。",
+      "acceptable_ids": [
+        "T089"
+      ],
+      "target_names": [
+        "购方电价尖峰"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q009",
+      "group": "quantity",
+      "short": "低谷值",
+      "context": "购买方在夜间谷段买入了多少度电。",
+      "acceptable_ids": [
+        "T090"
+      ],
+      "target_names": [
+        "购方电量谷"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q010",
+      "group": "quantity",
+      "short": "合同数值",
+      "context": "协议中约定的有功功率水平，单位MW，不是累计用电度数。",
+      "acceptable_ids": [
+        "T082"
+      ],
+      "target_names": [
+        "合同电力"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q011",
+      "group": "quantity",
+      "short": "电量",
+      "context": "销售方在送入电网的计量边界记录的电能，单位MWh。",
+      "acceptable_ids": [
+        "T098"
+      ],
+      "target_names": [
+        "售电方上网电量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q012",
+      "group": "quantity",
+      "short": "结算数量",
+      "context": "发电公司在指定结算周期之内按市场交易核算的度数。",
+      "acceptable_ids": [
+        "T078"
+      ],
+      "target_names": [
+        "发电企业周期内市场化结算电量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q013",
+      "group": "quantity",
+      "short": "结算数量",
+      "context": "汇总发电公司在本地区范围的市场交易结算度数。",
+      "acceptable_ids": [
+        "T081"
+      ],
+      "target_names": [
+        "发电企业本地区总市场化结算电量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q014",
+      "group": "quantity",
+      "short": "装机数值",
+      "context": "发电公司旗下水力发电设备的额定功率总规模。",
+      "acceptable_ids": [
+        "T094"
+      ],
+      "target_names": [
+        "发电企业水电机组容量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q015",
+      "group": "quantity",
+      "short": "装机数值",
+      "context": "仅统计已经开始运行的机组功率规模，排除还没投产的项目。",
+      "acceptable_ids": [
+        "T096"
+      ],
+      "target_names": [
+        "已投运机组容量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q016",
+      "group": "id",
+      "short": "id",
+      "context": "软件应用登记表中区分不同应用的唯一标记。",
+      "acceptable_ids": [
+        "T008"
+      ],
+      "target_names": [
+        "应用系统ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q017",
+      "group": "id",
+      "short": "id",
+      "context": "组织树上某个机构节点的内部标识。",
+      "acceptable_ids": [
+        "T016"
+      ],
+      "target_names": [
+        "机构ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q018",
+      "group": "id",
+      "short": "部门字段",
+      "context": "保存负责维护该账号的部门的内部编码，不保存名称。",
+      "acceptable_ids": [
+        "T049"
+      ],
+      "target_names": [
+        "账号管理部门id"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q019",
+      "group": "id",
+      "short": "编号",
+      "context": "公司主数据表中的实体标识，不是工商信用编号。",
+      "acceptable_ids": [
+        "T035"
+      ],
+      "target_names": [
+        "公司ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q020",
+      "group": "id",
+      "short": "关联编号",
+      "context": "账号表里用来指向上级账号的关联键。",
+      "acceptable_ids": [
+        "T034"
+      ],
+      "target_names": [
+        "父账号ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q021",
+      "group": "id",
+      "short": "场景字段",
+      "context": "业务情境配置记录的唯一标识，而不是其展示标题。",
+      "acceptable_ids": [
+        "T050"
+      ],
+      "target_names": [
+        "场景id"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q022",
+      "group": "id",
+      "short": "事件编号",
+      "context": "客户投诉工单对应的事件唯一标记。",
+      "acceptable_ids": [
+        "T099"
+      ],
+      "target_names": [
+        "投诉事件id"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q023",
+      "group": "id",
+      "short": "成员编号",
+      "context": "发电公司参与电力市场时对应的成员记录键。",
+      "acceptable_ids": [
+        "T085"
+      ],
+      "target_names": [
+        "发电企业市场成员ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q024",
+      "group": "id",
+      "short": "编号",
+      "context": "只用于唯一定位本表一行数据的数据库键，未指定其他实体。",
+      "acceptable_ids": [
+        "T025"
+      ],
+      "target_names": [
+        "主键ID"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q025",
+      "group": "id",
+      "short": "主体编号",
+      "context": "交易平台给市场主体分配的业务代码，不是工商登记代码。",
+      "acceptable_ids": [
+        "T041"
+      ],
+      "target_names": [
+        "市场主体编码"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q026",
+      "group": "id",
+      "short": "主体编号",
+      "context": "营业执照上登记的法人组织统一信用标识。",
+      "acceptable_ids": [
+        "T053"
+      ],
+      "target_names": [
+        "社会信用代码"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q027",
+      "group": "id",
+      "short": "资质编号",
+      "context": "能源主管部门颁发的发电经营许可凭证上的证书号。",
+      "acceptable_ids": [
+        "T077"
+      ],
+      "target_names": [
+        "电力业务许可证编号"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q028",
+      "group": "id",
+      "short": "用户编号",
+      "context": "为连接外部系统额外维护的用户对接代码，不是本系统基本编码。",
+      "acceptable_ids": [
+        "T044"
+      ],
+      "target_names": [
+        "用户编码与其他系统对接扩展使用"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q029",
+      "group": "name",
+      "short": "部门字段",
+      "context": "负责维护此账号的部门的文字名字，不带上级部门链路。",
+      "acceptable_ids": [
+        "T029"
+      ],
+      "target_names": [
+        "账号管理部门名称"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q030",
+      "group": "name",
+      "short": "部门字段",
+      "context": "从总部逐层到负责管理账号的末级部门的完整名称链。",
+      "acceptable_ids": [
+        "T018"
+      ],
+      "target_names": [
+        "账号管理部门名称路径"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q031",
+      "group": "name",
+      "short": "组织名称",
+      "context": "组织树从根机构到当前机构的层级名称串。",
+      "acceptable_ids": [
+        "T020"
+      ],
+      "target_names": [
+        "机构名称路径"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q032",
+      "group": "name",
+      "short": "组织名称",
+      "context": "某个组织机构自身的完整称谓，不含上级路径。",
+      "acceptable_ids": [
+        "T055"
+      ],
+      "target_names": [
+        "机构名称"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q033",
+      "group": "name",
+      "short": "用户名称",
+      "context": "客户名称的简短展示写法，用于列表显示。",
+      "acceptable_ids": [
+        "T062"
+      ],
+      "target_names": [
+        "用户简称"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q034",
+      "group": "name",
+      "short": "名称",
+      "context": "业务联络人的个人名字。",
+      "acceptable_ids": [
+        "T047"
+      ],
+      "target_names": [
+        "联系人姓名"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q035",
+      "group": "name",
+      "short": "合同字段",
+      "context": "线下签署的合同文件上印制的文号。",
+      "acceptable_ids": [
+        "T086"
+      ],
+      "target_names": [
+        "纸质合同编号"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q036",
+      "group": "name",
+      "short": "合同字段",
+      "context": "纸质签约文件首页的标题。",
+      "acceptable_ids": [
+        "T095"
+      ],
+      "target_names": [
+        "纸质合同名称"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q037",
+      "group": "name",
+      "short": "名称",
+      "context": "某场集中交易批次的展示标题。",
+      "acceptable_ids": [
+        "T006"
+      ],
+      "target_names": [
+        "交易序列名"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q038",
+      "group": "time",
+      "short": "时间",
+      "context": "这条业务记录最初写入系统的时刻。",
+      "acceptable_ids": [
+        "T056"
+      ],
+      "target_names": [
+        "创建时间"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q039",
+      "group": "time",
+      "short": "时间",
+      "context": "这条业务记录最近被修改的时点，尚未说明数据库时间精度。",
+      "acceptable_ids": [
+        "T043",
+        "T063"
+      ],
+      "target_names": [
+        "更新时间",
+        "更新日期"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q040",
+      "group": "time",
+      "short": "认证时间",
+      "context": "自然人账号完成实名身份核验的时刻。",
+      "acceptable_ids": [
+        "T013"
+      ],
+      "target_names": [
+        "个人实名时间"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q041",
+      "group": "time",
+      "short": "认证时间",
+      "context": "法人授予代理办理权限这一事件的发生时刻。",
+      "acceptable_ids": [
+        "T059"
+      ],
+      "target_names": [
+        "法人授权时间"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q042",
+      "group": "time",
+      "short": "生效时间",
+      "context": "某主体加入电力交易市场的业务时间。",
+      "acceptable_ids": [
+        "T064"
+      ],
+      "target_names": [
+        "入市时间"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q043",
+      "group": "time",
+      "short": "生效时间",
+      "context": "项目计划让发电机组开始生产的日期，尚未实际执行。",
+      "acceptable_ids": [
+        "T083"
+      ],
+      "target_names": [
+        "机组计划投产时间"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q044",
+      "group": "security",
+      "short": "口令字段",
+      "context": "普通账户登录时用来验证身份的秘密口令。",
+      "acceptable_ids": [
+        "T045"
+      ],
+      "target_names": [
+        "密码"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q045",
+      "group": "security",
+      "short": "口令字段",
+      "context": "移动安全盾组件要求用户输入的解锁口令。",
+      "acceptable_ids": [
+        "T032"
+      ],
+      "target_names": [
+        "手机盾密码"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q046",
+      "group": "security",
+      "short": "安全字段",
+      "context": "移动安全盾选取某把密钥时使用的引用编号，内容不是密钥本体。",
+      "acceptable_ids": [
+        "T037"
+      ],
+      "target_names": [
+        "手机盾keyId"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q047",
+      "group": "security",
+      "short": "安全字段",
+      "context": "第二道身份认证所依赖的秘密密钥材料，不是登录口令。",
+      "acceptable_ids": [
+        "T040"
+      ],
+      "target_names": [
+        "二次认证密钥"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q048",
+      "group": "security",
+      "short": "登录信息",
+      "context": "最近一次成功登录所记录的网络来源地址。",
+      "acceptable_ids": [
+        "T017"
+      ],
+      "target_names": [
+        "最后一次登录IP"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q049",
+      "group": "status",
+      "short": "状态",
+      "context": "业务申请处于待审、通过还是驳回等审核环节。",
+      "acceptable_ids": [
+        "T031"
+      ],
+      "target_names": [
+        "审批状态"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q050",
+      "group": "status",
+      "short": "状态",
+      "context": "发电设备当前处于何种运行或业务状态。",
+      "acceptable_ids": [
+        "T092"
+      ],
+      "target_names": [
+        "机组状态"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q051",
+      "group": "count",
+      "short": "账号数量",
+      "context": "现在已经创建了多少个下属账号。",
+      "acceptable_ids": [
+        "T023"
+      ],
+      "target_names": [
+        "子账号数量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q052",
+      "group": "count",
+      "short": "账号数量",
+      "context": "系统允许创建下属账号的最高个数。",
+      "acceptable_ids": [
+        "T065"
+      ],
+      "target_names": [
+        "最大子账号数量"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q053",
+      "group": "role",
+      "short": "主体名称",
+      "context": "电力购销交易中购买这一方的名称。",
+      "acceptable_ids": [
+        "T067"
+      ],
+      "target_names": [
+        "主体名-买方"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q054",
+      "group": "role",
+      "short": "主体名称",
+      "context": "购销协议中出售电能的一方，没有提供具体表名。",
+      "acceptable_ids": [
+        "T068",
+        "T005"
+      ],
+      "target_names": [
+        "主体名-卖方",
+        "合同卖方"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q055",
+      "group": "role",
+      "short": "办理人",
+      "context": "负责把签署后的合同提交备案的经办人员。",
+      "acceptable_ids": [
+        "T076"
+      ],
+      "target_names": [
+        "合同备案人"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q056",
+      "group": "role",
+      "short": "参与方",
+      "context": "发电权转让业务中负责结算的主体。",
+      "acceptable_ids": [
+        "T088"
+      ],
+      "target_names": [
+        "发电权结算方"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q057",
+      "group": "role",
+      "short": "参与方",
+      "context": "协议明确列为第三方的参与主体，暂未说明具体职责。",
+      "acceptable_ids": [
+        "T075"
+      ],
+      "target_names": [
+        "丙方"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q058",
+      "group": "contact",
+      "short": "联系字段",
+      "context": "用于语音联系的号码，可能包含区号和分机。",
+      "acceptable_ids": [
+        "T011"
+      ],
+      "target_names": [
+        "电话"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q059",
+      "group": "contact",
+      "short": "联系字段",
+      "context": "用于发送电子邮件的联系地址。",
+      "acceptable_ids": [
+        "T033"
+      ],
+      "target_names": [
+        "邮箱"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q060",
+      "group": "actor",
+      "short": "操作人",
+      "context": "最初新增这条记录的操作主体。",
+      "acceptable_ids": [
+        "T039"
+      ],
+      "target_names": [
+        "创建人"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "Q061",
+      "group": "actor",
+      "short": "操作人",
+      "context": "最后修改这条记录的操作主体。",
+      "acceptable_ids": [
+        "T060"
+      ],
+      "target_names": [
+        "更新人"
+      ],
+      "kind": "single",
+      "synthetic": true
+    },
+    {
+      "id": "M001",
+      "group": "exhaustive",
+      "context": "找出目录中所有以电价或交易价命名的价格字段",
+      "relevant_ids": [
+        "T001",
+        "T002",
+        "T007",
+        "T074",
+        "T079",
+        "T089",
+        "T091",
+        "T100"
+      ],
+      "target_names": [
+        "交易价",
+        "电价",
+        "输配电价",
+        "启停调峰电价",
+        "基数外容量电价",
+        "购方电价尖峰",
+        "零售用户申报电价",
+        "零售用户结算电价"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    },
+    {
+      "id": "M002",
+      "group": "exhaustive",
+      "context": "列出目录中所有名称包含结算电量的字段",
+      "relevant_ids": [
+        "T078",
+        "T081",
+        "T097"
+      ],
+      "target_names": [
+        "发电企业周期内市场化结算电量",
+        "发电企业本地区总市场化结算电量",
+        "发电企业市场化结算电量"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    },
+    {
+      "id": "M003",
+      "group": "exhaustive",
+      "context": "涉及账号口令、手机安全盾和第二重认证密钥的字段有哪些",
+      "relevant_ids": [
+        "T045",
+        "T032",
+        "T037",
+        "T040"
+      ],
+      "target_names": [
+        "密码",
+        "手机盾密码",
+        "手机盾keyId",
+        "二次认证密钥"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    },
+    {
+      "id": "M004",
+      "group": "exhaustive",
+      "context": "查找账号管理部门的标识、名字和完整组织链路",
+      "relevant_ids": [
+        "T049",
+        "T029",
+        "T018"
+      ],
+      "target_names": [
+        "账号管理部门id",
+        "账号管理部门名称",
+        "账号管理部门名称路径"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    },
+    {
+      "id": "M005",
+      "group": "exhaustive",
+      "context": "同时找到子账号的现有个数和允许的最大个数",
+      "relevant_ids": [
+        "T023",
+        "T065"
+      ],
+      "target_names": [
+        "子账号数量",
+        "最大子账号数量"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    },
+    {
+      "id": "M006",
+      "group": "exhaustive",
+      "context": "列出记录建立或修改的时间以及操作主体",
+      "relevant_ids": [
+        "T056",
+        "T043",
+        "T063",
+        "T039",
+        "T060"
+      ],
+      "target_names": [
+        "创建时间",
+        "更新时间",
+        "更新日期",
+        "创建人",
+        "更新人"
+      ],
+      "kind": "multi",
+      "synthetic": true
+    }
+  ],
+  "note": "Synthetic engineering benchmark. Short queries intentionally underspecified; target recoverability is not unambiguous accuracy. Descriptions inferred from labels; public references validate concept distinctions, not internal schema. Frozen before model evaluation."
+}

@@ -1,0 +1,38 @@
+{
+  "structured.docx": {
+    "terms": [
+      "Privacy Classification",
+      "customer_phone",
+      "Sensitive",
+      "END_OF_DOCUMENT"
+    ],
+    "table_required": true,
+    "heading_required": true
+  },
+  "merged.xlsx": {
+    "terms": [
+      "account_id",
+      "00123",
+      "enabled",
+      "count"
+    ],
+    "table_required": true,
+    "formula_expected": "=1+1"
+  },
+  "text-table.pdf": {
+    "terms": [
+      "Privacy Classification",
+      "customer_phone",
+      "Sensitive",
+      "END_OF_DOCUMENT"
+    ],
+    "table_required": true
+  },
+  "scan.pdf": {
+    "terms": [
+      "SCANNED PRIVACY POLICY",
+      "Customer phone"
+    ],
+    "ocr_required": true
+  }
+}

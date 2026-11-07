@@ -1,0 +1,480 @@
+{
+  "dify": {
+    "url": "https://docs.dify.ai/en/cloud/use-dify/knowledge/manage-knowledge/maintain-knowledge-documents",
+    "images": [
+      {
+        "src": "https://assets-docs.dify.ai/2025/05/d05cfc6ebe48f725d171dc71c64a5d16.svg",
+        "alt": "light logo"
+      },
+      {
+        "src": "https://assets-docs.dify.ai/2025/05/c51f1cda47c1d9a4a162d7736f6e4c53.svg",
+        "alt": "dark logo"
+      },
+      {
+        "src": "https://assets-docs.dify.ai/2025/05/d05cfc6ebe48f725d171dc71c64a5d16.svg",
+        "alt": "light logo"
+      },
+      {
+        "src": "https://assets-docs.dify.ai/2025/05/c51f1cda47c1d9a4a162d7736f6e4c53.svg",
+        "alt": "dark logo"
+      },
+      {
+        "src": "https://mintcdn.com/dify-6c0370d8/Z6MqdkI3dck9_1H6/images/use-dify/knowledge/manage-knowledge-documents.png?fit=max&auto=format&n=Z6MqdkI3dck9_1H6&q=85&s=fa9ecc455e91a4bd78902dfaa8959890",
+        "alt": "Manage Knowledge Documents"
+      },
+      {
+        "src": "https://mintcdn.com/dify-6c0370d8/Z6MqdkI3dck9_1H6/images/use-dify/knowledge/manage-document-chunks.png?fit=max&auto=format&n=Z6MqdkI3dck9_1H6&q=85&s=3b58f3fa398adfc511e8d7b7f5a1d855",
+        "alt": "Manage Knowledge Chunks"
+      }
+    ]
+  },
+  "ragflow": {
+    "url": "https://ragflow.net/docs/configure_knowledge_base",
+    "images": [
+      {
+        "src": "https://ragflow.net/img/logo.svg",
+        "alt": "RAGFlow"
+      },
+      {
+        "src": "https://ragflow.net/img/logo.svg",
+        "alt": "RAGFlow"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/create_knowledge_base.jpg",
+        "alt": "create dataset"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/configure_knowledge_base.jpg",
+        "alt": "dataset configuration"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/change_chunking_method.jpg",
+        "alt": "change chunking method"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/parse_file.jpg",
+        "alt": "parse file"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/file_chunks.jpg",
+        "alt": "chunks"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/add_keyword_question.jpg",
+        "alt": "update chunk"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/retrieval_test.jpg",
+        "alt": "retrieval test"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/search_datasets.jpg",
+        "alt": "search dataset"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/main/images/delete_datasets.jpg",
+        "alt": "delete dataset"
+      },
+      {
+        "src": "https://ragflow.net/img/logo.svg",
+        "alt": "RAGFlow"
+      },
+      {
+        "src": "https://ragflow.net/img/logo.svg",
+        "alt": "RAGFlow"
+      }
+    ]
+  },
+  "fastgpt": {
+    "url": "https://doc.fastgpt.io/zh-CN/guide/getting-started/quick-start",
+    "images": [
+      {
+        "src": "https://doc.fastgpt.io/logo.svg",
+        "alt": "FastGPT"
+      },
+      {
+        "src": "https://doc.fastgpt.io/logo.svg",
+        "alt": "FastGPT"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-01.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-02.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-03.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-04.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-05.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-06.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-07.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-08.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-09.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-10.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-11.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-12.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-13.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-14.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-15.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-16.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-17.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-18.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-19.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-20.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-21.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-22.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-23.png",
+        "alt": "内容合规审核工作流"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-24.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-25.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-26.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-27.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-28.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-29.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-30.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-31.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-32.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-33.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-34.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-35.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-36.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-37.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-38.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-39.png",
+        "alt": "FastGPT 操作截图"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/labring/fastgpt-img@main/guide/getting-started/quick-start/image-40.png",
+        "alt": "FastGPT 操作截图"
+      }
+    ]
+  },
+  "maxkb": {
+    "url": "https://docs.fit2cloud.com/maxkb/faq/doc_segment/",
+    "images": [
+      {
+        "src": "https://docs.fit2cloud.com/img/FIT2CLOUD 飞致云 文档中心-01.png",
+        "alt": "文档中心"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/FIT2CLOUD 飞致云 文档中心-01.png",
+        "alt": "文档中心"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/1panel-07-%E8%93%9D%E8%89%B2.png",
+        "alt": "1Panel 面板"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/1panel-07-%E8%93%9D%E8%89%B2.png",
+        "alt": "1Panel AI 网关"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/JumpServer-%E8%BE%85%E5%8A%A9%E5%9B%BE%E5%BD%A2-%E7%BB%BF%E8%89%B2.png",
+        "alt": "JumpServer"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/MaxKB-03.png",
+        "alt": "MaxKB"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/DataEase-07-%E8%93%9D%E8%89%B2.png",
+        "alt": "DataEase"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/%E3%80%90%E8%BE%85%E5%8A%A9%E5%9B%BE%E5%BD%A2%E3%80%91SQLBot.png",
+        "alt": "SQLBot"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/MeterSphere-%E8%BE%85%E5%8A%A9%E5%9B%BE%E5%BD%A2-%E7%B4%AB%E8%89%B2.png",
+        "alt": "MeterSphere"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/Halo-03.png",
+        "alt": "Halo"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/CORDYS-%E8%BE%85%E5%8A%A9%E5%9B%BE%E5%BD%A2.png",
+        "alt": "Cordys CRM"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/1panel-07-%E8%93%9D%E8%89%B2.png",
+        "alt": "1Panel AI 一体机"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/MaxKB-03.png",
+        "alt": "MaxKB AI 一体机"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/JumpServer-%E8%BE%85%E5%8A%A9%E5%9B%BE%E5%BD%A2-%E7%BB%BF%E8%89%B2.png",
+        "alt": "JumpServer 一体机"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/logo/zabbix.png",
+        "alt": "Zabbix 信创一体机"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/maxkb/FAQ/doc_split.png",
+        "alt": "图 1  待分段的文档示例"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/maxkb/FAQ/doc_default_split.png",
+        "alt": "图 2  默认分段效果"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/maxkb/FAQ/doc_advance_split.png",
+        "alt": "图 3  高级分段效果"
+      },
+      {
+        "src": "https://docs.fit2cloud.com/img/maxkb/FAQ/doc_re_split.png",
+        "alt": "图 4  重新分段后的效果"
+      }
+    ]
+  },
+  "bailian": {
+    "url": "https://www.alibabacloud.com/help/zh/model-studio/rag-knowledge-base",
+    "images": [
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6101872271/p829330.png",
+        "alt": "有"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849939.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4701799171/p816740.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png",
+        "alt": "更多（...）"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png",
+        "alt": "更多（...）"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png",
+        "alt": "更多（...）"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9579817271/p852037.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849449.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0699676371/p877345.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p877348.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png",
+        "alt": "image"
+      }
+    ]
+  },
+  "qianfan": {
+    "url": "https://cloud.baidu.com/doc/qianfan/s/Dmh4stpqc",
+    "images": [
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/menu_b482226.svg",
+        "alt": "menu"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": "arrow"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": "arrow"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": "arrow"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": "arrow"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": "arrow"
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/p3m/common-service/uploads/arrow_18ae883.png",
+        "alt": ""
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/fcf4908279117dcc3b9a0d796_fcf4908.png",
+        "alt": "fcf4908279117dcc3b9a0d796.png"
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/01c230ad7a3cf55a5ae546722_01c230a.png",
+        "alt": "01c230ad7a3cf55a5ae546722.png"
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/a5c7a6fa06f04c009b7f765f4_a5c7a6f.png",
+        "alt": "a5c7a6fa06f04c009b7f765f4.png"
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/0d9ee8635f30fee7b9ec1d09b_0d9ee86.png",
+        "alt": "0d9ee8635f30fee7b9ec1d09b.png"
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/5f7854ad6727872170f17aaa4_5f7854a.png",
+        "alt": "5f7854ad6727872170f17aaa4.png"
+      },
+      {
+        "src": "https://bce.bdstatic.com/doc/bce-doc/qianfan/24ccb4f0b4e7c6316d9f5bbf8_24ccb4f.png",
+        "alt": "24ccb4f0b4e7c6316d9f5bbf8.png"
+      },
+      {
+        "src": "https://cloud.baidu.com/doc/qianfan/s/Dmh4stpqc",
+        "alt": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "engine": "baseline",
+    "feature": "account_id",
+    "expected": "00123",
+    "actual": "00123",
+    "pass": true
+  },
+  {
+    "engine": "baseline",
+    "feature": "count",
+    "expected": "0",
+    "actual": "0",
+    "pass": true
+  },
+  {
+    "engine": "baseline",
+    "feature": "enabled",
+    "expected": "False",
+    "actual": "False",
+    "pass": true
+  },
+  {
+    "engine": "baseline",
+    "feature": "formula",
+    "expected": "=1+1",
+    "actual": "=1+1",
+    "pass": true
+  },
+  {
+    "engine": "baseline",
+    "feature": "explicit_merged_header_relation",
+    "pass": true
+  },
+  {
+    "engine": "unstructured",
+    "feature": "account_id",
+    "expected": "00123",
+    "actual": "00123",
+    "pass": true
+  },
+  {
+    "engine": "unstructured",
+    "feature": "count",
+    "expected": "0",
+    "actual": "False",
+    "pass": false
+  },
+  {
+    "engine": "unstructured",
+    "feature": "enabled",
+    "expected": "False",
+    "actual": "False",
+    "pass": true
+  },
+  {
+    "engine": "unstructured",
+    "feature": "formula",
+    "expected": "=1+1",
+    "actual": "",
+    "pass": false
+  },
+  {
+    "engine": "unstructured",
+    "feature": "explicit_merged_header_relation",
+    "pass": false
+  },
+  {
+    "engine": "baseline",
+    "feature": "scan_text",
+    "pass": false
+  },
+  {
+    "engine": "unstructured",
+    "feature": "scan_text",
+    "pass": false
+  },
+  {
+    "engine": "unstructured_ocr",
+    "feature": "scan_text",
+    "pass": true
+  }
+]

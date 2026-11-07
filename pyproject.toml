@@ -1,0 +1,23 @@
+[project]
+name = "fermata"
+version = "0.1.0"
+description = "通用 Agent，结合工具调用、知识检索与 Skills。"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "deepagents>=0.7.32",
+    "langchain-openai>=1.7.3",
+    "python-dotenv>=1.2.4",
+    "docling==2.146.0",
+    "fastapi>=0.162.0",
+    "uvicorn>=0.54.0",
+    "python-multipart>=0.0.33",
+    "psycopg[binary]>=3.2,<4",
+    "httpx>=0.28",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "python-docx>=1.2", "openpyxl>=3.1", "reportlab>=4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

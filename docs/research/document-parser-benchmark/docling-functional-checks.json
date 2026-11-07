@@ -1,0 +1,56 @@
+[
+  {
+    "file": "structured.docx",
+    "check": "negation_preserved",
+    "pass": true
+  },
+  {
+    "file": "structured.docx",
+    "check": "table_relation",
+    "pass": true
+  },
+  {
+    "file": "merged.xlsx",
+    "check": "account_id",
+    "expected": "00123",
+    "actual": "00123",
+    "pass": true
+  },
+  {
+    "file": "merged.xlsx",
+    "check": "count",
+    "expected": "0",
+    "actual": "0",
+    "pass": true
+  },
+  {
+    "file": "merged.xlsx",
+    "check": "enabled",
+    "expected": "False",
+    "actual": "False",
+    "pass": true
+  },
+  {
+    "file": "merged.xlsx",
+    "check": "formula",
+    "expected": "=1+1",
+    "actual": "",
+    "pass": false
+  },
+  {
+    "file": "merged.xlsx",
+    "check": "merged_header_span",
+    "pass": true
+  },
+  {
+    "file": "text-table.pdf",
+    "check": "table_relation",
+    "pass": false
+  },
+  {
+    "file": "scan.pdf",
+    "check": "scan_text_with_ocr_disabled",
+    "pass": false,
+    "note": "OCR disabled in main comparison; not an OCR capability test"
+  }
+]
