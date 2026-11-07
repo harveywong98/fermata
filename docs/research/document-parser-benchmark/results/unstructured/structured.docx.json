@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/structured.docx",
+  "status": "ok",
+  "init_s": 3.1249364838004112e-06,
+  "parse_s": 1.2829237499972805,
+  "total_s": 1.2829268749337643,
+  "chars": 144,
+  "blocks": 4,
+  "tables": 1,
+  "headings": 1,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 465.015625,
+  "process_request_index": 2,
+  "wall_s": 1.2966274589998648
+}

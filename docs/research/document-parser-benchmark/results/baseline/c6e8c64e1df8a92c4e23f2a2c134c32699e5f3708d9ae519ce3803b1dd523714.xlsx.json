@@ -1,0 +1,1160 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/c6e8c64e1df8a92c4e23f2a2c134c32699e5f3708d9ae519ce3803b1dd523714.xlsx",
+  "status": "ok",
+  "init_s": 0.00015929201617836952,
+  "parse_s": 0.1379117079777643,
+  "total_s": 0.13807099999394268,
+  "chars": 51123,
+  "blocks": 187,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 187,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "封面"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 11
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 12
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易摘要",
+        "row": 13
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "交易摘要"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易与融资假设",
+        "row": 17
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "交易与融资假设",
+        "row": 18
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "交易与融资假设"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 9
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Sources & Uses",
+        "row": 10
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "Sources & Uses"
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "债务假设"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "经营预测",
+        "row": 8
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "经营预测"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 9
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 10
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 11
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 12
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 13
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 14
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "分层债务",
+        "row": 15
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "分层债务"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "现金与利息",
+        "row": 8
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "现金与利息"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 9
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 10
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 11
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 12
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 13
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 14
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 15
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "退出回报",
+        "row": 16
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "退出回报"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 9
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 10
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 11
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 12
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 13
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 14
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 15
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 16
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 17
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 18
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 19
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 20
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 21
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 22
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 23
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 24
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 25
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 26
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 27
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 28
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 29
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 30
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "投资人现金流",
+        "row": 31
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "投资人现金流"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 8
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 9
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 10
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 11
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 12
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 13
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 14
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 15
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "回报归因",
+        "row": 16
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "回报归因"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "情景与敏感性",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "情景与敏感性",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "情景与敏感性",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "情景与敏感性",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "情景与敏感性",
+        "row": 6
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "情景与敏感性"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "目标回报反推",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "目标回报反推",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "目标回报反推",
+        "row": 4
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "目标回报反推"
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "假设依据"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "历史数据与口径",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "历史数据与口径",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "历史数据与口径",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "历史数据与口径",
+        "row": 5
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "历史数据与口径"
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "风险与失效条件"
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "数据来源"
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 2
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 3
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 4
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 5
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 6
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 7
+      }
+    },
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "模型检查",
+        "row": 8
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "模型检查"
+      }
+    },
+    {
+      "code": "xlsx_values",
+      "message": "仅展开显式合并区域，不对普通空白向下填充；保留原始值与数字格式，不保证显示值还原；图表和图片未解析",
+      "source": {}
+    }
+  ],
+  "table_rows": 169,
+  "table_html": 0,
+  "peak_rss_mb": 60.890625,
+  "process_request_index": 17,
+  "wall_s": 0.15607679192908108
+}

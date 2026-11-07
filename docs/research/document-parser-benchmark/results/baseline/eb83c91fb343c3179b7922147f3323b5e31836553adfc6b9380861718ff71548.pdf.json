@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/eb83c91fb343c3179b7922147f3323b5e31836553adfc6b9380861718ff71548.pdf",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "文件超过 20 MiB，请拆分",
+  "total_s": 0.000174832995980978,
+  "peak_rss_mb": 149.90625,
+  "process_request_index": 42,
+  "wall_s": 0.0020647909259423614
+}

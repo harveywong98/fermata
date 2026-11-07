@@ -1,0 +1,16 @@
+{
+  "engine": "unstructured",
+  "source": "fixtures/structured.docx",
+  "status": "ok",
+  "init_s": 10.007793584023602,
+  "parse_s": 59.6667535409797,
+  "total_s": 69.6745471250033,
+  "chars": 144,
+  "blocks": 4,
+  "tables": 1,
+  "headings": 1,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "peak_rss_mb": 345.640625
+}

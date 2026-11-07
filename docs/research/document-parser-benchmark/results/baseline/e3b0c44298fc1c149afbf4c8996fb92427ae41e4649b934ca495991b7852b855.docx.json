@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/docx/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.docx",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "文件解析失败（BadZipFile），请检查格式或损坏情况",
+  "total_s": 0.0002614581026136875,
+  "peak_rss_mb": 58.140625,
+  "process_request_index": 2,
+  "wall_s": 0.003000291995704174
+}

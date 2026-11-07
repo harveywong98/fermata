@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/scan.pdf",
+  "status": "empty",
+  "init_s": 4.458008334040642e-06,
+  "parse_s": 0.043505624984391034,
+  "total_s": 0.043510082992725074,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 465.703125,
+  "process_request_index": 3,
+  "wall_s": 0.05341412499547005
+}

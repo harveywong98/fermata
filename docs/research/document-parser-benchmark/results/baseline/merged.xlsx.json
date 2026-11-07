@@ -1,0 +1,41 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/merged.xlsx",
+  "status": "ok",
+  "init_s": 9.295798372477293e-05,
+  "parse_s": 0.004581417073495686,
+  "total_s": 0.004674375057220459,
+  "chars": 404,
+  "blocks": 6,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 6,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "formula",
+      "message": "保留公式原式，不计算、不假定缓存结果有效",
+      "source": {
+        "sheet": "Classification",
+        "row": 6
+      }
+    },
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "Classification"
+      }
+    },
+    {
+      "code": "xlsx_values",
+      "message": "仅展开显式合并区域，不对普通空白向下填充；保留原始值与数字格式，不保证显示值还原；图表和图片未解析",
+      "source": {}
+    }
+  ],
+  "table_rows": 5,
+  "table_html": 0,
+  "peak_rss_mb": 64.109375,
+  "process_request_index": 4,
+  "wall_s": 0.006572333979420364
+}

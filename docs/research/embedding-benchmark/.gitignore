@@ -1,7 +1,2 @@
-models/
-results/
-*.log
-__pycache__/
+# 第三方源码仓库保留本地；模型权重由根 .gitignore 按后缀排除。
 llama.cpp/
-hf-base/
-results-mmap/

@@ -1,0 +1,18 @@
+{
+  "engine": "unstructured_ocr",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/scan.pdf",
+  "status": "ok",
+  "init_s": 4.917033948004246e-06,
+  "parse_s": 9.516890625003725,
+  "total_s": 9.516895542037673,
+  "chars": 56,
+  "blocks": 2,
+  "tables": 0,
+  "headings": 1,
+  "located_blocks": 2,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 556.390625
+}

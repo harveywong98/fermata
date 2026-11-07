@@ -1,0 +1,128 @@
+{
+  "model": {
+    "key": "qwen",
+    "repo": "Qwen/Qwen3-Embedding-0.6B-GGUF",
+    "revision": "370f27d7550e0def9b39c1f16d3fbaa13aa67728",
+    "file": "Qwen3-Embedding-0.6B-f16.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF/resolve/370f27d7550e0def9b39c1f16d3fbaa13aa67728/Qwen3-Embedding-0.6B-f16.gguf",
+    "download_exit": 0
+  },
+  "file_sha256": "421a27e58d165478cc7acb984a688c2aa41404968b0203e7cd743ece44c54340",
+  "image": "sha256:154486a033345cef6be663d03c58ae1334b48f02da1236382e21efdc1067ddef",
+  "dataset_sha256": "fb3bc6970cc1eafe00a02f7a899834deca2ebe770f5875d150a43513fb80aaed",
+  "dimension": 1024,
+  "max_tokens": 45,
+  "startup_s": 6.0579922089818865,
+  "container_memory_peak_bytes": 1779814400,
+  "batch_single_cosine": 1.0,
+  "metrics": {
+    "names/short/single": {
+      "n": 61,
+      "hit@1": 0.29508196721311475,
+      "hit@3": 0.5737704918032787,
+      "hit@5": 0.6885245901639344,
+      "hit@10": 0.8852459016393442,
+      "mrr@10": 0.473991673172001
+    },
+    "names/context/single": {
+      "n": 61,
+      "hit@1": 0.819672131147541,
+      "hit@3": 0.9672131147540983,
+      "hit@5": 0.9672131147540983,
+      "hit@10": 1,
+      "mrr@10": 0.8934426229508197
+    },
+    "names/context/multi": {
+      "n": 6,
+      "recall@3": 0.6986111111111111,
+      "recall@5": 0.8375,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "complete@3": 0.3333333333333333,
+      "complete@5": 0.6666666666666666,
+      "complete@10": 1,
+      "complete@20": 1
+    },
+    "descriptions/short/single": {
+      "n": 61,
+      "hit@1": 0.3114754098360656,
+      "hit@3": 0.6885245901639344,
+      "hit@5": 0.7868852459016393,
+      "hit@10": 0.9016393442622951,
+      "mrr@10": 0.5212138953942232
+    },
+    "descriptions/context/single": {
+      "n": 61,
+      "hit@1": 0.8688524590163934,
+      "hit@3": 1,
+      "hit@5": 1,
+      "hit@10": 1,
+      "mrr@10": 0.9289617486338798
+    },
+    "descriptions/context/multi": {
+      "n": 6,
+      "recall@3": 0.6763888888888889,
+      "recall@5": 0.9375,
+      "recall@10": 0.9791666666666666,
+      "recall@20": 1.0,
+      "complete@3": 0.16666666666666666,
+      "complete@5": 0.8333333333333334,
+      "complete@10": 0.8333333333333334,
+      "complete@20": 1
+    }
+  },
+  "performance": {
+    "names": {
+      "requests": 13,
+      "items": 100,
+      "total_s": 6.055372996954247,
+      "items_per_s": 16.514259328087363,
+      "request_p50_ms": 458.84945802390575,
+      "request_p95_ms": 620.7666495116426
+    },
+    "descriptions": {
+      "requests": 13,
+      "items": 100,
+      "total_s": 22.698597291018814,
+      "items_per_s": 4.405558577823095,
+      "request_p50_ms": 1779.582416987978,
+      "request_p95_ms": 2044.13104141131
+    },
+    "short": {
+      "requests": 61,
+      "items": 61,
+      "total_s": 4.128853667876683,
+      "items_per_s": 14.774076512953787,
+      "request_p50_ms": 60.11187506373972,
+      "request_p95_ms": 118.50537499412894
+    },
+    "context": {
+      "requests": 67,
+      "items": 67,
+      "total_s": 14.586505874060094,
+      "items_per_s": 4.593286464796852,
+      "request_p50_ms": 163.72891701757908,
+      "request_p95_ms": 508.3830582210791
+    }
+  },
+  "docker_command": [
+    "docker",
+    "run",
+    "-d",
+    "--name",
+    "privacy-embedding-benchmark",
+    "--cpus",
+    "4",
+    "-p",
+    "127.0.0.1:18087:8080",
+    "-v",
+    "/Users/mac/Developer/src/python/privacy-react-demo/research/embedding-benchmark/models:/models:ro",
+    "-e",
+    "MODEL_FILE=Qwen3-Embedding-0.6B-f16.gguf",
+    "-e",
+    "POOLING=last",
+    "-e",
+    "CONTEXT=2048",
+    "privacy-embedding-benchmark:b8576"
+  ]
+}

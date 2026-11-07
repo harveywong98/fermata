@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/a53966f8e62c2c2b459143dd3ec0c5a1a782ad2ef3714ed89bac88a8d1ada99f.xlsx",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "工作簿网格超过 200000 个单元格，请拆分或清理多余格式",
+  "total_s": 23.29788537498098,
+  "peak_rss_mb": 413.1875,
+  "process_request_index": 28,
+  "wall_s": 23.30742366600316
+}

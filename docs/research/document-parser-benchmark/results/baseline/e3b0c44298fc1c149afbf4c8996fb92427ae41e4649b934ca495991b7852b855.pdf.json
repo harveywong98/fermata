@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.pdf",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "文件解析失败（EmptyFileError），请检查格式或损坏情况",
+  "total_s": 1.095022541936487,
+  "peak_rss_mb": 57.859375,
+  "process_request_index": 1,
+  "wall_s": 1.2358124169986695
+}

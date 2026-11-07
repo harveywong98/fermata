@@ -1,25 +1,2 @@
-.venv/
+# 大体积原始语料保留本地；脚本、清单和实验结果提交。
 corpus/
-results/
-inventory.json
-manifest.json
-*.log
-inventory-*
-benchmark-selection.json
-results.csv
-smoke-*
-FILES.csv
-index.html
-__pycache__/
-accuracy/
-character-audit.json
-
-.venv-docling/
-docling-selection.json
-accuracy-docling/
-comparison-three.csv
-docling-full-selection.json
-
-!accuracy/
-accuracy/*
-!accuracy/REPORT.md

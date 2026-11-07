@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/text-table.pdf",
+  "status": "ok",
+  "init_s": 9.030343208927661,
+  "parse_s": 16.033534790971316,
+  "total_s": 25.063877999898978,
+  "chars": 84,
+  "blocks": 6,
+  "tables": 0,
+  "headings": 5,
+  "located_blocks": 6,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 392.265625,
+  "process_request_index": 1,
+  "wall_s": 25.162022834061645
+}

@@ -1,0 +1,40 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/5f74b7dbb98903ecc88934ca3ead3bb2f198c28dac42c7aa97cb25d9d321ad71.pdf",
+  "status": "ok",
+  "init_s": 0.0003998749889433384,
+  "parse_s": 3.1451984170125797,
+  "total_s": 3.145598292001523,
+  "chars": 71601,
+  "blocks": 84,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 84,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 86
+      }
+    },
+    {
+      "code": "pdf_layout",
+      "message": "基础解析只提取文本，不恢复复杂表格结构或识别图片；多栏顺序需核验",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 149.90625,
+  "process_request_index": 40,
+  "wall_s": 3.1498530000681058
+}

@@ -1,0 +1,28 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/dc764a7577a85ebd3e9eb124427730828d887477aab387a99802aba7011b4cd3.pdf",
+  "status": "error",
+  "init_s": 0.0012051250087097287,
+  "parse_s": 0.03038420795928687,
+  "total_s": 0.0321129160001874,
+  "chars": 1035,
+  "blocks": 2,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 2,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "pdf_layout",
+      "message": "基础解析只提取文本，不恢复复杂表格结构或识别图片；多栏顺序需核验",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "error_type": "UnicodeEncodeError",
+  "error": "'utf-8' codec can't encode character '\\ude1d' in position 295: surrogates not allowed",
+  "peak_rss_mb": 71.875,
+  "process_request_index": 24,
+  "wall_s": 0.03522420907393098
+}

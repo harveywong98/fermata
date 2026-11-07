@@ -1,0 +1,31 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/text-table.pdf",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 8.790489375009201,
+  "adapter_s": 0.0010467090178281069,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "native": false,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "ok",
+  "init_s": 8.542335334001109,
+  "parse_s": 9.307763000018895,
+  "total_s": 17.850098334020004,
+  "chars": 84,
+  "blocks": 4,
+  "tables": 0,
+  "headings": 1,
+  "located_blocks": 4,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 1223.03125,
+  "process_request_index": 1,
+  "wall_s": 17.95244429190643
+}

@@ -1,0 +1,33 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/docx/fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f.docx",
+  "status": "ok",
+  "init_s": 0.00030441698618233204,
+  "parse_s": 0.013728250050917268,
+  "total_s": 0.0140326670370996,
+  "chars": 1918,
+  "blocks": 6,
+  "tables": 1,
+  "headings": 0,
+  "located_blocks": 6,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "nested_table",
+      "message": "发现嵌套表格，当前未展开其内部内容",
+      "source": {
+        "body_block": 2
+      }
+    },
+    {
+      "code": "docx_scope",
+      "message": "提取正文段落和顶层表格；图片、文本框、页眉脚注及修订内容不保证覆盖；不推测 Word 页码",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 65.984375,
+  "process_request_index": 14,
+  "wall_s": 0.018012041924521327
+}

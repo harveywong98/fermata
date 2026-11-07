@@ -1,0 +1,18 @@
+{
+  "engine": "unstructured",
+  "source": "fixtures/merged.xlsx",
+  "status": "ok",
+  "init_s": 8.870456625008956,
+  "parse_s": 3.927523290971294,
+  "total_s": 12.79797991598025,
+  "chars": 160,
+  "blocks": 1,
+  "tables": 1,
+  "headings": 0,
+  "located_blocks": 1,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 425.40625
+}

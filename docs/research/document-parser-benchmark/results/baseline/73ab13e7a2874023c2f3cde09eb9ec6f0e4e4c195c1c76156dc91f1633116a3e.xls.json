@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xls/73ab13e7a2874023c2f3cde09eb9ec6f0e4e4c195c1c76156dc91f1633116a3e.xls",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "仅支持 PDF、DOCX、XLSX；旧 DOC/XLS 需先转换",
+  "total_s": 0.001177833997644484,
+  "peak_rss_mb": 59.703125,
+  "process_request_index": 15,
+  "wall_s": 0.004638166981749237
+}

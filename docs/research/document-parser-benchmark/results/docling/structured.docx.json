@@ -1,0 +1,30 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/structured.docx",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 0.020386542077176273,
+  "adapter_s": 0.0006988330278545618,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "ok",
+  "init_s": 5.977788000018336,
+  "parse_s": 0.2070113340159878,
+  "total_s": 6.184799334034324,
+  "chars": 148,
+  "blocks": 4,
+  "tables": 1,
+  "headings": 1,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 357.765625,
+  "process_request_index": 1,
+  "wall_s": 6.299999000038952
+}

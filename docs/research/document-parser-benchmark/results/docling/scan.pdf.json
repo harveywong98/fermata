@@ -1,0 +1,31 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/scan.pdf",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 1.013035707990639,
+  "adapter_s": 0.00010499998461455107,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "native": false,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "empty",
+  "init_s": 5.333102308213711e-06,
+  "parse_s": 1.0135458749718964,
+  "total_s": 1.0135512080742046,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 1262.3125,
+  "process_request_index": 2,
+  "wall_s": 1.018387334072031
+}

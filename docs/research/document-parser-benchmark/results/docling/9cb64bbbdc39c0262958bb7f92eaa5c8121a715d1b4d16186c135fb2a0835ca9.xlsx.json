@@ -1,0 +1,30 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/9cb64bbbdc39c0262958bb7f92eaa5c8121a715d1b4d16186c135fb2a0835ca9.xlsx",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 0.018112792051397264,
+  "adapter_s": 0.01565362501423806,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "ok",
+  "init_s": 2.9999064281582832e-06,
+  "parse_s": 0.03388891706708819,
+  "total_s": 0.033891916973516345,
+  "chars": 65799,
+  "blocks": 5,
+  "tables": 5,
+  "headings": 0,
+  "located_blocks": 5,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 5,
+  "peak_rss_mb": 365.453125,
+  "process_request_index": 14,
+  "wall_s": 0.03928458294831216
+}

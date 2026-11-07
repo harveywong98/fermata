@@ -180,12 +180,19 @@ docs/history/*.tar.gz
 !.env.example
 .venv*/
 
-# 调研依赖：保留报告、脚本和截图，不提交第三方仓库或重复网页下载
+# 第三方仓库及下载包保留本地；调研记录、网页和实验结果纳入版本管理。
 /docs/research/rag-product-ui/repos/
 /docs/research/rag-product-ui/*.zip
-/docs/research/rag-product-ui/bailian.html
-/docs/research/rag-product-ui/dify.html
-/docs/research/rag-product-ui/fastgpt.html
-/docs/research/rag-product-ui/maxkb.html
-/docs/research/rag-product-ui/qianfan.html
-/docs/research/rag-product-ui/ragflow.html
+
+# 模型权重按后缀排除，保留模型配置和 tokenizer。
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.tflite

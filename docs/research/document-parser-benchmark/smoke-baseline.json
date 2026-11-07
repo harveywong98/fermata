@@ -1,0 +1,22 @@
+{
+  "engine": "baseline",
+  "source": "fixtures/structured.docx",
+  "status": "ok",
+  "init_s": 1.272541500045918,
+  "parse_s": 0.016252000001259148,
+  "total_s": 1.288793500047177,
+  "chars": 148,
+  "blocks": 4,
+  "tables": 1,
+  "headings": 1,
+  "located_blocks": 4,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "docx_scope",
+      "message": "提取正文段落和顶层表格；图片、文本框、页眉脚注及修订内容不保证覆盖；不推测 Word 页码",
+      "source": {}
+    }
+  ],
+  "peak_rss_mb": 109.890625
+}

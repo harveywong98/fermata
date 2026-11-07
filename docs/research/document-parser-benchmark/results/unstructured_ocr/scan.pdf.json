@@ -1,0 +1,18 @@
+{
+  "engine": "unstructured_ocr",
+  "source": "fixtures/scan.pdf",
+  "status": "ok",
+  "init_s": 8.73862212500535,
+  "parse_s": 146.91789604199585,
+  "total_s": 155.6565181670012,
+  "chars": 56,
+  "blocks": 2,
+  "tables": 0,
+  "headings": 1,
+  "located_blocks": 2,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 512.25
+}

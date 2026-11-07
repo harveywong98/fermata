@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/49afcf48b21c9275616d00c3d8427a02527769a04d0394b807a0743c9be6b348.xlsx",
+  "status": "ok",
+  "init_s": 5.124951712787151e-06,
+  "parse_s": 0.29605025006458163,
+  "total_s": 0.2960553750162944,
+  "chars": 206037,
+  "blocks": 2,
+  "tables": 1,
+  "headings": 0,
+  "located_blocks": 2,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 469.296875,
+  "process_request_index": 18,
+  "wall_s": 0.3118494580266997
+}

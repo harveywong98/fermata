@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "sha256": "b4820565976175b8f7c620addff59d15e429de36bdd314252de911dee65dafc1",
+      "extension": ".pdf",
+      "bytes": 2260322,
+      "file": "corpus/pdf/b4820565976175b8f7c620addff59d15e429de36bdd314252de911dee65dafc1.pdf",
+      "sources": [
+        "/Users/mac/Downloads/企业级Agent工程架构大纲.pdf"
+      ]
+    },
+    {
+      "sha256": "dc764a7577a85ebd3e9eb124427730828d887477aab387a99802aba7011b4cd3",
+      "extension": ".pdf",
+      "bytes": 338417,
+      "file": "corpus/pdf/dc764a7577a85ebd3e9eb124427730828d887477aab387a99802aba7011b4cd3.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.15.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_cross_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf"
+      ]
+    }
+  ]
+}

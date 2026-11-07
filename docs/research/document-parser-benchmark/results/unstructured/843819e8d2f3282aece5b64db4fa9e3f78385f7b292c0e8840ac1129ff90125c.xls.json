@@ -1,0 +1,11 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xls/843819e8d2f3282aece5b64db4fa9e3f78385f7b292c0e8840ac1129ff90125c.xls",
+  "status": "error",
+  "error_type": "OleFileError",
+  "error": "incomplete OLE sector",
+  "total_s": 0.003577750059776008,
+  "peak_rss_mb": 397.984375,
+  "process_request_index": 5,
+  "wall_s": 0.020023208926431835
+}

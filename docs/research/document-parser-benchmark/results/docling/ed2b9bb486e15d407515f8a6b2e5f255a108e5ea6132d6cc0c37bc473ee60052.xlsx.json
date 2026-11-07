@@ -1,0 +1,32 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/ed2b9bb486e15d407515f8a6b2e5f255a108e5ea6132d6cc0c37bc473ee60052.xlsx",
+  "conversion_status": "failure",
+  "conversion_errors": [
+    "component_type=<DoclingComponentType.USER_INPUT: 'user_input'> module_name='' error_message='MsExcelDocumentBackend could not load document with hash ed2b9bb486e15d407515f8a6b2e5f255a108e5ea6132d6cc0c37bc473ee60052' category=<FailureCategory.BACKEND_FAILURE: 'backend_failure'> page_no=None"
+  ],
+  "convert_s": 0.0007985410047695041,
+  "adapter_s": 2.6999972760677338e-05,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "error",
+  "init_s": 1.6660196706652641e-06,
+  "parse_s": 0.0008349589770659804,
+  "total_s": 0.0008366249967366457,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 358.515625,
+  "process_request_index": 4,
+  "wall_s": 0.002189332968555391
+}

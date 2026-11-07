@@ -1,0 +1,82 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/442d39dffe470f040143941eef62cabd113adfc34ec72c2f73ce1cb1b99ef727.pdf",
+  "status": "empty",
+  "init_s": 0.000130290980450809,
+  "parse_s": 0.02304670901503414,
+  "total_s": 0.023176999995484948,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 6
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 7
+      }
+    },
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 8
+      }
+    },
+    {
+      "code": "pdf_layout",
+      "message": "基础解析只提取文本，不恢复复杂表格结构或识别图片；多栏顺序需核验",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 58.859375,
+  "process_request_index": 9,
+  "wall_s": 0.026156874955631793
+}

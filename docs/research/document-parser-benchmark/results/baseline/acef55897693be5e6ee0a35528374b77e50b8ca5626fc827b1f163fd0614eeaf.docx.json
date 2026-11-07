@@ -1,0 +1,26 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/docx/acef55897693be5e6ee0a35528374b77e50b8ca5626fc827b1f163fd0614eeaf.docx",
+  "status": "ok",
+  "init_s": 0.00011079199612140656,
+  "parse_s": 0.036128667066805065,
+  "total_s": 0.03623945906292647,
+  "chars": 2763,
+  "blocks": 60,
+  "tables": 0,
+  "headings": 32,
+  "located_blocks": 60,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "docx_scope",
+      "message": "提取正文段落和顶层表格；图片、文本框、页眉脚注及修订内容不保证覆盖；不推测 Word 页码",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 72.859375,
+  "process_request_index": 25,
+  "wall_s": 0.040276332991197705
+}

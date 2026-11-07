@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/merged.xlsx",
+  "status": "ok",
+  "init_s": 2.8330832719802856e-06,
+  "parse_s": 1.4947053339565173,
+  "total_s": 1.4947081670397893,
+  "chars": 160,
+  "blocks": 1,
+  "tables": 1,
+  "headings": 0,
+  "located_blocks": 1,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 469.296875,
+  "process_request_index": 4,
+  "wall_s": 1.500564291025512
+}

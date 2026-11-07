@@ -1,0 +1,32 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xls/bdc9cb5f13e01cecf773c897aef564a2ffb46614f07116e711d0ab64f65bdd41.xls",
+  "conversion_status": "failure",
+  "conversion_errors": [
+    "component_type=<DoclingComponentType.USER_INPUT: 'user_input'> module_name='' error_message='An unexpected error occurred while opening the document bdc9cb5f13e01cecf773c897aef564a2ffb46614f07116e711d0ab64f65bdd41.xls.' category=<FailureCategory.UNKNOWN: 'unknown'> page_no=None"
+  ],
+  "convert_s": 0.0011056670919060707,
+  "adapter_s": 2.7582980692386627e-05,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "error",
+  "init_s": 1.875101588666439e-06,
+  "parse_s": 0.0011421249946579337,
+  "total_s": 0.0011440000962466002,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 742.765625,
+  "process_request_index": 34,
+  "wall_s": 0.002345208078622818
+}

@@ -1,0 +1,28 @@
+{
+  "engine": "docling",
+  "source": "fixtures/structured.docx",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 0.11065337504260242,
+  "adapter_s": 0.0038543749833479524,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "ok",
+  "init_s": 73.28643045795616,
+  "parse_s": 0.7061070420313627,
+  "total_s": 73.99253749998752,
+  "chars": 148,
+  "blocks": 4,
+  "tables": 1,
+  "headings": 1,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 283.640625
+}

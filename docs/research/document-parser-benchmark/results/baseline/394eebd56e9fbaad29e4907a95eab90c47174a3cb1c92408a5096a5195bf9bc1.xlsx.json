@@ -1,0 +1,33 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/394eebd56e9fbaad29e4907a95eab90c47174a3cb1c92408a5096a5195bf9bc1.xlsx",
+  "status": "ok",
+  "init_s": 9.766698349267244e-05,
+  "parse_s": 0.01387254090514034,
+  "total_s": 0.013970207888633013,
+  "chars": 1970,
+  "blocks": 1,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 1,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "xlsx_headers",
+      "message": "工作表按前 1 行解释表头；有标题行或不同表头结构时需调整参数/分别处理",
+      "source": {
+        "sheet": "Sheet1"
+      }
+    },
+    {
+      "code": "xlsx_values",
+      "message": "仅展开显式合并区域，不对普通空白向下填充；保留原始值与数字格式，不保证显示值还原；图表和图片未解析",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 64.640625,
+  "process_request_index": 7,
+  "wall_s": 0.01621375000104308
+}

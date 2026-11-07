@@ -1,0 +1,18 @@
+{
+  "engine": "unstructured",
+  "source": "fixtures/scan.pdf",
+  "status": "empty",
+  "init_s": 8.37015158298891,
+  "parse_s": 4.121879457961768,
+  "total_s": 12.492031040950678,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 395.28125
+}

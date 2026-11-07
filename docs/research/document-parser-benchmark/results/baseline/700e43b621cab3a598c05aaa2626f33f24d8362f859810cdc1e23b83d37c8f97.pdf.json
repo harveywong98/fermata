@@ -1,0 +1,11 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/700e43b621cab3a598c05aaa2626f33f24d8362f859810cdc1e23b83d37c8f97.pdf",
+  "status": "error",
+  "error_type": "ParseError",
+  "error": "文件解析失败（LimitReachedError），请检查格式或损坏情况",
+  "total_s": 8.8646708750166,
+  "peak_rss_mb": 222.5625,
+  "process_request_index": 44,
+  "wall_s": 9.197169207967818
+}

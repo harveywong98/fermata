@@ -1,0 +1,11 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/doc/69de7452c5fa453186361eaeac5c239b691130350d0c86e5d4765cc8de4eecda.doc",
+  "status": "error",
+  "error_type": "FileNotFoundError",
+  "error": "soffice command was not found. Please install libreoffice\non your system and try again.\n\n- Install instructions: https://www.libreoffice.org/get-help/install-howto/\n- Mac: https://formulae.brew.sh/cask/libreoffice\n- Debian: https://wiki.debian.org/LibreOffice",
+  "total_s": 0.06319241703022271,
+  "peak_rss_mb": 462.546875,
+  "process_request_index": 13,
+  "wall_s": 0.06836333393584937
+}

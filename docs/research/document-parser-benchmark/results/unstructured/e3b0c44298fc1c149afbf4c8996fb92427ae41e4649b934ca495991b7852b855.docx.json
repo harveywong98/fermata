@@ -1,0 +1,11 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/docx/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.docx",
+  "status": "error",
+  "error_type": "ValueError",
+  "error": "not a ZIP archive (so not a DOCX file): '/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/docx/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.docx'",
+  "total_s": 0.37970275001134723,
+  "peak_rss_mb": 325.65625,
+  "process_request_index": 2,
+  "wall_s": 0.39301316696219146
+}

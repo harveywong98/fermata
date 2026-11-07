@@ -1,0 +1,880 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh" class="transparent alicloud back-to-top new_default light" traceid="dcc2452117936781629123299e">
+<link rel="stylesheet" href="//g.alicdn.com/aliyun-help/help-portal-fe/0.12.66/css/index.css" />
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="spm-id" content="a2c63">
+<meta name="data-spm" content="a2c63" />
+<meta name="aplus-core" content="aplus.js">
+<meta name="aplus-ajax" content="chksum">
+<meta name="aplus-waiting" content="MAN">
+<meta name="aplus-pvhash" content="1">
+ <!-- MINOR_LANG_ENTRY_GATE：ko/de/vi/th 入口暂关；开放时把码追加到下方 content 并同步 Constants 卡点列表 -->
+<meta name="kloud:supported-langs" content="en,zh,tc,ja,id,pt-BR,fr,es,tr"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="aplus-rhost-v" content="sg.mmstat.com">
+<meta name="aplus-rhost-g" content="sg.mmstat.com">
+<title>
+ 知识库 - 大模型服务平台百炼 - 阿里云
+
+</title>
+ <meta name="keywords" content="知识库,知识检索增强,rag,结构化数据,非结构化数据,文档搜索,数据查询,图片问答">
+ <meta name="description" content="知识库，大模型服务平台百炼：知识库用于为大模型补充私有数据和最新信息。基于 RAG（检索增强生成）技术，大模型在生成回答前会先从知识库中检索相关内容，从而提升回答的准确性。 重要 控制台访问限制：仅面向2025年4月21日前，在新加坡地域创建过阿里云百炼应用的用户开放应用开发页签的访问权限。">
+ <script>
+window.globalData = {
+website: "intl",
+language: "zh",
+nodeId:"2807740",
+channel: "",
+notfound: "",
+statusCode: "",
+errorType: ""
+};
+// UT的全局配置变量，在CDN加载前配置
+window.$ACE_TRACKER_CONFIG = {
+enableHistory: true,
+enableHash: false
+};
+</script>
+<!-- <base href="https://www.alibabacloud.com">-->
+<link rel="canonical" href="https://www.alibabacloud.com/help/zh/model-studio/rag-knowledge-base"/>
+ <meta property="og:title" content="知识库 - Alibaba Cloud" />
+ <meta property="og:type" content="website" />
+ <meta property="og:url" content="https://www.alibabacloud.com/help/zh/model-studio/rag-knowledge-base" />
+ <meta property="og:image" content="https://img.alicdn.com/tfs/TB1xpNqnmslXu8jSZFuXXXg7FXa-1200-630.png_.webp" />
+ <meta property="og:description" content="知识库，大模型服务平台百炼：知识库用于为大模型补充私有数据和最新信息。基于 RAG（检索增强生成）技术，大模型在生成回答前会先从知识库中检索相关内容，从而提升回答的准确性。 重要 控制台访问限制：仅面向2025年4月21日前，在新加坡地域创建过阿里云百炼应用的用户开放应用开发页签的访问权限。" />
+ <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1ugg7M9zqK1RjSZPxXXc4tVXa-32-32.png"/>
+<link rel="stylesheet" href="https://o.alicdn.com/fund/alicloud-pure-layout/css/index.min.css" />
+ <link
+rel="icon"
+href="https://img.alicdn.com/imgextra/i2/O1CN01TFs5Qw27uYvfA6gib_!!6000000007857-55-tps-32-32.svg"
+type="image/x-icon"
+/>
+</head>
+<body data-spm="" class="HAS_ALPS_RESOURCE"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=dcc2452117936781629123299e&asid=AQAAAABTW+lqDmTSEAAAAAAA6ISEqpVKnw==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+ <script async src="https://o.alicdn.com/fund/alicloud-pure-layout/index.js"></script>
+
+<div id="app">
+<div class="aliyun-app-layout">
+
+<!-- docId:2807740 -->
+<input type="hidden" id="website" value="intl">
+<div class="products-wrapper$tip" data-spm="879954">
+<section id="products" class="intl-product container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" id="navDocument">
+<div class="doc-nav">
+<a class="doc-center" href="/help/zh">
+<i class="icon-docs icon-docs-back"></i>
+文档中心
+</a>
+</div>
+<div class="placeholder-ele">&nbsp;</div>
+</div>
+<div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 doc-content">
+<div class="all-products action" id="J_AllProducts">
+<div class="all-products-head">
+<div class="all-products-title">全部产品</div>
+<div class="all-products-search-wrapper">
+<div class="all-products-search focus">
+<input autocomplete="off" class="all-products-search-box-input" id="J_AllProductsSearch" placeholder="请输入产品名称" data-spm-anchor-id="a2c4g.11186623.6.i0.1f753945H9RVzu">
+<i class="icon-search icon-docs icon-docs-search"></i>
+<ul class="all-products-search-result" style="display: none;">
+</ul>
+</div>
+</div>
+</div>
+<div class="all-products-body" id="J_AllProductsBody"></div>
+</div>
+<div class="search-product-modal">
+Search
+</div>
+<div class="breadcrumbs-top" data-spm="a1">
+<div class="row nav-breadcrumb">
+ <div class="col-md-12 hidden-sm hidden-xs">
+<ul class="breadcrumb text-sm">
+<li><a class="active" title="文档中心" href="/help/zh">文档中心</a></li>
+ <li><a class="active" title="大模型服务平台百炼" href="/help/zh/model-studio/">大模型服务平台百炼</a></li>
+ <li><a class="active" title="用户指南（Agent）" href="/help/zh/model-studio/application-user-guide/">用户指南（Agent）</a></li>
+ <li><a class="active" title="知识库（RAG）" href="/help/zh/model-studio/knowledge-base/">知识库（RAG）</a></li>
+ <li><a class="active" title="创建和使用知识库" href="/help/zh/model-studio/rag-knowledge-base">创建和使用知识库</a></li>
+ </ul>
+</div>
+ <div class="col-md-4 col-sm-12">
+<button type="button" class="navbar-toggle bc mr0" data-toggle="collapse"
+data-target="#sideMenu-mobile">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+all-products-head <span class="icon-bar"></span>
+</button>
+</div>
+</div>
+<form class="search-bar clearfix" method="GET" action="/s/zh">
+<input type="hidden" name="type" value="doc"/>
+<div class="select">
+<p class="select-text">
+<span class="placeholder">搜索本产品</span>
+<i class="icon-docs icon-docs-selected"></i>
+</p>
+<ul class="select-options" style="display:none;">
+<li class="option selected" data-value="h_pid_$productId">搜索本产品</li>
+<li class="option" data-value="">全部产品</li>
+</ul>
+<input type="hidden" name="rangeinfo" value="h_pid_2400256"/>
+</div>
+<input autocomplete="off" class="search-key" type="text" placeholder="请输入关键字" name="k"/>
+<ul class="help-top-search-result" style="display: block;"></ul>
+<button class="search-submit" type="submit">
+<i class="icon-docs icon-docs-search"></i>
+</button>
+<div class="collapse-menus select">
+<p class="select-text">
+<span class="placeholder">大模型服务平台百炼：知识库</span>
+<i class="icon-docs icon-docs-more"></i>
+</p>
+</div>
+</form>
+</div>
+<header id="header-faq" class="clearfix">
+<a class="doc-center" href="/help/zh">
+<i class="icon-docs icon-docs-back"></i>
+文档中心
+</a>
+<div class="download-links">
+ </div>
+<h1 class="page-title">大模型服务平台百炼：知识库</h1>
+<div class="doc-status">
+更新时间：Oct 11, 2026
+</div>
+</header>
+<article class="product-description markdown-body">
+<div lang="zh" class="icms-help-docs-content">
+<link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6101872271/p829330.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849939.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4701799171/p816740.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9579817271/p852037.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849449.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0699676371/p877345.png"/><link rel="preload" as="image" href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p877348.png"/><div lang="zh" class="icms-help-docs-content"><p data-tag="shortdesc" class="shortdesc">知识库用于为大模型补充私有数据和最新信息。基于 RAG（检索增强生成）技术，大模型在生成回答前会先从知识库中检索相关内容，从而提升回答的准确性。</p><div class="note note-important"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>重要</strong></p><ul>
+<li>
+<p><strong>控制台访问限制：</strong>仅面向<strong>2025年4月21日</strong>前，在<strong>新加坡地域</strong>创建过阿里云百炼应用的用户开放<strong>应用开发</strong>页签的访问权限。</p>
+<blockquote>
+<p>此页签包含以下功能：应用（<a href="/help/zh/model-studio/single-agent-application">智能体应用（Agent 1.0）</a>、<a href="/help/zh/model-studio/workflow-application">工作流应用</a>）、组件（<a href="/help/zh/model-studio/prompt-template">Prompt工程</a>、<a href="/help/zh/model-studio/plug-in-overview">插件</a>）、数据（<a href="/help/zh/model-studio/rag-knowledge-base">知识库</a>、<a href="/help/zh/model-studio/data-import-instructions">应用数据</a>）。<strong>目前均为预览功能，请谨慎用于生产环境。</strong></p>
+</blockquote>
+</li>
+<li>
+<p><strong>API调用限制：</strong>仅面向<strong>2025年4月21日</strong>前，在<strong>新加坡地域</strong>创建过阿里云百炼应用的用户开放<a href="/help/zh/model-studio/api-bailian-2023-12-29-dir">应用数据、知识库及Prompt工程功能的接口</a>的调用权限。</p>
+</li>
+</ul></div></div>
+<table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><tbody><tr><td style="vertical-align:top"><p><strong>无专属知识库的应用</strong></p> <p>无专属知识库时，大模型无法准确回答特定领域的问题。</p> <p>例如，用户在对话界面中发送&quot;请你帮我挑选一款拍照效果最好的百炼手机，价格在 3000 元以内&quot;，AI 助手因缺乏相关知识库而无法给出准确的产品推荐。</p></td><td style="vertical-align:top"><p><strong>有专属知识库的应用</strong></p> <p>引入专属知识库后，大模型可准确回答特定领域的问题。</p> <p><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6101872271/p829330.png" alt="有" width="617.149" height="150"/></p></td></tr></tbody></table>
+<h2 id="支持的模型">支持的模型 <span id="3e9dee7035gxc"></span> <span id="f6778250f4c7l"></span></h2>
+<p>以下模型支持使用知识库。<a href="/help/zh/model-studio/rag-knowledge-base#39147e299cujr">配置千问使用知识库教程</a></p>
+<ul>
+<li>千问-Max/Plus/Turbo</li>
+<li>千问VL-Max/Plus</li>
+<li>千问-开源版（Qwen2.5等）</li>
+</ul>
+<blockquote>
+<p>上述列表随时可能更新。请以在  <a href="https://modelstudio.console.alibabacloud.com/?tab=app#/app-center">应用管理</a> 页面创建应用时实际可选的模型为准。</p>
+</blockquote>
+<h2 id="快速开始">快速开始 <span id="24bb1189bd6jq"></span> <span id="39147e299cujr"></span></h2>
+<p>本节介绍如何无需编写代码，快速构建一个能够回答特定领域问题（以&quot;阿里云百炼手机&quot;为例）的大模型问答应用。</p>
+<h3 id="1-构建知识库">1. 构建知识库 <span id="bf7674169eho8"></span> <span id="c0fa1080aerzp"></span></h3>
+<ol>
+<li>进入<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，点击<strong>创建知识库</strong>。填写<strong>知识库名称</strong>和<strong>知识库描述</strong>，其余设置保持默认，点击<strong>下一步</strong>。</li>
+<li>选择<strong>配置类目</strong>，上传<a href="https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20250603/duuuxk/%E9%98%BF%E9%87%8C%E4%BA%91%E7%99%BE%E7%82%BC%E7%B3%BB%E5%88%97%E6%89%8B%E6%9C%BA%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D.docx">阿里云百炼系列手机产品介绍.docx</a>文件。点击<strong>下一步</strong>，然后点击<strong>完成</strong>。</li>
+</ol>
+<h3 id="2-集成到业务应用">2. 集成到业务应用 <span id="7c67a78402muh"></span> <span id="db7f40d0f3a0q"></span></h3>
+<p>知识库创建后，可将其关联至同一<a href="/help/zh/model-studio/permission-management-overview">业务空间</a>下的阿里云百炼应用或外部应用，以处理检索请求。</p>
+<section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs" class="tabbed-content-box section"><section id="集成到智能体应用" class="section"><h4 id="集成到智能体应用-h4">集成到智能体应用</h4><ol>
+<li>
+<p>进入<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/app-center">应用管理</a>页面，找到目标智能体应用，点击卡片上的<strong>配置</strong>，并为应用选择模型。</p>
+</li>
+<li>
+<p>点击页面上<strong>文档知识库</strong>右侧的 <strong>+</strong> 按钮，添加上一步创建的知识库。相似度阈值和权重可保持默认。</p>
+<section class="collapse" id="accordion-可选-相似度阈值-筛选检索结果"><p>（可选）相似度阈值：筛选检索结果</p><div><p>知识库采用语义检索，可在私有数据或文件中找出与查询意图相关、但关键词可能完全不同的文本。</p><p>例如，用户查询：<code>哪款阿里云手机适合拍照？</code></p><p>实际答案（千问Vivid 7...）中并不包含查询中的任何关键词。</p><blockquote>
+<p>下表中的关键词相似度基于 <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard</a> 计算，语义相似度基于 <code>text-embedding-v4</code> 模型计算的 <a href="https://en.wikipedia.org/wiki/Cosine_similarity">Cosine相似度</a> 。</p>
+</blockquote><table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:42.9%"/><col style="width:28.55%"/><col style="width:28.55%"/></colgroup><thead><tr><th><p><strong>召回文本</strong></p></th><th><p><strong>关键词相似度</strong></p></th><th><p><strong>语义相似度</strong></p></th></tr></thead><tbody><tr><td><p>千问Vivid 7：智能摄影新体验</p></td><td><p>0</p></td><td><p><strong>0.43</strong></p></td></tr><tr><td><p>阿里云百炼Ace Ultra：游戏玩家之选</p></td><td><p>0.17</p></td><td><p>0.32</p></td></tr><tr><td><p>阿里云百炼Flex Fold+：折叠屏新纪元</p></td><td><p>0.25</p></td><td><p>0.24</p></td></tr></tbody></table><p><strong>相似度阈值：</strong>仅语义相似度高于此阈值的文本才会被召回。阈值设置过高会导致相关文本被过滤丢弃。</p></div></section>
+<section class="collapse" id="accordion-可选-权重-干预多知识库召回顺序"><p>（可选）权重：干预多知识库召回顺序</p><div><p>当智能体应用同时关联多个知识库时，可按信息源的重要程度为各知识库分配权重。多路召回时，若多个知识库召回的文本切片相似度相同，系统<strong>将优先返回权重更高的知识库中的文本切片</strong>。</p><ul>
+<li><strong>关键限制：</strong>权重<strong>仅在同类型知识库之间生效</strong>。例如，文档搜索类知识库的权重不影响数据查询类知识库的召回顺序，反之亦然。</li>
+<li><strong>工作原理：</strong>系统先计算用户问题与各知识库内容的相关度，筛选出最相关的文本切片，再将相似度分数与对应知识库的权重相乘，经加权重排后输出给大模型参考（加权得分越高，被采纳的可能性越大）。</li>
+</ul></div></section>
+</li>
+<li>
+<p>在页面右侧的输入框中输入问题，大模型将基于所构建的知识库进行回答。</p>
+<blockquote>
+<p>例如：&quot;请帮我挑选一款拍照效果最好的阿里云百炼手机，价格在3000元以内。&quot;</p>
+</blockquote>
+</li>
+</ol><p><strong>分批生成策略：</strong>当需要智能体应用基于知识库批量生成大量内容（如题目、摘要）时，一次性请求可能因单次回复的输出长度受限而导致实际生成数量不足。建议将请求拆分为多批，每批约 30 条，通过多轮对话逐步完成。例如先发送&quot;请根据知识库内容生成第 1-30 题&quot;，该批生成完成后再发送&quot;请继续生成第 31-60 题&quot;。实测参考：一次性请求 100 题实际仅生成约 24 题；改为每批 30 题、共 3 批后，每批均完整生成 30 题，合计 90 题。实际可生成数量随所选模型与内容长度变化，请以实际测试结果为准。</p></section><section id="集成到工作流应用" class="section"><h4 id="集成到工作流应用-h4">集成到工作流应用</h4><ol>
+<li>
+<p>进入<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/app-center">应用管理</a>页面，找到目标工作流应用，点击卡片上的<strong>配置</strong>。将<strong>知识库</strong>节点拖入画布，连接在<strong>开始</strong>节点之后。</p>
+</li>
+<li>
+<p>配置知识库节点：</p>
+<ol>
+<li>
+<p><strong>输入：</strong>在变量名<code>content</code>右侧的<strong>值</strong>下拉列表中，选择<strong>内置变量query</strong>。下拉列表为树形结构，需展开&quot;内置变量&quot;分组后选择 query。</p>
+</li>
+<li>
+<p><strong>选择知识库</strong>：知识库节点支持以下两种选择方式。</p>
+<ul>
+<li><strong>选择固定知识库</strong>：从下拉菜单中选择上一步创建的知识库。适用于每次调用同一知识库的场景。</li>
+<li><strong>动态引入</strong>：配置<code>CodeList</code>变量，根据上游节点的输出动态指定知识库。适用于需根据不同输入检索不同知识库的场景。</li>
+</ul>
+</li>
+<li>
+<p><strong>设置 TopK（可选）</strong>：决定返回给下游节点（通常为大模型节点）的知识片段数量。</p>
+<blockquote>
+<p>增大该值通常能提升大模型回答的准确性，但会相应增加大模型的输入 Token 消耗。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li>
+<p>将<strong>大模型</strong>节点拖入画布，连接在知识库节点之后、<strong>结束</strong>节点之前。</p>
+</li>
+<li>
+<p>配置大模型节点：</p>
+<ol>
+<li>
+<p>在<strong>模型配置</strong>列表中，为节点选择模型。</p>
+</li>
+<li>
+<p>在<strong>提示词</strong>中，输入指示大模型使用知识库的提示词。输入&quot;/&quot;可插入<code>result</code>变量（表示知识库检索返回的结果）。</p>
+<p>例如，输入提示词标题 <code># 知识库</code>，正文为 <code>请记住以下材料{知识库1/result}，他们可能对回答问题有帮助。</code></p>
+</li>
+</ol>
+</li>
+<li>
+<p>配置结束节点：输入<code>/</code>，选择<strong>大模型1result</strong>，输出大模型返回的结果。</p>
+</li>
+<li>
+<p>点击页面右上角的<strong>测试</strong>，在页面右侧的输入框中输入问题，大模型将基于所构建的知识库进行回答。</p>
+<blockquote>
+<p>例如：&quot;请帮我挑选一款拍照效果最好的阿里云百炼手机，价格在3000元以内。&quot;</p>
+</blockquote>
+</li>
+</ol></section><section id="集成到外部应用" class="section"><h4 id="集成到外部应用-h4">集成到外部应用</h4><p>除在阿里云百炼内构建应用外，也可通过<a href="https://api.alibabacloud.com/api-tools/sdk/bailian?version=2023-12-29">阿里云百炼SDK</a>调用知识库的检索能力，为外部 AI 应用提供检索服务。</p><p>具体集成步骤，请参见<a href="/help/zh/model-studio/rag-knowledge-base-api-guide">知识库API指南</a>。</p></section></section>
+<h3 id="3-优化知识库效果-可选">3. 优化知识库效果（可选） <span id="9e1ff6a5b5lil"></span> <span id="39eeaf86309bo"></span></h3>
+<p>若问答过程中出现知识召回不完整或内容不准确的情况，请参见<a href="/help/zh/model-studio/rag-optimization">知识库效果优化</a>。</p>
+<h2 id="操作指南">操作指南 <span id="362726005am7x"></span> <span id="b1bfab3bec5da"></span></h2>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，可查看和管理当前<a href="/help/zh/model-studio/permission-management-overview">业务空间</a>下的所有知识库。</p>
+<blockquote>
+<p><strong>知识库ID：</strong> 即每个知识库卡片上 <code>ID</code> 字段的值，用于API调用等场景。</p>
+</blockquote>
+<section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-2" class="tabbed-content-box section"><section id="创建知识库" class="section"><h4 id="创建知识库-h4">创建知识库</h4><p>点击<strong>创建知识库</strong>后，按三步完成创建：填写基础信息并选择知识库类型、配置数据来源、设置索引参数。</p><ol>
+<li>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，点击<strong>创建知识库</strong>。</p>
+</li>
+<li>
+<strong>填写基础信息</strong>
+<p>根据应用场景选择合适的<strong>知识库类型</strong>（单一知识库不支持同时选择多个类型）。选择<strong>文档搜索</strong>类型后，还需选择<strong>使用场景</strong>（基础文档问答）：</p>
+<ul>
+<li><strong>基础文档问答：</strong>适用于纯文本文档的语义检索。</li>
+</ul>
+<blockquote>
+<p>创建后，知识库类型不可更改。</p>
+</blockquote>
+<ul>
+<li>
+<strong>文档搜索（检索场景）</strong>
+<ul>
+<li>
+<strong>适用场景：</strong>
+<ul>
+<li>适用于企业内部文档、产品手册等非结构化数据（即未按预定义表结构组织的数据，包含文本、表格和图片）的检索。</li>
+<li>若<a href="/help/zh/model-studio/rag-knowledge-base">文件包含图片，且需阿里云百炼应用在回答中返回</a>，请选择<strong>文档搜索</strong>。</li>
+</ul>
+</li>
+<li>
+<p><strong>数据来源：</strong>支持本地上传文件或从阿里云对象存储OSS导入。</p>
+<section class="collapse" id="accordion-创建说明-文档搜索"><p>创建说明（文档搜索）</p><div><ol>
+<li>
+<p><strong>选择数据：</strong>为知识库指定数据来源（文件或内容）。数据源内容将导入知识库，用于后续检索。支持<strong>本地上传</strong>和<strong>云端导入</strong>（选择现有类目或文件）两种方式。</p>
+<ul>
+<li>
+<p><strong>本地上传：</strong>直接从本地电脑上传文件。展开下方折叠面板了解如何选择<strong>解析方式</strong>。</p>
+<section class="collapse" id="accordion-解析方式-自定义设置-说明"><p>解析方式（自定义设置）说明</p><div><p>请根据实际需求配置解析策略，如不确定建议保持默认设置。</p><ul>
+<li><strong>电子文档解析</strong>：不支持解析文件中的插图与图表。解析速度最快，10~20 页纯文本文档通常在数秒至 1 分钟内完成。</li>
+<li><strong>文档智能解析：</strong>对文件中的插图进行文本识别与提取，生成文本摘要。摘要将与其他非图片内容一同切分并向量化，参与知识库检索。解析速度较快，10~20 页含插图文档通常需要 1~5 分钟。</li>
+<li><strong>大模型文档解析：</strong>使用千问VL模型的智能体应用支持对文件中插图和图表内容进行提问。如需识别和理解文件中的插图与图表，请选择<strong>大模型文档解析</strong>。因需调用大模型进行深度理解，10~20 页含图表文档通常需要 2~10 分钟。</li>
+<li><strong>Qwen VL解析：</strong>专用于图片文件。可指定千问VL模型并传入 Prompt，以指导对图片版面及元素的识别与提取。单张图片通常在数秒至 1 分钟内完成解析。</li>
+</ul></div></section>
+</li>
+<li>
+<p><strong>云端导入：</strong>从对象存储OSS导入已有文件。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>索引配置：</strong>定义导入数据的处理和存储方式，直接影响检索效果。</p>
+<blockquote>
+<p>以下配置项中，仅&quot;向量存储&quot;选用 ADB-PG 时可能产生费用，其余配置均免费。</p>
+</blockquote>
+<section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-3" class="tabbed-content-box section"><section id="meta信息抽取" class="section"><h4 id="meta信息抽取-h4">Meta信息抽取</h4><p>metadata（元数据）是与非结构化数据关联的一组附加属性，以 key-value 键值对的形式集成到文本切片中。</p><ul>
+<li><strong>作用：</strong>元数据为文本切片提供重要的上下文信息，可显著提升知识库检索的准确性。例如，知识库中包含上千个以产品名称命名的产品介绍文件。检索&quot;A产品的功能概述&quot;时，若所有文件正文都含有&quot;功能概述&quot;但均未提及&quot;A产品&quot;，知识库可能召回大量无关文本切片。将产品名称作为元数据附加到所有文本切片后，知识库可精准过滤出与&quot;A产品&quot;相关且包含&quot;功能概述&quot;的切片，从而提高检索准确性，同时降低模型输入Token消耗。</li>
+<li><strong>用法：</strong><a href="/help/zh/model-studio/application-calling-guide">通过API调用应用</a>时，可在请求参数<code>metadata_filter</code>中指定<code>metadata</code>。应用检索知识库时，将先根据<code>metadata</code>筛选相关文件。</li>
+<li><strong>注意：</strong>知识库一旦创建，<strong>无法再配置metadata抽取</strong>。</li>
+</ul><section class="collapse" id="accordion-如何配置metadata"><p>如何配置metadata</p><div><p>开启<strong>Meta信息抽取</strong>，然后单击<strong>设置</strong>为该<strong>知识库中的所有文件</strong>附加统一或个性化的元数据。切分时，每个文件的元数据将集成到各自的文本切片中。</p><section class="collapse" id="accordion-新建meta信息模板说明"><p>新建Meta信息模板说明</p><div><strong>取值方法说明：</strong><ul>
+<li>
+<p><strong>常量：</strong>为知识库中的所有文件附加固定属性。</p>
+<blockquote>
+<p>如上方示例所示，若知识库中所有文件的作者相同，可统一设置字段名为 <code>author</code> 的常量。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>变量：</strong>为知识库中的每个文件附加可变属性。目前支持<code>file_name</code>和<code>cat_name</code>。选择<code>file_name</code>时，阿里云百炼将文件名称附加到其元数据中，如上方示例所示。选择<code>cat_name</code>时，阿里云百炼将文件所在类目的名称附加到文件元数据中。</p>
+</li>
+<li>
+<p><strong>大模型：</strong>系统依据设定的<strong>实体描述</strong>规则，对知识库中每个文件的文本内容进行匹配，自动识别并提取相关信息，将其作为属性附加到文件元数据中。</p>
+<blockquote>
+<p>如上方示例的meta信息模板所示，如需提取每个文件中所有出现过的年份信息作为文件属性，可设置名为 <code>date</code> 的大模型字段，实体描述配置如下：</p>
+</blockquote>
+<p>在<strong>实体描述</strong>输入框中填写<code>日期信息，只提取年份</code>，然后单击<strong>确定</strong>。</p>
+</li>
+<li>
+<p><strong>正则：</strong>系统依据设置的正则表达式，对知识库中每个文件的文本内容进行匹配，提取符合该表达式的内容，并将其作为属性添加到文件元数据中。</p>
+<blockquote>
+<p>如上方示例的meta信息模板所示，如需提取每个文件中所有出现过的参考资料（假设规律为：以&quot;《&quot;开头、以&quot;》&quot;结尾），可设置名为 <code>reference</code> 的正则字段，正则表达式配置如下：</p>
+</blockquote>
+<p>正则表达式的值设置为 <code>《.*?》</code>。</p>
+</li>
+<li>
+<p><strong>关键词搜索</strong>：系统在每个文件中查找预设的关键词，并将匹配到的关键词作为属性添加至文件元数据中。</p>
+<blockquote>
+<p>例如，在上述示例的meta信息模板中，预设的关键词为：</p>
+</blockquote>
+<p><code>融资,租赁,产业,汽车,钢铁,绿色,环保,资本,排放</code>。</p>
+<blockquote>
+<p>由于该文件中仅出现了&quot;融资、产业、绿色、资本&quot;这四个关键词，系统只提取了这四个关键词作为该文件 <code>keywords</code> 属性的值。</p>
+</blockquote>
+</li>
+</ul><p><strong>是否参与检索</strong>：开启后，元数据字段和值将与文本切片内容一同参与知识库检索；关闭时，仅文本切片内容参与检索，元数据字段和值不参与。</p><p><strong>是否参与模型回复</strong>：开启后，元数据字段和值将与文本切片内容一同参与大模型的回答生成；关闭时，仅文本切片内容参与大模型回答生成，元数据字段和值不参与。</p></div></section></div></section></section><section id="excel文件表头拼装" class="section"><h4 id="excel文件表头拼装-h4">Excel文件表头拼装</h4><p>开启后，知识库将所有XLSX、XLS格式文件的首行数据视为表头，并自动拼接到每个文本切片（数据行）中，避免大模型将表头误识别为普通数据行。</p><p><strong>生效范围：</strong>仅对知识库中 XLSX、XLS 格式的表格文件生效，并以文件<strong>首行</strong>作为表头；对 PDF、Word、Markdown 等非表格格式文件不生效。该设置在<strong>创建知识库（文档切分）时</strong>生效，且与切分策略一样，在知识库创建后不可再修改。</p><p><strong>处理逻辑：</strong>知识库对表格文件按<strong>数据行</strong>进行切分，即首行（表头）以外的每一行数据生成一个独立的文本切片。开启本设置后，首行表头会自动拼接到每一个数据行切片中，使切片同时携带列名（表头）与该行数据，大模型即可结合列名准确理解每个字段的含义；表头行本身不再作为普通数据行单独处理，从而避免检索与问答时的语义混淆。</p><blockquote>
+<p>若知识库中包含其他格式的文件（如PDF），或表格文件本身不含表头，则无需开启该设置。</p>
+</blockquote></section><section id="切片方式" class="section"><h4 id="切片方式-h4">切片方式</h4><p>选择<strong>智能切分（推荐）</strong>。</p><blockquote>
+<p><strong>作用：</strong> 知识库将文件切分为文本切片，并通过向量模型转换为向量。文本切片和向量以键值对的形式存入向量数据库。知识库创建后，可查看或编辑每个文本切片的具体内容（文字和图片）。</p>
+</blockquote><blockquote>
+<p><strong>切片标题：</strong>每个文本切片除正文内容外还带有一个标题，展示在切片列表中，可用于标识切片并参与检索。切片标题由知识库在<strong>文档智能解析</strong>阶段依据识别到的<strong>标题层级</strong>自动生成，分为短标题（<code>title</code>，切片所属的最近一级标题）和层级标题（<code>hier_title</code>，自最高级标题到当前标题的完整路径，各级以 <code>|&gt;</code> 连接，例如 <code>一级标题|&gt;二级标题</code>）。因此文档的标题结构越清晰（如 PDF、Word、Markdown 等含规范章节标题的文档），生成的切片标题越完整；对于按数据行切分、通常不含文本标题层级的表格类文件（如 Excel），切片标题取决于解析时能否识别到标题层级，未识别到时可能为空。切片标题也支持在切片管理中手动编辑。</p>
+</blockquote><blockquote>
+<p><strong>注意：</strong> 知识库一旦创建， <strong>无法再更改文档切分chunk</strong> 。不合适的切分策略可能会降低检索和召回效果。</p>
+</blockquote></section><section id="多轮对话改写" class="section"><h4 id="多轮对话改写-h4">多轮对话改写</h4><p>开启该功能后，系统将调用专用轻量级模型，结合对话历史将用户当前问题改写为独立的、上下文完整的新查询，再用于知识库检索。</p></section><section id="向量模型" class="section"><h4 id="向量模型-h4">向量模型</h4><p>向量模型用于将原始输入Prompt和知识文本转化为数值向量，以便计算语义相似度。默认的<strong>官方向量</strong>（text-embedding-v2）除支持中英双语外，还支持多种语言，并对向量结果进行归一化处理（暂不支持更改）。</p><p>知识库使用的向量维度（无法修改）：</p><ul>
+<li>官方向量（text-embedding-v2）：1,536维</li>
+<li>qwen3 多模态向量（qwen3-vl-embedding）：使用场景选择「视觉理解」时自动启用，支持对图片和富文本文档进行视觉理解后生成向量</li>
+</ul></section><section id="排序模型" class="section"><h4 id="排序模型-h4">排序模型</h4><p>排序模型位于知识库外部，对向量检索初步召回的候选切片进行二次排序，并返回相似度分数最高的前K个文本切片。qwen3-rerank（hybrid）官方排序（推荐）综合考量语义相关性与文本匹配特征（如BM25得分），能更好地处理需要精确关键词命中的查询；若只需语义排序，请选择qwen3-rerank。</p><strong>排序模型模式</strong><p>在创建知识库时，可以在「排序模型模式」配置项中选择以下三种模式之一：</p><ul>
+<li><strong>问答模式（默认）：</strong>根据查询与候选切片的&quot;问答匹配度&quot;评分，适合用户提出完整问题、期望从切片中找到答案的场景。</li>
+<li><strong>相似模式：</strong>根据查询与候选切片的&quot;语义相似度&quot;评分，适合查询与切片表述风格相近的场景。</li>
+<li><strong>自定义高级模式：</strong>填写一段不超过 200 个字符的自然语言指令来干预重排序过程，适合有特殊排序需求的场景。</li>
+</ul><div class="note note-warning"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>警告</strong>排序模型模式<strong>仅在创建知识库时可选，创建完成后无法修改</strong>。配置前请确认以下限制：</p><ul>
+<li><strong>知识库类型限制：</strong>仅适用于文档搜索类、数据查询类、音视频搜索类知识库。<strong>图片问答类知识库不支持</strong>。</li>
+<li><strong>使用场景限制：</strong>仅<strong>基础文档问答</strong>使用场景支持。<strong>视觉理解（富文本文档）</strong>和<strong>极速问答</strong>不支持。</li>
+</ul></div></div></section><section id="相似度阈值" class="section"><h4 id="相似度阈值-h4">相似度阈值</h4><p>该阈值表示允许召回的文本切片的最低相似度分数，用于筛选排序模型返回的结果，只有分数超过此阈值的文本切片才会被召回。</p><div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>此处设置的是知识库的<strong>默认相似度阈值</strong>。将知识库关联到具体阿里云百炼应用时，还可为该应用单独设置阈值（将覆盖知识库的默认相似度阈值）。</p></div></div><p>降低此阈值预期会召回更多文本切片，但可能召回相关度较低的内容；提高此阈值会减少召回的文本切片数量，若设置过高，将导致知识库丢弃相关切片。</p><blockquote>
+<p>可通过命中测试对相似度阈值进行调优，以平衡召回率与精确率。</p>
+</blockquote></section><section id="最大召回数量" class="section"><h4 id="最大召回数量-h4">最大召回数量</h4><p>假设阿里云百炼应用关联了A1、A2和A3三个知识库，系统从这些库中检索与输入相关的切片，再通过排序模型重排序，选出最相关的前K条加入大模型的输入Token供回答参考。此K值即<strong>最大召回数量</strong>（上限为20），决定了排序模型提供给大模型参考的文本切片数量。</p><blockquote>
+<p>增大该值可提高大模型的回答准确性，但会相应增加大模型输入Token消耗。</p>
+</blockquote></section><section id="向量存储" class="section"><h4 id="向量存储-h4">向量存储</h4><p>选择向量数据库存储文本向量。<strong>内置</strong>的向量数据库可满足知识库的基本功能需求。如需管理、审计或监控数据库等高级功能，建议选择<strong>ADB-PG</strong>（AnalyticDB for PostgreSQL）。</p><blockquote>
+<p>购买ADB-PG实例时请开启 <strong>向量引擎优化</strong> ，否则阿里云百炼将无法使用此实例。</p>
+</blockquote></section></section>
+</li>
+</ol></div></section>
+<section class="collapse" id="accordion-创建说明-视觉理解"><p>创建说明（视觉理解）</p><div><p>选择<strong>视觉理解（富文本文档）</strong>使用场景后，知识库将使用多模态向量模型对文档进行视觉级理解，保留原始版面布局信息，而非采用传统的文本切片方式。</p><h4>文件格式限制 <span id="1uunj268uetqe"></span> <span id="xydso3xk9i2n8"></span></h4><p>在选择数据页签的文件上传区域，鼠标悬浮<strong>查看格式要求</strong>查看。</p><h4>索引配置差异 <span id="q12wky9ath9sm"></span> <span id="376juf1zafpnq"></span></h4><p>视觉理解场景下的索引配置与基础文档问答不同：</p><ul>
+<li><strong>向量模型：</strong>自动选择 qwen3 多模态向量（qwen3-vl-embedding），创建后不可更改。</li>
+<li><strong>多轮对话改写：</strong>可配置开启或关闭。</li>
+<li><strong>相似度阈值：</strong>默认 0.20。</li>
+<li><strong>最终召回最大数量：</strong>默认 5。</li>
+<li><strong>切片方式：</strong>视觉理解不使用传统文本切片（智能切分/自定义切分等），而是基于视觉索引对文档整页进行理解。</li>
+</ul><h4>编辑限制 <span id="yr9uqb8i80shq"></span> <span id="m11zxwpyfrcy0"></span></h4><ul>
+<li>Embedding 模型（qwen3 多模态向量）和向量存储类型（内置）创建后不可更改。</li>
+<li>知识库规格变更每天仅支持一次。</li>
+</ul></div></section>
+</li>
+</ul>
+</li>
+<li>
+<strong>数据查询（Chatbot 或 NL2SQL 场景）</strong>
+<ul>
+<li>
+<strong>适用场景：</strong>
+<ul>
+<li>
+<p>适合构建基于结构化数据（按预定义表结构组织的数据）的问答系统，例如 FAQ、商品数据、人员信息查询助手等。</p>
+</li>
+<li>
+<p>若数据为完整的 FAQ 问答对，请选择<strong>数据查询</strong>。例如，Excel 文件包含两列，分别为<code>问题</code>和<code>答案</code>。数据查询类知识库支持将<code>问题</code>列用于知识库检索，<code>答案</code>列用于大模型回答参考。</p>
+<blockquote>
+<p>文档搜索类知识库无法实现此效果。</p>
+</blockquote>
+</li>
+<li>
+<p>支持导入单份xlsx、xls格式的文档，文件大小限制20MB以内。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>数据源接入：</strong>支持本地上传 XLS 或 XLSX 文件。</p>
+<div class="note note-important"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>重要</strong><code>image_url</code>、<code>video_url</code>、<code>audio_url</code> 为系统保留字段名（用于存储图片、视频、音频等多媒体资源）。导入的数据表（Excel 文件）中<strong>请勿使用这三个名称作为列名（表头）</strong>，否则会与系统保留字段冲突，导致数据无法正常导入、影响后续检索与问答。如现有数据表已使用上述列名，请先重命名对应列后再导入。</p></div></div>
+<section class="collapse" id="accordion-创建说明-数据查询"><p>创建说明（数据查询）</p><div><ol>
+<li>
+<p><strong>选择数据：</strong>为知识库指定数据来源（含文件或内容）。数据源内容将导入知识库，用于后续检索。支持<strong>本地上传</strong>、<strong>云端导入</strong>两种方式。</p>
+<div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>知识库创建后数据源不可更改，且单个知识库不支持同时使用多个数据源。</p></div></div>
+<ul>
+<li><strong>本地上传：</strong>从本地计算机上传数据表（XLS 或 XLSX 格式，<strong>首行必须为表头</strong>）。</li>
+<li><strong>云端导入（选择数据表）：</strong>选择阿里云百炼的现有数据表。</li>
+</ul>
+</li>
+<li>
+<p><strong>索引配置：</strong>定义导入数据的处理和存储方式，直接影响检索效果。</p>
+<blockquote>
+<p>以下配置项中，仅&quot;向量存储&quot;选用 ADB-PG 时可能产生费用，其余配置均免费。</p>
+</blockquote>
+<section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-4" class="tabbed-content-box section"><section id="是否参与检索-参与模型回复" class="section"><h4 id="是否参与检索-参与模型回复-h4">是否参与检索/参与模型回复</h4><ul>
+<li>
+<p><strong>是否参与检索</strong>：开启后，知识库将在该列数据中执行检索。</p>
+</li>
+<li>
+<p><strong>是否参与模型回复</strong>：开启后，该列的检索结果将作为大模型生成回答的输入信息。示例配置：对&quot;姓名&quot;、&quot;性别&quot;、&quot;岗位&quot;、&quot;年龄&quot;列开启<strong>是否参与检索</strong>，仅对&quot;姓名&quot;和&quot;岗位&quot;列开启<strong>是否参与模型回复</strong>后，知识库将在所有列中执行检索，但仅将&quot;姓名&quot;和&quot;岗位&quot;两列的检索结果提供给大模型作为回答依据。</p>
+<p>由于&quot;年龄&quot;列未开启参与模型回复，关联该知识库的大模型仍无法回答&quot;张三的年龄&quot;。</p>
+</li>
+</ul></section><section id="多轮对话改写-2" class="section"><h4 id="多轮对话改写-2-h4">多轮对话改写</h4><p>开启该功能后，系统将调用专用轻量级模型，结合对话历史将用户当前问题改写为独立的、上下文完整的新查询，再用于知识库检索。</p></section><section id="向量模型-2" class="section"><h4 id="向量模型-2-h4">向量模型</h4><p>向量模型用于将原始输入Prompt和知识文本转化为数值向量，以便计算语义相似度。默认的<strong>官方向量</strong>（text-embedding-v2）除支持中英双语外，还支持多种语言，并对向量结果进行归一化处理（暂不支持更改）。</p><p>知识库使用的向量维度（无法修改）：</p><ul>
+<li>官方向量（text-embedding-v2）：1,536维</li>
+<li>qwen3 多模态向量（qwen3-vl-embedding）：使用场景选择「视觉理解」时自动启用，支持对图片和富文本文档进行视觉理解后生成向量</li>
+</ul></section><section id="排序模型-2" class="section"><h4 id="排序模型-2-h4">排序模型</h4><p>排序模型位于知识库外部，对向量检索初步召回的候选切片进行二次排序，并返回相似度分数最高的前K个文本切片。qwen3-rerank（hybrid）官方排序（推荐）综合考量语义相关性与文本匹配特征（如BM25得分），能更好地处理需要精确关键词命中的查询；若只需语义排序，请选择qwen3-rerank。</p><strong>排序模型模式</strong><p>在创建知识库时，可以在「排序模型模式」配置项中选择以下三种模式之一：</p><ul>
+<li><strong>问答模式（默认）：</strong>根据查询与候选切片的&quot;问答匹配度&quot;评分，适合用户提出完整问题、期望从切片中找到答案的场景。</li>
+<li><strong>相似模式：</strong>根据查询与候选切片的&quot;语义相似度&quot;评分，适合查询与切片表述风格相近的场景。</li>
+<li><strong>自定义高级模式：</strong>填写一段不超过 200 个字符的自然语言指令来干预重排序过程，适合有特殊排序需求的场景。</li>
+</ul><div class="note note-warning"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>警告</strong>排序模型模式<strong>仅在创建知识库时可选，创建完成后无法修改</strong>。配置前请确认以下限制：</p><ul>
+<li><strong>知识库类型限制：</strong>仅适用于文档搜索类、数据查询类、音视频搜索类知识库。<strong>图片问答类知识库不支持</strong>。</li>
+<li><strong>使用场景限制：</strong>仅<strong>基础文档问答</strong>使用场景支持。<strong>视觉理解（富文本文档）</strong>和<strong>极速问答</strong>不支持。</li>
+</ul></div></div></section><section id="相似度阈值-2" class="section"><h4 id="相似度阈值-2-h4">相似度阈值</h4><p>该阈值表示允许召回的文本切片的最低相似度分数，用于筛选排序模型返回的结果，只有分数超过此阈值的文本切片才会被召回。</p><div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>此处设置的是知识库的<strong>默认相似度阈值</strong>。将知识库关联到具体阿里云百炼应用时，还可为该应用单独设置阈值（将覆盖知识库的默认相似度阈值）。</p></div></div><p>降低此阈值预期会召回更多文本切片，但可能召回相关度较低的内容；提高此阈值会减少召回的文本切片数量，若设置过高，将导致知识库丢弃相关切片。</p><blockquote>
+<p>可通过命中测试对相似度阈值进行调优，以平衡召回率与精确率。</p>
+</blockquote></section><section id="最大召回数量-2" class="section"><h4 id="最大召回数量-2-h4">最大召回数量</h4><p>假设阿里云百炼应用关联了A1、A2和A3三个知识库，系统从这些库中检索与输入相关的切片，再通过排序模型重排序，选出最相关的前K条加入大模型的输入Token供回答参考。此K值即<strong>最大召回数量</strong>（上限为20），决定了排序模型提供给大模型参考的文本切片数量。</p><blockquote>
+<p>增大该值可提高大模型的回答准确性，但会相应增加大模型输入Token消耗。</p>
+</blockquote></section><section id="向量存储-2" class="section"><h4 id="向量存储-2-h4">向量存储</h4><p>选择向量数据库存储文本向量。<strong>内置</strong>的向量数据库可满足知识库的基本功能需求。如需管理、审计或监控数据库等高级功能，建议选择<strong>ADB-PG</strong>（AnalyticDB for PostgreSQL）。</p><blockquote>
+<p>购买ADB-PG实例时请开启 <strong>向量引擎优化</strong> ，否则阿里云百炼将无法使用此实例。</p>
+</blockquote></section></section>
+</li>
+</ol></div></section>
+</li>
+</ul>
+</li>
+<li>
+<strong>图片问答（图搜场景）</strong>
+<ul>
+<li>
+<strong>适用场景：</strong>
+<ul>
+<li>适合构建以图搜图、以图搜&quot;图文&quot;的多模态检索应用，如商品导购助手、视觉问答助手等。</li>
+</ul>
+</li>
+<li>
+<p><strong>数据源接入：</strong>支持本地上传 XLS 或 XLSX 文件。</p>
+<blockquote>
+<p>XLS、XLSX 文件  中需包含 <strong>公开可访问</strong> 的图片 URL，以便构建图片索引。详见下方创建说明。</p>
+</blockquote>
+<section class="collapse" id="accordion-创建说明-图片问答"><p>创建说明（图片问答）</p><div><ol>
+<li>
+<p><strong>选择数据：</strong>为知识库指定数据来源（含文件或内容）。数据源内容将导入知识库，用于后续检索。支持<strong>本地上传</strong>、<strong>云端导入</strong>（选择数据连接器中已有数据表）两种方式。</p>
+<div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>知识库创建后数据源不可更改，且单个知识库不支持同时使用多个数据源。</p></div></div>
+<ul>
+<li>
+<p><strong>本地上传：</strong>从本地计算机上传数据表（XLS 或 XLSX 格式）。</p>
+<div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong></p><ul>
+<li><strong>字段要求：</strong>数据表中至少需包含一个类型为<code>image_url</code>的字段，用于生成图片索引。</li>
+<li><strong>构建过程：</strong>知识库将访问<code>image_url</code>字段中的图片 URL，提取视觉特征并转换为向量存储。</li>
+<li><strong>检索过程：</strong>知识库将用户上传图片生成的向量与已存储的图片向量进行相似度比对，返回最相关的记录。</li>
+</ul></div></div>
+</li>
+<li>
+<p><strong>云端导入（选择数据表）：</strong>选择阿里云百炼应用数据中的现有数据表。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>索引配置：</strong>定义导入数据的处理和存储方式，直接影响检索效果。</p>
+<blockquote>
+<p>以下配置项中，仅&quot;向量存储&quot;选用 ADB-PG 时可能产生费用，其余配置均免费。</p>
+</blockquote>
+<section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-5" class="tabbed-content-box section"><section id="是否参与检索-参与模型回复-2" class="section"><h4 id="是否参与检索-参与模型回复-2-h4">是否参与检索/参与模型回复</h4><ul>
+<li>
+<p><strong>是否参与检索</strong>：开启后，知识库将在该列数据中执行检索。</p>
+</li>
+<li>
+<p><strong>是否参与模型回复</strong>：开启后，该列的检索结果将作为大模型生成回答的输入信息。示例配置：对&quot;姓名&quot;、&quot;性别&quot;、&quot;岗位&quot;、&quot;年龄&quot;列开启<strong>是否参与检索</strong>，仅对&quot;姓名&quot;和&quot;岗位&quot;列开启<strong>是否参与模型回复</strong>后，知识库将在所有列中执行检索，但仅将&quot;姓名&quot;和&quot;岗位&quot;两列的检索结果提供给大模型作为回答依据。</p>
+<p>由于&quot;年龄&quot;列未开启参与模型回复，关联该知识库的大模型仍无法回答&quot;张三的年龄&quot;。</p>
+</li>
+</ul></section><section id="多轮对话改写-3" class="section"><h4 id="多轮对话改写-3-h4">多轮对话改写</h4><p>开启该功能后，系统将调用专用轻量级模型，结合对话历史将用户当前问题改写为独立的、上下文完整的新查询，再用于知识库检索。</p></section><section id="向量模型-3" class="section"><h4 id="向量模型-3-h4">向量模型</h4><p>向量模型用于将原始输入 Prompt、知识文本及图片转化为数值化向量，以便进行相似度比较。详情请参见<a href="/help/zh/model-studio/embedding">文本与多模态向量化</a>。</p><ul>
+<li><strong>qwen2.5 多模态向量（qwen2.5-vl-embedding）：</strong>将单模态或混合模态输入表征为统一向量，适用于跨模态检索、图搜等场景。例如，输入一张衬衫图片并附加文本&quot;找相似风格但更显年轻的款式&quot;，模型能将图像与文本指令融合为一个向量进行理解。</li>
+<li><strong>多模态向量 v1（multimodal-embedding-v1）：</strong>为每个输入部分（图片、文字）分别生成独立向量。</li>
+<li><strong>qwen3 多模态向量（qwen3-vl-embedding）：</strong>qwen2.5-vl-embedding 的升级版本，在图文融合理解和跨模态检索精度方面进一步提升。</li>
+</ul></section><section id="排序模型-3" class="section"><h4 id="排序模型-3-h4">排序模型</h4><p>排序模型位于知识库外部，对向量检索初步召回的候选切片进行二次排序，并返回相似度分数最高的前K个文本切片。qwen3-rerank（hybrid）官方排序（推荐）综合考量语义相关性与文本匹配特征（如BM25得分），能更好地处理需要精确关键词命中的查询；若只需语义排序，请选择qwen3-rerank。</p><strong>排序模型模式</strong><p>在创建知识库时，可以在「排序模型模式」配置项中选择以下三种模式之一：</p><ul>
+<li><strong>问答模式（默认）：</strong>根据查询与候选切片的&quot;问答匹配度&quot;评分，适合用户提出完整问题、期望从切片中找到答案的场景。</li>
+<li><strong>相似模式：</strong>根据查询与候选切片的&quot;语义相似度&quot;评分，适合查询与切片表述风格相近的场景。</li>
+<li><strong>自定义高级模式：</strong>填写一段不超过 200 个字符的自然语言指令来干预重排序过程，适合有特殊排序需求的场景。</li>
+</ul><div class="note note-warning"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>警告</strong>排序模型模式<strong>仅在创建知识库时可选，创建完成后无法修改</strong>。配置前请确认以下限制：</p><ul>
+<li><strong>知识库类型限制：</strong>仅适用于文档搜索类、数据查询类、音视频搜索类知识库。<strong>图片问答类知识库不支持</strong>。</li>
+<li><strong>使用场景限制：</strong>仅<strong>基础文档问答</strong>使用场景支持。<strong>视觉理解（富文本文档）</strong>和<strong>极速问答</strong>不支持。</li>
+</ul></div></div></section><section id="相似度阈值-3" class="section"><h4 id="相似度阈值-3-h4">相似度阈值</h4><p>该阈值表示允许召回的文本切片的最低相似度分数，用于筛选排序模型返回的结果，只有分数超过此阈值的文本切片才会被召回。</p><div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>此处设置的是知识库的<strong>默认相似度阈值</strong>。将知识库关联到具体阿里云百炼应用时，还可为该应用单独设置阈值（将覆盖知识库的默认相似度阈值）。</p></div></div><p>降低此阈值预期会召回更多文本切片，但可能召回相关度较低的内容；提高此阈值会减少召回的文本切片数量，若设置过高，将导致知识库丢弃相关切片。</p><blockquote>
+<p>可通过命中测试对相似度阈值进行调优，以平衡召回率与精确率。</p>
+</blockquote></section><section id="最大召回数量-3" class="section"><h4 id="最大召回数量-3-h4">最大召回数量</h4><p>假设阿里云百炼应用关联了A1、A2和A3三个知识库，系统从这些库中检索与输入相关的切片，再通过排序模型重排序，选出最相关的前K条加入大模型的输入Token供回答参考。此K值即<strong>最大召回数量</strong>（上限为20），决定了排序模型提供给大模型参考的文本切片数量。</p><blockquote>
+<p>增大该值可提高大模型的回答准确性，但会相应增加大模型输入Token消耗。</p>
+</blockquote></section><section id="向量存储-3" class="section"><h4 id="向量存储-3-h4">向量存储</h4><p>选择向量数据库存储文本向量。<strong>内置</strong>的向量数据库可满足知识库的基本功能需求。如需管理、审计或监控数据库等高级功能，建议选择<strong>ADB-PG</strong>（AnalyticDB for PostgreSQL）。</p><blockquote>
+<p>购买ADB-PG实例时请开启 <strong>向量引擎优化</strong> ，否则阿里云百炼将无法使用此实例。</p>
+</blockquote></section></section>
+</li>
+</ol></div></section>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>使用场景</strong>可根据需求选择<strong>基础文档问答</strong>。</p>
+</li>
+</ol><p>在请求高峰时段，创建过程可能需要数小时（取决于数据量），请耐心等待。</p></section><section id="更新知识库" class="section"><h4 id="更新知识库-h4">更新知识库</h4><p>知识库内容的任何变更均会实时同步到所有引用该知识库的应用中。</p><section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-6" class="tabbed-content-box section"><section id="文档搜索类知识库" class="section"><h4 id="文档搜索类知识库-h4">文档搜索类知识库</h4><ol>
+<li>
+<strong>自动更新（推荐）</strong>
+<p>可通过整合对象存储 OSS、函数计算 FC 以及阿里云百炼知识库相关API实现。操作步骤如下：</p>
+<ol>
+<li><strong>创建 Bucket：</strong>前往<a href="https://oss.console.alibabacloud.com/bucket">OSS控制台</a>，创建用于存储原始文件的OSS Bucket。</li>
+<li><strong>创建知识库：</strong>创建一个非结构化知识库，用于存储私有知识内容。</li>
+<li><strong>创建自定义函数：</strong>前往<a href="https://fc.console.alibabacloud.com">FC控制台</a>，针对文件变更事件（如新增、删除等）创建函数，具体操作请参见<a href="https://www.alibabacloud.com/help/zh/doc-detail/2513527.htm">创建函数</a>。函数通过调用<a href="/help/zh/model-studio/rag-knowledge-base-api-guide">知识库API指南</a>的相关 API，将OSS上的文件变更同步至知识库。</li>
+<li><strong>创建OSS触发器</strong>：在FC中，为上一步创建的自定义函数关联<a href="https://www.alibabacloud.com/help/zh/doc-detail/2513613.htm">OSS触发器</a>。当检测到文件变更事件（例如新文件上传至OSS）时，对应触发器将被激活，驱动FC执行相应函数。</li>
+</ol>
+</li>
+<li>
+<strong>手动更新</strong>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<strong>查看详情</strong>。</p>
+<ul>
+<li>
+<p><strong>如何新增文件</strong>：单击<strong>上传数据</strong>，勾选数据连接器中的已有文件。</p>
+</li>
+<li>
+<p><strong>如何删除文件</strong>：找到目标文件后，单击其右侧的<strong>删除</strong>。</p>
+</li>
+<li>
+<p><strong>如何修改文件内容：</strong>当前不支持文件的原地更新或覆盖上传。需先删除知识库中的旧版本文件，再将修改后的新版本文件重新导入知识库。</p>
+<blockquote>
+<p>注意：保留旧版本文件可能导致过时内容被检索和召回。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol></section><section id="数据查询-图片问答类知识库" class="section"><h4 id="数据查询-图片问答类知识库-h4">数据查询、图片问答类知识库</h4><blockquote>
+<p><strong>说明</strong> ：图片问答类知识库的详情页没有直接的 <strong>上传数据</strong> 按钮，需通过 <strong>查看数据源</strong> 链接跳转到连接器详情页进行数据更新操作。</p>
+</blockquote><ul>
+<li>
+<strong>自动更新</strong>
+<p>不支持。</p>
+</li>
+<li>
+<strong>手动更新</strong>
+<p>当知识库的数据源为应用数据中的数据表时，只能手动更新，分为以下两步。</p>
+<ol>
+<li>
+<strong>步骤一：更新数据表</strong>
+<p>进入<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/data-center?dataType=1">应用数据</a>页签，在左侧列表中选择目标数据表，单击<strong>上传数据</strong>。</p>
+<ul>
+<li>
+<p><strong>如何插入新数据：</strong>导入类型选择<strong>增量上传</strong>。需上传一个<strong>仅包含表头和新增数据行</strong>的Excel文件。</p>
+<blockquote>
+<p>文件表头须与当前表结构一致。可使用页面上的 <strong>下载模板</strong> 功能获取标准表头文件，并在该文件中直接填写新数据。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>如何删除数据：</strong>导入类型选择<strong>覆盖上传</strong>。需上传一个<strong>包含表头及最新完整数据（已移除待删除记录）</strong>的Excel文件。</p>
+<blockquote>
+<p>如何获取全量数据：单击页面上的 <img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849939.png" alt="image" width="22"/> 下载XLSX格式数据。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>如何修改数据：</strong>导入类型选择<strong>覆盖上传</strong>。需上传一个<strong>包含表头及最新完整数据（已包含相应修改）</strong>的Excel文件。</p>
+</li>
+</ul>
+</li>
+<li>
+<strong>步骤二：将变更同步至知识库</strong>
+<p>返回<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>列表，找到目标知识库，单击卡片上的<strong>查看详情</strong>。单击数据表左上方的<img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4701799171/p816740.png" alt="image"/>图标，确认后即可将数据表的最新内容同步至知识库。</p>
+<blockquote>
+<p>每次更新后仍需手动重复以上步骤  。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul></section><section id="音视频搜索类知识库" class="section"><h4 id="音视频搜索类知识库-h4">音视频搜索类知识库</h4><ul>
+<li>
+<strong>自动更新</strong>
+<p>暂不支持。</p>
+</li>
+<li>
+<strong>手动更新</strong>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<strong>查看详情</strong>。</p>
+<ul>
+<li>
+<p><strong>如何新增文件</strong>：单击<strong>上传数据</strong>，勾选数据连接中的已有文件。</p>
+</li>
+<li>
+<p><strong>如何删除文件</strong>：找到目标文件后，单击其右侧的<strong>删除</strong>。</p>
+<blockquote>
+<p>此操作仅将文件从知识库中移除，不会删除  <a href="https://modelstudio.console.alibabacloud.com/?tab=app#/data-center">应用数据</a> 中的源文件。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>如何修改文件内容：</strong>当前不支持文件的原地更新或覆盖上传。需先删除知识库中的旧版本文件，再将修改后的新版本文件重新导入知识库。</p>
+<blockquote>
+<p>注意：保留旧版本文件可能导致过时内容被检索和召回。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul></section></section></section><section id="编辑知识库" class="section"><h4 id="编辑知识库-h4">编辑知识库</h4><p>知识库创建后，在编辑知识库页面仅支持修改<strong>知识库名称</strong>、<strong>知识库描述</strong>和<strong>相似度阈值</strong>；知识库规格（标准版/旗舰版）和旗舰版的RCU数量可通过下文<strong>变更配置</strong>调整，其余配置均无法更改（如需更改，须删除并重新创建知识库）。编辑操作仅支持通过控制台进行，<strong>无对应API</strong>。</p><p><strong>操作步骤：</strong>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png" alt="更多（...）" width="23"/>，再单击<strong>编辑</strong>。注意：同一知识库每个自然日最多允许变配1次，超出后操作将被静默拒绝（无错误提示）。</p></section><section id="删除知识库" class="section"><h4 id="删除知识库-h4">删除知识库</h4><div class="note note-warning"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>警告</strong>删除操作不可逆，请谨慎操作。</p></div></div><p>删除知识库前，建议先解除其与所有<strong>已发布</strong>的阿里云百炼应用的关联。</p><blockquote>
+<p>已关联的未发布应用不影响删除操作。</p>
+</blockquote><section class="collapse" id="accordion-删除知识库步骤"><p>删除知识库步骤</p><div><ol>
+<li>
+<p>对每个关联了该知识库的<strong>已发布</strong>应用，依次执行以下操作：</p>
+<ol>
+<li>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/app-center">应用管理</a>页面，找到关联该知识库的应用，单击<strong>配置</strong>。</li>
+<li>在知识库列表中移除该知识库，单击页面右上角的<strong>发布</strong>，按提示重新发布应用。</li>
+</ol>
+</li>
+<li>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png" alt="更多（...）" width="23"/>，再单击<strong>删除</strong>。</p>
+</li>
+</ol></div></section></section><section id="变更配置" class="section"><h4 id="变更配置-h4">变更配置</h4><p>旗舰版提供RCU以保障高QPS下的检索性能，并支持更大的存储容量；标准版适合开发测试或低并发场景。</p><div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong>标准版与旗舰版支持互转。旗舰版的RCU数量支持修改。</p><p>同一知识库每个自然日最多允许变配1次。</p></div></div><blockquote>
+<p><strong>RCU：</strong> RCU（Retrieval Compute Unit）是知识库检索并发能力的度量单位。1 RCU ≈ 支撑在线检索最高50 QPS。RCU越大，可支撑的并发数越高。</p>
+</blockquote><ul>
+<li>
+<strong>注意：</strong>
+<ul>
+<li>
+<p>如果知识库（旗舰版）使用平台存储，降级为标准版前，需将已用存储空间降至<strong>80</strong> GB以下。</p>
+<blockquote>
+<p>可通过删除知识库内的文件或数据来释放存储空间。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<strong>操作步骤：</strong>
+<ol>
+<li>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9066040671/p1015599.png" alt="更多（...）" width="23"/>，再单击<strong>编辑</strong>。</p>
+</li>
+<li>
+<p>根据当前版本，在弹出的窗口中选择相应操作：</p>
+<ul>
+<li><strong>标准版</strong>：选择<strong>升级</strong>。</li>
+<li><strong>旗舰版</strong>：选择<strong>降级</strong>或<strong>变更RCU数量</strong>。</li>
+</ul>
+</li>
+<li>
+<p>按照界面提示完成操作，单击<strong>确定</strong>保存后配置即时生效。</p>
+</li>
+</ol>
+</li>
+</ul></section><section id="命中测试" class="section"><h4 id="命中测试-h4">命中测试</h4><p>命中测试用于验证知识库能否为AI应用提供准确的知识输入。通过模拟用户提问，检查知识库的召回结果并调优相似度阈值。</p><p>命中测试中的排序模型支持三种模式：<strong>问答模式</strong>（默认，适合用户提问与文档内容不完全匹配的场景）、<strong>相似模式</strong>（适合查询与文档内容高度相似的场景）和<strong>自定义高级</strong>模式。不同模式下，同一查询的排序得分可能存在显著差异（例如，同一切片在问答模式下得分47%，在相似模式下可达69%）。</p><p>通过命中测试，可以：</p><ul>
+<li>验证知识库能否为AI应用提供有效的知识输入</li>
+<li>调优相似度阈值，平衡召回率与准确性</li>
+<li>发现知识库中的内容缺失或质量问题</li>
+</ul><h3>场景示例 <span id="e41bef5364gsg"></span> <span id="79d1da7a54zox"></span></h3><ul>
+<li>
+<strong>场景1：客户咨询产品价格</strong>
+</li>
+</ul><pre data-tag="codeblock" id="code-block" code-type="xCode" class="pre codeblock"><code>测试输入：&quot;你们的阿里云百炼手机多少钱？&quot;
+期望结果：能够召回包含价格信息的相关文本切片。
+</code></pre><ul>
+<li>
+<strong>场景2：技术问题排查</strong>
+</li>
+</ul><pre data-tag="codeblock" id="code-block-2" code-type="xCode" class="pre codeblock"><code>测试输入：&quot;设备连不上WiFi怎么办？&quot;
+期望结果：能够召回WiFi连接故障排除的相关文本切片。
+</code></pre><ul>
+<li>
+<strong>场景3：视觉理解文档检索（视觉理解知识库）</strong>
+</li>
+</ul><pre data-tag="codeblock" id="code-block-3" code-type="xCode" class="pre codeblock"><code>视觉理解知识库支持纯文字、纯图片和图文组合三种查询模式：
+模式1（纯文字）：输入&quot;Object Storage Service&quot;，召回文档和图片中的相关切片。
+模式2（纯图片）：上传一张产品截图，系统通过视觉理解匹配语义相近的切片。
+模式3（图+文字）：同时上传图片并输入描述文字，组合查询可提升召回相似度。
+</code></pre><ul>
+<li>
+<strong>场景4：极速问答（极速问答知识库）</strong>
+</li>
+</ul><pre data-tag="codeblock" id="code-block-4" code-type="xCode" class="pre codeblock"><code>极速问答知识库仅支持文本查询（不支持图片输入），适合结构化文档的快速检索：
+测试输入：&quot;千问Pro 8的价格是多少？&quot;
+期望结果：快速召回包含价格信息的 FAQ 切片。
+</code></pre><h3>操作步骤 <span id="df796de917ft5"></span> <span id="a601011d21njy"></span></h3><ol>
+<li>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">知识库</a>页面，找到目标知识库，单击卡片上的<strong>命中测试</strong>。</p>
+</li>
+<li>
+<p>在测试界面输入问题（建议收集用户常见问题），观察召回结果。</p>
+<ul>
+<li><strong>召回结果：</strong>即本次测试的命中结果（已按相似度降序排列），单击任一切片即可查看其具体内容。</li>
+<li><img class="image inline" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9579817271/p852037.png" alt="image" width="21"/><strong>图标：</strong>若为图片问答类知识库，系统会先将输入图片转为向量并检索相关记录，再将这些记录与提问一起交由大模型生成回答；若为文档搜索、数据查询类知识库，上传的图片不参与检索；若为使用场景选择「视觉理解」的文档搜索类知识库，上传图片同样参与检索，支持纯文字、纯图片和图文组合三种查询模式，图文组合查询可提升召回相似度。</li>
+</ul>
+</li>
+<li>
+<p>确认相关文本切片是否被正确召回。如未召回，需调整相似度阈值并重复上一步。</p>
+</li>
+<li>
+<p>单击<strong>查看历史召回记录</strong>，可对比不同阈值设置下的历史召回效果。</p>
+</li>
+</ol><h4><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7859266271/p849449.png" alt="image" width="200" height="400"/> <span id="c5959913339a5"></span></h4></section></section>
+<h2 id="配额与限制">配额与限制 <span id="6c48eb669ccgf"></span> <span id="ffc7f6a666uou"></span></h2>
+<ul>
+<li>
+<p>关于知识库支持的数据源与容量等信息，请参见<a href="/help/zh/model-studio/rag-knowledge-base-specifications">知识库配额与限制</a>。</p>
+</li>
+<li>
+<p>单个阿里云百炼应用可关联的知识库数量：</p>
+<ul>
+<li><strong>文档搜索类：</strong>最多<strong>5</strong>个</li>
+<li><strong>数据查询类：</strong>最多<strong>5</strong>个</li>
+<li><strong>图片问答类：</strong>最多<strong>1</strong>个</li>
+</ul>
+<p>不同类型知识库可同时关联，总数最多为<strong>11</strong>个。</p>
+</li>
+</ul>
+<h2 id="计费说明">计费说明 <span id="86c6785ed20na"></span> <span id="bb7f7287f29ak"></span></h2>
+<p>知识库功能本身免费，但调用引用了知识库的<a href="/help/zh/model-studio/application-introduction">阿里云百炼应用</a>时，可能产生相应费用。</p>
+<table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:33.33%"/><col style="width:33.33%"/><col style="width:33.34%"/></colgroup><thead><tr><th><strong>步骤</strong></th><th colspan="2"><strong>计费情况</strong></th></tr></thead><tbody><tr><td><p><a href="/help/zh/model-studio/rag-knowledge-base#c0fa1080aerzp">构建知识库</a></p></td><td colspan="2"><p>不收费。</p></td></tr><tr><td><p><a href="/help/zh/model-studio/rag-knowledge-base#db7f40d0f3a0q">集成到业务应用</a></p></td><td colspan="2"><p>调用阿里云百炼应用时，知识库召回的文本切片会增加大模型输入 Token 数量，从而可能增加模型推理（调用）费用。详情请参见<a href="/help/zh/model-studio/model-pricing">计费项与定价</a>。</p><blockquote>
+<p>注意：若仅通过调用<a href="/help/zh/model-studio/api-bailian-2023-12-29-retrieve">Retrieve 接口</a>在知识库中检索，不经过阿里云百炼应用生成回答，则不产生费用。</p>
+</blockquote></td></tr><tr><td><p><a href="/help/zh/model-studio/rag-knowledge-base#b1bfab3bec5da">管理与运维</a></p></td><td colspan="2"><p>不收费。</p></td></tr></tbody></table>
+<h2 id="api参考">API参考 <span id="d32ea482edj5m"></span> <span id="91f36bd3f6czo"></span></h2>
+<ul>
+<li>如需获取最新完整的知识库API列表及输入输出参数，请参见<a href="/help/zh/model-studio/api-bailian-2023-12-29-dir-knowledge-base">API 目录（知识库）</a>。</li>
+<li>如需了解相关API的具体用法和代码示例，请参见<a href="/help/zh/model-studio/rag-knowledge-base-api-guide">知识库API指南</a>。</li>
+</ul>
+<h2 id="常见问题">常见问题 <span id="e420d6347bls7"></span> <span id="a242cb8fe0vrj"></span></h2>
+<h3 id="构建知识库">构建知识库 <span id="0f20a5a8109ok"></span> <span id="85ab546d4dmrb"></span></h3>
+<section class="collapse" id="accordion-q-数据连接器中已导入知识库的文件-数据表能否删除"><p>Q: 数据连接器中已导入知识库的文件/数据表能否删除？</p><div><ul>
+<li><strong>文档搜索类知识库：</strong>可以删除。数据连接器与知识库中的文件相互独立，删除数据连接器中的源文件不影响已导入知识库的文件。</li>
+<li><strong>数据查询、图片问答类知识库：</strong>不可删除，否则会导致数据同步、查看知识库等功能异常。</li>
+</ul></div></section>
+<section class="collapse" id="accordion-q-调用知识库相关api时返回错误码-bailianindexservicenotopen-应如何处理"><p>Q: 调用知识库相关API时返回错误码 BailianIndexServiceNotOpen，应如何处理？</p><div><p>错误码 BailianIndexServiceNotOpen 表示阿里云百炼知识库服务尚未激活。请登录<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/knowledge-base">百炼控制台</a>，进入<strong>数据</strong> &gt; <strong>知识库</strong>页面，点击<strong>立即开通</strong>按钮激活知识库服务后重试。</p></div></section>
+<h3 id="处理图片及多模态内容">处理图片及多模态内容 <span id="086ae991a6bi5"></span> <span id="9e13851641b37"></span></h3>
+<section class="collapse" id="accordion-q-文件含插图-需阿里云百炼应用在回答时返回-应如何处理"><p>Q: 文件含插图（需阿里云百炼应用在回答时返回），应如何处理？</p><div><section data-tag="tabbed-content-box" outputclass="tabbed-content-box" id="sec-tabs-7" class="tabbed-content-box section"><section id="使用文档搜索类知识库" class="section"><h4 id="使用文档搜索类知识库-h4">使用文档搜索类知识库</h4><section class="collapse" id="accordion-方式一-仅适用智能体应用"><p>方式一（仅适用智能体应用）</p><div><ol>
+<li>
+<p>在<a href="/help/zh/model-studio/rag-knowledge-base#c0fa1080aerzp">构建知识库</a>时，知识库类型选择<strong>文档搜索</strong>，使用场景选择<strong>视觉理解（富文本文档）</strong>。</p>
+<blockquote>
+<p>选择视觉理解（富文本文档）回复后，知识库将从文件插图中提取摘要，大模型根据摘要与问题的相关性自主决定是否插入图片。</p>
+</blockquote>
+</li>
+<li>
+<p>创建或编辑智能体应用时，选择<strong>千问-Plus</strong>或<strong>千问-Plus-Latest</strong>模型（经测试，两款模型效果最佳）。点击<strong>文档知识库</strong>右侧的<strong>+</strong>按钮，添加上一步构建的知识库。</p>
+</li>
+<li>
+<p>实际问答效果：</p>
+<img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png" alt="image" width="650" height="832.844"/>
+</li>
+</ol></div></section><section class="collapse" id="accordion-方式二-适用智能体应用与工作流应用"><p>方式二（适用智能体应用与工作流应用）</p><div><ol>
+<li>
+<p>将图片上传至公网可访问位置并获取完整 URL。推荐使用 OSS，具体操作请参见<a href="https://www.alibabacloud.com/help/zh/doc-detail/2571360.htm">将图片上传至OSS并使用其文件URL</a>。</p>
+</li>
+<li>
+<p>在文件中插入完整 URL（不支持相对路径）。<strong>不支持直接在文档中嵌入图片文件</strong>（如通过复制粘贴或菜单插入本地图片），必须使用公网可访问的URL链接引用图片。</p>
+<blockquote>
+<p>若已按说明操作但图片仍无法显示，请检查文本切片中的URL是否完整，确认是否存在多余空格或特殊字符（可能被系统误解析），如有问题可直接编辑修正。</p>
+</blockquote>
+<table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:33.17%"/><col style="width:33.17%"/><col style="width:33.66%"/></colgroup><tbody><tr><td style="vertical-align:top"><strong>文件正确引用图片示例</strong></td><td style="vertical-align:top"><strong>提示词模板示例</strong></td><td style="vertical-align:top"><strong>实际问答效果</strong></td></tr><tr><td style="vertical-align:top"><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0699676371/p877345.png" alt="image" width="650" height="236.756"/></td><td style="vertical-align:top"><pre data-tag="codeblock" id="code-block-5" code-type="xCode" class="pre codeblock"><code># 知识库
+请记住以下材料，他们可能对回答问题有帮助。
+${documents}
+
+# 要求
+如果有图片链接，则以markdown的格式完整显示出来。
+</code></pre></td><td style="vertical-align:top"><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png" alt="image" width="650" height="832.844"/></td></tr></tbody></table>
+<table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:33.37%"/><col style="width:33.37%"/><col style="width:33.26%"/></colgroup><tbody><tr><td style="vertical-align:top"><strong>文件错误引用图片示例</strong></td><td style="vertical-align:top"><strong>提示词模板示例</strong></td><td style="vertical-align:top"><strong>实际问答效果</strong></td></tr><tr><td style="vertical-align:top"><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p877348.png" alt="image" width="650" height="529.243"/></td><td style="vertical-align:top"><pre data-tag="codeblock" id="code-block-6" code-type="xCode" class="pre codeblock"><code># 知识库
+请记住以下材料，他们可能对回答问题有帮助。
+${documents}
+
+# 要求
+如果有图片，请展示图片。
+</code></pre></td><td style="vertical-align:top"><p>在对话测试界面中，输入提示语后，AI 回复仅返回纯文本内容，未展示任何图片。</p><p><strong>解释：</strong>直接在文件中嵌入图片时，阿里云百炼应用不会在回答中展示该图片。</p></td></tr></tbody></table>
+</li>
+</ol></div></section></section><section id="使用图片问答类知识库" class="section"><h4 id="使用图片问答类知识库-h4">使用图片问答类知识库</h4><ol>
+<li>
+<p>将图片上传至公网可访问位置并获取完整 URL。推荐使用 OSS，具体操作请参见<a href="https://www.alibabacloud.com/help/zh/doc-detail/2571360.htm">将图片上传至OSS并使用其文件URL</a>。</p>
+</li>
+<li>
+<p>在<a href="https://modelstudio.console.alibabacloud.com/?tab=app#/data-center?dataType=1">表格</a>页签中新建数据表，并添加 <strong>image_url</strong> 类型字段用于存储图片的完整 URL。</p>
+<div class="note note-note"><div class="note-icon-wrapper"></div><div class="note-content"><p><strong>说明</strong></p><ul>
+<li><strong>image_url</strong> 字段不支持存储相对路径。</li>
+<li>单个 <strong>image_url</strong> 字段不支持存储多个图片 URL。若单条记录需关联多张图片，须为每张图片分别创建独立的 <code>image_url</code> 字段（如 <code>image_1</code>、<code>image_2</code> 等）。</li>
+<li>数据表中每个 <strong>image_url</strong> 指向的图片大小不得超过 3 MB，超出限制将导致知识库创建失败。</li>
+<li>数据表创建后无法新增或修改 <strong>image_url</strong> 类型字段，请在初次设计表结构时预留所有所需的图片字段。</li>
+</ul></div></div>
+<p>字段<strong>类型</strong>支持 string、double、long、datetime 和 image_url。配置完成后可在<strong>导入数据</strong>区域上传 xlsx 或 xls 格式文件（不超过 20 MB）。</p>
+</li>
+<li>
+<p><a href="/help/zh/model-studio/rag-knowledge-base#c0fa1080aerzp">构建知识库</a>时，<strong>知识库类型</strong>选择<strong>图片问答</strong>。</p>
+</li>
+<li>
+<p>创建或编辑智能体应用时，点击<strong>图片</strong>（图片问答类知识库）右侧的<strong>+</strong>按钮，添加上一步构建的知识库，并将提示词模板修改为：</p>
+</li>
+</ol><pre data-tag="codeblock" id="code-block-7" code-type="xCode" class="pre codeblock"><code># 知识库
+请记住以下材料，他们可能对回答问题有帮助。
+${documents}
+
+# 要求
+如果有图片，请展示图片。
+</code></pre><ol start="5">
+<li>
+<p>在页面右侧的输入框中发起提问。</p>
+<blockquote>
+<p>例如：&quot;简单介绍百炼X1手机。&quot;</p>
+</blockquote>
+<table style="display:table;table-layout:fixed;width:100%"><colgroup><col style="width:33.19%"/><col style="width:33.19%"/><col style="width:33.62%"/></colgroup><tbody><tr><td style="vertical-align:top"><strong>正确引用图片示例</strong></td><td style="vertical-align:top"><strong>提示词模板示例</strong></td><td style="vertical-align:top"><strong>用户提示词和阿里云百炼应用返回的结果</strong></td></tr><tr><td style="vertical-align:top"><p>在百炼平台知识库数据预览页面，<strong>百炼手机</strong>数据显示<strong>导入成功</strong>。结构化数据表格包含三列：<strong>型号</strong>（string）、<strong>说明</strong>（string）、<strong>图片</strong>（image_url）。示例数据行中，型号为<strong>百炼 X1</strong>，说明字段包含屏幕（6.7 英寸 1440x3200 像素 120Hz）、存储（256GB+12GB RAM）、电池（5000mAh）、摄像（超感光四摄）及参考售价 4599-4999 等参数，图片列为对应的图片资源 URL。</p></td><td style="vertical-align:top"><pre data-tag="codeblock" id="code-block-8" code-type="xCode" class="pre codeblock"><code># 知识库
+请记住以下材料，他们可能对回答问题有帮助。
+${documents}
+
+# 要求
+如果有图片，请展示图片。
+</code></pre></td><td style="vertical-align:top"><img class="image break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1699676371/p903021.png" alt="image" width="650" height="832.844"/></td></tr></tbody></table>
+</li>
+</ol></section></section></div></section>
+<h3 id="权限与安全">权限与安全 <span id="54f300f044wr0"></span> <span id="09b8f6c643g8s"></span></h3>
+<section class="collapse" id="accordion-q-操作知识库时-遇到报错-缺少该模块的权限-应如何处理"><p>Q: 操作知识库时，遇到报错&quot;缺少该模块的权限&quot;，应如何处理？</p><div><p><a href="/help/zh/model-studio/permission-management-overview">RAM 用户</a>默认无法执行创建、更新、删除知识库等写操作，需由阿里云账号（主账号）为其授予<code>管理员</code>权限（或至少同时包含<code>应用数据-操作</code>与<code>知识库-操作</code>权限）<a href="/help/zh/model-studio/permission-management-overview">页面权限</a>。</p></div></section>
+<section class="collapse" id="accordion-q-知识库是否私有-其他组织或用户能否访问"><p>Q: 知识库是否私有？其他组织或用户能否访问？</p><div><p>知识库仅限其所在业务空间内的成员访问和操作，不对外公开。</p></div></section>
+<section class="collapse" id="accordion-q-阿里云是否会使用我账号下的知识库回答其他用户的问题"><p>Q: 阿里云是否会使用我账号下的知识库回答其他用户的问题？</p><div><p>阿里云严格保护数据隐私，不会将您的知识库用于回答其他用户的问题或模型训练。数据安全与隐私承诺详见<a href="/help/zh/model-studio/privacy-notice">合规资质与隐私说明</a>。</p></div></section>
+<h3 id="迁移与导出">迁移与导出 <span id="75e69c2a34dsr"></span> <span id="7d90de8f583ck"></span></h3>
+<section class="collapse" id="accordion-q-如何导出知识库到本地"><p>Q: 如何导出知识库到本地？</p><div><p>当前不支持一键导出。您可调用<a href="/help/zh/model-studio/api-bailian-2023-12-29-listchunks">ListChunks</a>接口，编写脚本批量拉取文档和切片数据作为替代方案。</p></div></section></div>
+</div>
+</article>
+<script type="text/javascript">
+window.storeDocs = {
+language: '$lang',
+docGithubLink: '$!githubInfo.url'
+}
+</script>
+<div class="nav-footer">
+ </div>
+<div class="alicloud-document-ask clearfix"></div>
+<div class="feedback-message" style="display:none;">
+<span class="hasfeedback acon acon-done-16"></span>
+谢谢！我们已经收到了您的反馈。
+</div>
+</div>
+<div class="col-log-2 col-md-2 col-sm-0 col-xs-0 nav-catalog">
+<div class="article-catalog" id="articleCatalog"></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<script
+crossorigin
+src="https://g.alicdn.com/code/lib/??react/16.8.6/umd/react.production.min.js,react-dom/16.8.6/umd/react-dom.production.min.js"
+></script>
+<script
+src="https://g.alicdn.com/code/lib/lodash.js/4.17.21/lodash.min.js"
+crossorigin="anonymous"
+></script>
+<script src="//g.alicdn.com/aliyun-help/help-portal-fe/0.12.66/js/vendor.js"></script>
+<script src="//g.alicdn.com/aliyun-help/help-portal-fe/0.12.66/js/index.js"></script>
+<script defer src="https://cloud-assets.alicdn.com/alicdn/dawn/user-tracker/latest/js/index.js"></script>
+</body>
+</html>

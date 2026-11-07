@@ -1,0 +1,33 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/scan.pdf",
+  "status": "empty",
+  "init_s": 8.462497498840094e-05,
+  "parse_s": 0.0011545829474925995,
+  "total_s": 0.0012392079224810004,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "no_text",
+      "message": "没有文本层：可能是扫描页或空白页，需要核验并按需 OCR",
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "code": "pdf_layout",
+      "message": "基础解析只提取文本，不恢复复杂表格结构或识别图片；多栏顺序需核验",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 63.96875,
+  "process_request_index": 3,
+  "wall_s": 0.0028945410158485174
+}

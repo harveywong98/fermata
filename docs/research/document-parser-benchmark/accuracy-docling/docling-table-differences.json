@@ -1,0 +1,98 @@
+[
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 0,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLcommand:  - \"--cluster-announce-ip 123.57.105.232\"  # 不然从节点连不上",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 1,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLclickhouse:  extra_hosts:    - \"sw-postgres:123.57.105.232\"   # asdb 中执行 show create risk_dict; 可以看到建表语句使用的 host 是这里",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 2,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLtequila:  environment:    - TEQUILA_CLICKHOUSE_NODES=123.57.105.232,123.249.127.100 # clickhouse节点",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 3,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLwhisky:  environment:    - ETCD_ENDPOINTS=123.57.105.232:2379          # 主节点etcd    - PROCESS_REDIS_ADDRESSES=123.57",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 4,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLtequila:  environment:    - TEQUILA_OPTIONS_DISABLETASK=true                  # 关闭批量任务    - TEQUILA_SHEIKAH_URL=http",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 5,
+    "row": 0,
+    "col": 0,
+    "expected": "YAMLmaiar:  environment:    - ETCD_ENDPOINTS=123.57.105.232:2379 # 主节点etcd",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 6,
+    "row": 0,
+    "col": 0,
+    "expected": "YAML代码块clickhouse:  extra_hosts:    - \"sw-postgres:123.57.105.232\" # 数据库中用到的自定义域名，指向主节点    - \"sw-tequila:123.57.105.232\"",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 7,
+    "row": 0,
+    "col": 0,
+    "expected": "Plain Textdocker exec -it sw_asdb clickhouse-client # 进入数据库select * from system.clusters             # 执行这个SQL，看看主节点能不能连",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+    "table": 8,
+    "row": 0,
+    "col": 0,
+    "expected": "Plain Textcurl 127.0.0.1:8088/as_ping               # 在主节点 curl 十次、在系统里创建几条流量docker exec -it sw_asdb clickhouse-client #",
+    "actual": "[MISSING]"
+  },
+  {
+    "file": "corpus/docx/fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f.docx",
+    "table": 0,
+    "row": 2,
+    "col": 7,
+    "expected": "2102314UJFN0S3100044",
+    "actual": ""
+  },
+  {
+    "file": "corpus/docx/fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f.docx",
+    "table": 0,
+    "row": 3,
+    "col": 7,
+    "expected": "2102314UJFN0S3100047",
+    "actual": ""
+  },
+  {
+    "file": "corpus/docx/fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f.docx",
+    "table": 0,
+    "row": 4,
+    "col": 7,
+    "expected": "2102314UJFN0S3100034",
+    "actual": ""
+  }
+]

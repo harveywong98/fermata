@@ -1,0 +1,26 @@
+{
+  "engine": "baseline",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/275653572cf8a81782f6abf15e870925810184d0dee295fa834f5329fdef6d77.pdf",
+  "status": "ok",
+  "init_s": 0.00011233298573642969,
+  "parse_s": 2.138575709075667,
+  "total_s": 2.1386880420614034,
+  "chars": 51799,
+  "blocks": 63,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 63,
+  "replacement_chars": 0,
+  "warnings": [
+    {
+      "code": "pdf_layout",
+      "message": "基础解析只提取文本，不恢复复杂表格结构或识别图片；多栏顺序需核验",
+      "source": {}
+    }
+  ],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 149.90625,
+  "process_request_index": 37,
+  "wall_s": 2.146392041933723
+}

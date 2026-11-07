@@ -1,0 +1,838 @@
+{
+  "documents": [
+    {
+      "sha256": "9086710806f7b856c698db1951da59f83c2af94dbe92fedd01b5816c4774c4b9",
+      "extension": ".pdf",
+      "bytes": 2784192,
+      "file": "corpus/pdf/9086710806f7b856c698db1951da59f83c2af94dbe92fedd01b5816c4774c4b9.pdf",
+      "sources": [
+        "/Users/mac/MyDocuments/01 产品价值/【安胜】#生意机会关键词#-合作伙伴-客户-0412.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "bada522c507e359c44b7b7ceef37ee8e6d560dc9ae656dead963dde4b41f7147",
+      "extension": ".docx",
+      "bytes": 14024,
+      "file": "corpus/docx/bada522c507e359c44b7b7ceef37ee8e6d560dc9ae656dead963dde4b41f7147.docx",
+      "sources": [
+        "/Users/mac/MyDocuments/90 Tests/全体客舱乘务员.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "6ff825479d09a73513e2b0be3af87b8e296093975c672f3ef737e167237b879d",
+      "extension": ".docx",
+      "bytes": 10855,
+      "file": "corpus/docx/6ff825479d09a73513e2b0be3af87b8e296093975c672f3ef737e167237b879d.docx",
+      "sources": [
+        "/Users/mac/MyDocuments/90 Tests/身份证号测试.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "2ec5f1ba2b54147ceb43101b2ac4ae4a7590ed1bef6f359680d046a43e052fc1",
+      "extension": ".docx",
+      "bytes": 1424848,
+      "file": "corpus/docx/2ec5f1ba2b54147ceb43101b2ac4ae4a7590ed1bef6f359680d046a43e052fc1.docx",
+      "sources": [
+        "/Users/mac/MyDocuments/02 产品功能/山东航空分析.docx",
+        "/Users/mac/MyDocuments/02 产品功能/山东航空分析_副本.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "5f204a2be434cf47a1b2ec98499347afb79723ab62a8ab6c782158c799560cb9",
+      "extension": ".pdf",
+      "bytes": 6759551,
+      "file": "corpus/pdf/5f204a2be434cf47a1b2ec98499347afb79723ab62a8ab6c782158c799560cb9.pdf",
+      "sources": [
+        "/Users/mac/MyDocuments/10 技术/4天实战 轻松玩转docker.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "e4f5dfea3108db200ee2934b0604d0ded1de099fbb242b6710869e4195bb0f84",
+      "extension": ".xlsx",
+      "bytes": 12095,
+      "file": "corpus/xlsx/e4f5dfea3108db200ee2934b0604d0ded1de099fbb242b6710869e4195bb0f84.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/工作簿3.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "49afcf48b21c9275616d00c3d8427a02527769a04d0394b807a0743c9be6b348",
+      "extension": ".xlsx",
+      "bytes": 33962,
+      "file": "corpus/xlsx/49afcf48b21c9275616d00c3d8427a02527769a04d0394b807a0743c9be6b348.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/工作簿2.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "394eebd56e9fbaad29e4907a95eab90c47174a3cb1c92408a5096a5195bf9bc1",
+      "extension": ".xlsx",
+      "bytes": 10193,
+      "file": "corpus/xlsx/394eebd56e9fbaad29e4907a95eab90c47174a3cb1c92408a5096a5195bf9bc1.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/工作簿5.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "7800b6b9e04cb6cddad1c0530230060347baefa547464b902b19166ad5d9c9ea",
+      "extension": ".xlsx",
+      "bytes": 13737,
+      "file": "corpus/xlsx/7800b6b9e04cb6cddad1c0530230060347baefa547464b902b19166ad5d9c9ea.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/工作簿4.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "9cb64bbbdc39c0262958bb7f92eaa5c8121a715d1b4d16186c135fb2a0835ca9",
+      "extension": ".xlsx",
+      "bytes": 26308,
+      "file": "corpus/xlsx/9cb64bbbdc39c0262958bb7f92eaa5c8121a715d1b4d16186c135fb2a0835ca9.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/0517付款用户.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "2575ba96ac9aa38d69b04f1f0bb9ba7f56091feed52d49468c618494718ab614",
+      "extension": ".xlsx",
+      "bytes": 21635,
+      "file": "corpus/xlsx/2575ba96ac9aa38d69b04f1f0bb9ba7f56091feed52d49468c618494718ab614.xlsx",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/九元问题排查/工作簿1.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "3f9986f36fa094d2160552569f1129564fd9c90c9563e313b7d9eda6145d660a",
+      "extension": ".pdf",
+      "bytes": 436449555,
+      "file": "corpus/pdf/3f9986f36fa094d2160552569f1129564fd9c90c9563e313b7d9eda6145d660a.pdf",
+      "sources": [
+        "/Users/mac/MyDocuments/99 Archive/性能之巅 系统、企业与云可观测性（第2版） (Brendan Gregg) (Z-Library).pdf",
+        "/Users/mac/Zotero/storage/574NZ52Q/(美)Brendan Gregg著;徐章宁,吴寒思,余亮译. 和 格雷格 (Gregg, Brendan) - 2022 - 性能之巅 系统,企业与云可观测性 = Systems performance.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "5f7b96f4d4c067e388f123a447703db2a4cff0c60518a62a3716bb8217ac07d3",
+      "extension": ".pdf",
+      "bytes": 322846,
+      "file": "corpus/pdf/5f7b96f4d4c067e388f123a447703db2a4cff0c60518a62a3716bb8217ac07d3.pdf",
+      "sources": [
+        "/Users/mac/Documents/Obsidian/Default/MS/99尝试/二阶段/王佳伟-Go服务端开发（AI）-6年.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "dca50eaf34f0c89ccb0698ab50331d0adb0ded274d5923968064ec9f3f9ba263",
+      "extension": ".pdf",
+      "bytes": 311992,
+      "file": "corpus/pdf/dca50eaf34f0c89ccb0698ab50331d0adb0ded274d5923968064ec9f3f9ba263.pdf",
+      "sources": [
+        "/Users/mac/Documents/Obsidian/Default/MS/简历/PDF版本(对外)/王佳伟-Go服务端开发-6年.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "9b0f63a22c586552e48b86e5a2fda836117a1a644d253adac916f5ae7047bddc",
+      "extension": ".docx",
+      "bytes": 554823,
+      "file": "corpus/docx/9b0f63a22c586552e48b86e5a2fda836117a1a644d253adac916f5ae7047bddc.docx",
+      "sources": [
+        "/Users/mac/Downloads/奇安信网神网络数据传感器（NDS系列）版本说明书【6.4.11.101573】.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "df17e00e4204d17aef05e0ea5ca56584c065c14e830211807786342438d60e68",
+      "extension": ".pdf",
+      "bytes": 3625996,
+      "file": "corpus/pdf/df17e00e4204d17aef05e0ea5ca56584c065c14e830211807786342438d60e68.pdf",
+      "sources": [
+        "/Users/mac/Downloads/【Akamai】什么是 API 安全.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "5f74b7dbb98903ecc88934ca3ead3bb2f198c28dac42c7aa97cb25d9d321ad71",
+      "extension": ".pdf",
+      "bytes": 7080989,
+      "file": "corpus/pdf/5f74b7dbb98903ecc88934ca3ead3bb2f198c28dac42c7aa97cb25d9d321ad71.pdf",
+      "sources": [
+        "/Users/mac/Downloads/【安全牛】API安全技术应用指南（2024）.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "f41a322af6b01f037529234f057c47468fc85198a4d0d093c569c9853e2d745d",
+      "extension": ".docx",
+      "bytes": 177558,
+      "file": "corpus/docx/f41a322af6b01f037529234f057c47468fc85198a4d0d093c569c9853e2d745d.docx",
+      "sources": [
+        "/Users/mac/Downloads/API 资产报告（每日）[2026-10-26 00_00_00--2026-10-26 23_59_59]1.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "b0f3cdcd647f4dca4fb98d0e26bc1bd3755b9d63a90996b74593e6761818f556",
+      "extension": ".pdf",
+      "bytes": 368424,
+      "file": "corpus/pdf/b0f3cdcd647f4dca4fb98d0e26bc1bd3755b9d63a90996b74593e6761818f556.pdf",
+      "sources": [
+        "/Users/mac/Downloads/Gmail - 您的Google Play订单收据(2026年9月17日).pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "fbcc052ee24769ba3bfb85f4324cbdaecb9fbae2a98a47bf199a27a0f81d470d",
+      "extension": ".docx",
+      "bytes": 2150249,
+      "file": "corpus/docx/fbcc052ee24769ba3bfb85f4324cbdaecb9fbae2a98a47bf199a27a0f81d470d.docx",
+      "sources": [
+        "/Users/mac/Downloads/秦皇岛银行数据安全管控平台健康检查方案.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "52ff6fd20e5abe280bf2be276eabb4c7cf0e5cb4ce01e69b64d8283535edc698",
+      "extension": ".pdf",
+      "bytes": 327993,
+      "file": "corpus/pdf/52ff6fd20e5abe280bf2be276eabb4c7cf0e5cb4ce01e69b64d8283535edc698.pdf",
+      "sources": [
+        "/Users/mac/Downloads/API 网关 和 API 安全平台-区别.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "ffa3fe7e856c941c0d47d272d0834ad58f3ffa84560a5b1e99205ae4e6208f8a",
+      "extension": ".docx",
+      "bytes": 55869,
+      "file": "corpus/docx/ffa3fe7e856c941c0d47d272d0834ad58f3ffa84560a5b1e99205ae4e6208f8a.docx",
+      "sources": [
+        "/Users/mac/Downloads/vip唯品会-250312-API-IP访问敏感数据数量.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "59bd360a705ec59ea2d04e4e7e85b0c5478acc6753df4a868e5e316f26ced266",
+      "extension": ".pdf",
+      "bytes": 343128,
+      "file": "corpus/pdf/59bd360a705ec59ea2d04e4e7e85b0c5478acc6753df4a868e5e316f26ced266.pdf",
+      "sources": [
+        "/Users/mac/Downloads/王佳伟-Go服务端开发（AI）-6年.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "1d63a4f5bcc43871c8667d5777bed895d9228e14d961bf48dba8ef9baecc16ad",
+      "extension": ".pdf",
+      "bytes": 1569456,
+      "file": "corpus/pdf/1d63a4f5bcc43871c8667d5777bed895d9228e14d961bf48dba8ef9baecc16ad.pdf",
+      "sources": [
+        "/Users/mac/Downloads/guard-small-models-v0.2.4.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "1c470d37821c351efb74cc5274a965004dbba5054cc42376bba7b80ac78d0852",
+      "extension": ".xlsx",
+      "bytes": 10912,
+      "file": "corpus/xlsx/1c470d37821c351efb74cc5274a965004dbba5054cc42376bba7b80ac78d0852.xlsx",
+      "sources": [
+        "/Users/mac/Downloads/url统计.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255",
+      "extension": ".docx",
+      "bytes": 1820527,
+      "file": "corpus/docx/b0436a5b6d6336475df1a7e63fd371fdfa1a0fe8b03a017741e5ce8ebe315255.docx",
+      "sources": [
+        "/Users/mac/Downloads/集群部署.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "c39676b9efb747809e8c5a8a31edce4643f86a7706c5488d7d87631d1072a55b",
+      "extension": ".pdf",
+      "bytes": 6645027,
+      "file": "corpus/pdf/c39676b9efb747809e8c5a8a31edce4643f86a7706c5488d7d87631d1072a55b.pdf",
+      "sources": [
+        "/Users/mac/Downloads/网站云防护（安域）用户手册.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "58d30ab0a2538c5c8369454c7b0154efbc6dfcdcce71a6db9a6b5625b0aa10df",
+      "extension": ".docx",
+      "bytes": 327518,
+      "file": "corpus/docx/58d30ab0a2538c5c8369454c7b0154efbc6dfcdcce71a6db9a6b5625b0aa10df.docx",
+      "sources": [
+        "/Users/mac/Downloads/3866e00c5ec04791dc42cc0eb8c21622_2669978581344411683_m_图片附件上传格式说明.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "eb83c91fb343c3179b7922147f3323b5e31836553adfc6b9380861718ff71548",
+      "extension": ".pdf",
+      "bytes": 94779121,
+      "file": "corpus/pdf/eb83c91fb343c3179b7922147f3323b5e31836553adfc6b9380861718ff71548.pdf",
+      "sources": [
+        "/Users/mac/Downloads/奇安信天眼威胁监测与分析系统(天眼分析平台)V3.0.15.0-用户手册V1.0(20260723).pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "b4d089a6ab7c904f2a0f1f9276bdbfe4b7fb846794a1021564b0c04e20c733e6",
+      "extension": ".xlsx",
+      "bytes": 92408,
+      "file": "corpus/xlsx/b4d089a6ab7c904f2a0f1f9276bdbfe4b7fb846794a1021564b0c04e20c733e6.xlsx",
+      "sources": [
+        "/Users/mac/Downloads/系统漏扫-安全设备-华胜信安.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "b4820565976175b8f7c620addff59d15e429de36bdd314252de911dee65dafc1",
+      "extension": ".pdf",
+      "bytes": 2260322,
+      "file": "corpus/pdf/b4820565976175b8f7c620addff59d15e429de36bdd314252de911dee65dafc1.pdf",
+      "sources": [
+        "/Users/mac/Downloads/企业级Agent工程架构大纲.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "275653572cf8a81782f6abf15e870925810184d0dee295fa834f5329fdef6d77",
+      "extension": ".pdf",
+      "bytes": 5149466,
+      "file": "corpus/pdf/275653572cf8a81782f6abf15e870925810184d0dee295fa834f5329fdef6d77.pdf",
+      "sources": [
+        "/Users/mac/Downloads/网神SecFox日志收集与分析系统V5.0R7.4.3-一体机交付手册101V1.3(260604).pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "16321a733b673ae11484d340da4d7493328d494088c2f3bc21c1c2c1669a5b67",
+      "extension": ".docx",
+      "bytes": 48404,
+      "file": "corpus/docx/16321a733b673ae11484d340da4d7493328d494088c2f3bc21c1c2c1669a5b67.docx",
+      "sources": [
+        "/Users/mac/Downloads/【安胜】API安全建设白皮书.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "5a7a5e9f79f086fed9a3e7171cff8df9794e59e68b3b6631d91b723fbafd0486",
+      "extension": ".xlsx",
+      "bytes": 10521,
+      "file": "corpus/xlsx/5a7a5e9f79f086fed9a3e7171cff8df9794e59e68b3b6631d91b723fbafd0486.xlsx",
+      "sources": [
+        "/Users/mac/Downloads/服务器文档/固定资产入库信息.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "703544cab06c5ab0b8822626e60dfa79452ef988382d8e9029d01a1dd9579941",
+      "extension": ".docx",
+      "bytes": 162,
+      "file": "corpus/docx/703544cab06c5ab0b8822626e60dfa79452ef988382d8e9029d01a1dd9579941.docx",
+      "sources": [
+        "/Users/mac/Downloads/服务器文档/.~附件上传格式说明.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "ed2b9bb486e15d407515f8a6b2e5f255a108e5ea6132d6cc0c37bc473ee60052",
+      "extension": ".xlsx",
+      "bytes": 165,
+      "file": "corpus/xlsx/ed2b9bb486e15d407515f8a6b2e5f255a108e5ea6132d6cc0c37bc473ee60052.xlsx",
+      "sources": [
+        "/Users/mac/Downloads/服务器文档/.~固定资产入库信息.xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f",
+      "extension": ".docx",
+      "bytes": 15164,
+      "file": "corpus/docx/fce29a342c2ede3621f74506b4046ba4dd6e65d7d8a385b2dbf013b692ecd32f.docx",
+      "sources": [
+        "/Users/mac/Downloads/服务器文档/图片附件上传格式说明.docx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "672e1ae5eecd768a6a88c46360c75454b720a0de8fb8a9d72e56c7f2396f2af8",
+      "extension": ".pdf",
+      "bytes": 63647726,
+      "file": "corpus/pdf/672e1ae5eecd768a6a88c46360c75454b720a0de8fb8a9d72e56c7f2396f2af8.pdf",
+      "sources": [
+        "/Users/mac/Downloads/剑指OFFER(第2版).pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "aae72e9ffb83d2fe2988478c5a8c6a7460e9ddcc5e99017408a43683dab32ad4",
+      "extension": ".xlsx",
+      "bytes": 30951,
+      "file": "corpus/xlsx/aae72e9ffb83d2fe2988478c5a8c6a7460e9ddcc5e99017408a43683dab32ad4.xlsx",
+      "sources": [
+        "/Users/mac/Downloads/信息安全规范(GB_T+35273)(2026-09-07).xlsx"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "700e43b621cab3a598c05aaa2626f33f24d8362f859810cdc1e23b83d37c8f97",
+      "extension": ".pdf",
+      "bytes": 7860080,
+      "file": "corpus/pdf/700e43b621cab3a598c05aaa2626f33f24d8362f859810cdc1e23b83d37c8f97.pdf",
+      "sources": [
+        "/Users/mac/Desktop/用所选项目新建的文件夹/DK100说明书 转曲.pdf"
+      ],
+      "selection_reason": "priority personal directories"
+    },
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extension": ".pdf",
+      "bytes": 0,
+      "file": "corpus/pdf/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.6.0/pkg/samples/booklet/BookletFromImagesA4_2Up.pdf",
+        "/Users/mac/Developer/src/go/Project/whisky/resources/approval_content.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "442d39dffe470f040143941eef62cabd113adfc34ec72c2f73ce1cb1b99ef727",
+      "extension": ".pdf",
+      "bytes": 12765,
+      "file": "corpus/pdf/442d39dffe470f040143941eef62cabd113adfc34ec72c2f73ce1cb1b99ef727.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.12.1/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.10.2/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.12.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.11.1/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.15.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.11.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.8.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.6.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_cross_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/watermark/pdf/PdfMultistamp33.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "d0c35b518096ce5bbc14fad2b13eb824c4c5c397b55e28ea59c1e1742c978ff7",
+      "extension": ".pdf",
+      "bytes": 77349,
+      "file": "corpus/pdf/d0c35b518096ce5bbc14fad2b13eb824c4c5c397b55e28ea59c1e1742c978ff7.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.12.1/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.10.2/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.12.0/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.11.1/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.11.0/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.8.0/pkg/samples/form/primitives/combobox.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.6.0/pkg/samples/form/primitives/combobox.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "117e055498b5f26109c31becd27b550989d4b4f292aff466645e48169aff0aa0",
+      "extension": ".pdf",
+      "bytes": 112519,
+      "file": "corpus/pdf/117e055498b5f26109c31becd27b550989d4b4f292aff466645e48169aff0aa0.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/multifill/csv/person_15.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.15.0/pkg/samples/form/multifill/csv/person_15.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_cross_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/multifill/csv/person_15.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/multifill/csv/person_15.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "dc764a7577a85ebd3e9eb124427730828d887477aab387a99802aba7011b4cd3",
+      "extension": ".pdf",
+      "bytes": 338417,
+      "file": "corpus/pdf/dc764a7577a85ebd3e9eb124427730828d887477aab387a99802aba7011b4cd3.pdf",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.15.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_cross_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf",
+        "/Users/mac/OrbStack/docker/images/whisky_builder:latest/go/pkg/mod/github.com/pdfcpu/pdfcpu@v0.13.0/pkg/samples/form/flow/createFormAndUpdatePageCJKUserFont.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "a410f44ef0447c22a344a1dcd7aa700f559ac5ac73ed9807e9475678c122d67c",
+      "extension": ".pdf",
+      "bytes": 149305856,
+      "file": "corpus/pdf/a410f44ef0447c22a344a1dcd7aa700f559ac5ac73ed9807e9475678c122d67c.pdf",
+      "sources": [
+        "/Users/mac/Zotero/storage/EJWEL6QK/(美)Brendan Gregg著 ; 徐章宁, 吴寒思, 陈磊译 和 格雷格 (Gregg, Brendan) - 2015 - 性能之巅 洞悉系统, 企业与云计算 = Systems performance.pdf"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extension": ".docx",
+      "bytes": 0,
+      "file": "corpus/docx/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.docx",
+      "sources": [
+        "/Users/mac/Developer/src/go/Project/whisky/resources/approval_content.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "857b2539879d2573d1fb02b0e358392b91a9c3e33350a3d5830e5effab5a7667",
+      "extension": ".docx",
+      "bytes": 36854,
+      "file": "corpus/docx/857b2539879d2573d1fb02b0e358392b91a9c3e33350a3d5830e5effab5a7667.docx",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/02-含违规内容/MM01_V_014.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "a13a813ada774633c29f4bd3813d13e3dea5188b6ca6fb93456261454100909e",
+      "extension": ".docx",
+      "bytes": 37505,
+      "file": "corpus/docx/a13a813ada774633c29f4bd3813d13e3dea5188b6ca6fb93456261454100909e.docx",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/04-正常文档/MM01_N_013.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "4013a798cc1bb209f8572409cfbe195eed7e3de835c17804afe29daa3ff8fa64",
+      "extension": ".docx",
+      "bytes": 38554,
+      "file": "corpus/docx/4013a798cc1bb209f8572409cfbe195eed7e3de835c17804afe29daa3ff8fa64.docx",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据-客户版本/TS-MM-01/违规内容/MM01_V_005.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "acef55897693be5e6ee0a35528374b77e50b8ca5626fc827b1f163fd0614eeaf",
+      "extension": ".docx",
+      "bytes": 978060,
+      "file": "corpus/docx/acef55897693be5e6ee0a35528374b77e50b8ca5626fc827b1f163fd0614eeaf.docx",
+      "sources": [
+        "/Users/mac/Work/2024-12-Support-白皮书/API安全平台-资产梳理运营支撑能力.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "5169608171f070318f7326d69bf4083910c6df77297c4e118ebab09860d859ce",
+      "extension": ".docx",
+      "bytes": 9593762,
+      "file": "corpus/docx/5169608171f070318f7326d69bf4083910c6df77297c4e118ebab09860d859ce.docx",
+      "sources": [
+        "/Users/mac/Work/2024-06-Proj-unicom-zyy-sa/01 原始文档/API基础平台流量引入后初始配置流程.docx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "39cc6a625cfe52e31c1da156d47e0c75233d020014d67027343a9ed7e0d0fa9a",
+      "extension": ".xlsx",
+      "bytes": 3723,
+      "file": "corpus/xlsx/39cc6a625cfe52e31c1da156d47e0c75233d020014d67027343a9ed7e0d0fa9a.xlsx",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/servicewall/filetype@v0.0.0-20260423030056-1db73713e57a/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/servicewall/filetype@v0.0.0-20260805111003-785a67fcedf6/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/servicewall/filetype@v0.0.0-20261030073540-3ba5c29e100f/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.10/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.11/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.16/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.2/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.5/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.4/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.3/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.13/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.12/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.8/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.9/testdata/xlsx.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.7/testdata/xlsx.xlsx",
+        "/Users/mac/OrbStack/docker/images/whisky_cross_builder:latest/go/pkg/mod/github.com/servicewall/filetype@v0.0.0-20260423030056-1db73713e57a/testdata/xlsx.xlsx",
+        "/Users/mac/OrbStack/docker/images/whisky_builder:latest/go/pkg/mod/github.com/servicewall/filetype@v0.0.0-20260423030056-1db73713e57a/testdata/xlsx.xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "0bd9f4490758eec5fbeef2645cc81c9671945aac12add55b8c29fa0c034098fb",
+      "extension": ".xlsx",
+      "bytes": 5291,
+      "file": "corpus/xlsx/0bd9f4490758eec5fbeef2645cc81c9671945aac12add55b8c29fa0c034098fb.xlsx",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_031.xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "db92fcdfbf0ae5a322fca61d752b3a2fc5b2d7fa0c7143be1b286be58e3a600f",
+      "extension": ".xlsx",
+      "bytes": 6343,
+      "file": "corpus/xlsx/db92fcdfbf0ae5a322fca61d752b3a2fc5b2d7fa0c7143be1b286be58e3a600f.xlsx",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.10.1/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.6.1/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.8.1/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.10.0/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.9.0/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.9.1/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.8.1-0.20231130163141-a16182e004e7/test/MergeCell.xlsx",
+        "/Users/mac/go/pkg/mod/github.com/xuri/excelize/v2@v2.11.0/test/MergeCell.xlsx",
+        "/Users/mac/OrbStack/docker/images/tequila_builder:latest/go/pkg/mod/github.com/xuri/excelize/v2@v2.10.1/test/MergeCell.xlsx",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7234/fs/go/pkg/mod/github.com/xuri/excelize/v2@v2.10.1/test/MergeCell.xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "32beb00fa2fa51a8ed9dbddb957fdd9b3f2c17b97f165a1f2e8724f1b786dd05",
+      "extension": ".xlsx",
+      "bytes": 13729,
+      "file": "corpus/xlsx/32beb00fa2fa51a8ed9dbddb957fdd9b3f2c17b97f165a1f2e8724f1b786dd05.xlsx",
+      "sources": [
+        "/Users/mac/Work/2024-06-Proj-unicom-zyy-sa/41 交付给客户/01-部署前/规则对照表.xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "43c4c4e24fe4f1cbd08ecb9d032f1f9204d10d9f189335ea9ed5997e4b14d3e5",
+      "extension": ".xlsx",
+      "bytes": 34147,
+      "file": "corpus/xlsx/43c4c4e24fe4f1cbd08ecb9d032f1f9204d10d9f189335ea9ed5997e4b14d3e5.xlsx",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据-客户版本/TS-MM-03_样本清单.xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "a53966f8e62c2c2b459143dd3ec0c5a1a782ad2ef3714ed89bac88a8d1ada99f",
+      "extension": ".xlsx",
+      "bytes": 4324736,
+      "file": "corpus/xlsx/a53966f8e62c2c2b459143dd3ec0c5a1a782ad2ef3714ed89bac88a8d1ada99f.xlsx",
+      "sources": [
+        "/Users/mac/Work/2024-06-Proj-unicom-zyy-sa/41 交付给客户/02-生产环境/原始数据/列表清单(2024-09-09).xlsx"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "d548546329126695e2a76d0647fdfa77f9f3f9d0800cc0ce57fc689c06dcb861",
+      "extension": ".doc",
+      "bytes": 168,
+      "file": "corpus/doc/d548546329126695e2a76d0647fdfa77f9f3f9d0800cc0ce57fc689c06dcb861.doc",
+      "sources": [
+        "/Users/mac/Developer/src/go/Project/shrine/venv/lib/python3.9/site-packages/twisted/runner/newsfragments/9657.doc",
+        "/Users/mac/OrbStack/docker/containers/sw_openviking/app/.venv/lib/python3.13/site-packages/twisted/runner/newsfragments/9657.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "4f26e919f0b1cc3d44efa88833988c07dbff5f5127b0deade4439a2ed1293de6",
+      "extension": ".doc",
+      "bytes": 18432,
+      "file": "corpus/doc/4f26e919f0b1cc3d44efa88833988c07dbff5f5127b0deade4439a2ed1293de6.doc",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_001.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "69de7452c5fa453186361eaeac5c239b691130350d0c86e5d4765cc8de4eecda",
+      "extension": ".doc",
+      "bytes": 19456,
+      "file": "corpus/doc/69de7452c5fa453186361eaeac5c239b691130350d0c86e5d4765cc8de4eecda.doc",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据/TS-MM-01_样本数据_20260813/01-含敏感词/MM01_S_007.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "504bc783df3574d50728d5859b008a36b9162634bbabe9fdab967863c071e0a6",
+      "extension": ".doc",
+      "bytes": 19968,
+      "file": "corpus/doc/504bc783df3574d50728d5859b008a36b9162634bbabe9fdab967863c071e0a6.doc",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据-客户版本/TS-MM-01/正常文档/MM01_N_011.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "30cc728f3eec3dc23623d1aebd0064584cc16226f4db0c38a4f0361015318673",
+      "extension": ".doc",
+      "bytes": 22528,
+      "file": "corpus/doc/30cc728f3eec3dc23623d1aebd0064584cc16226f4db0c38a4f0361015318673.doc",
+      "sources": [
+        "/Users/mac/Developer/src/python/prompt-is-all-you-need-review/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc",
+        "/Users/mac/Developer/src/go/Project/prompt-is-all-you-need/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:amd64/app/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc",
+        "/Users/mac/OrbStack/docker/images/llm-defense-eval:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc",
+        "/Users/mac/OrbStack/docker/images/docker.servicewall.cn/ai_test:wangtest/app/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7223/fs/app/assets/AI防护测试数据-客户版本/TS-MM-01/敏感词/MM01_S_005.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "4489c2d43a2790efcfcf3eea569cc7792c50a63ecb9fc5ee8cc6ac3e89dc78a7",
+      "extension": ".doc",
+      "bytes": 1112064,
+      "file": "corpus/doc/4489c2d43a2790efcfcf3eea569cc7792c50a63ecb9fc5ee8cc6ac3e89dc78a7.doc",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.6/test/test.doc",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.doc",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.9/test/test.doc",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.4/test/test.doc",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.3/test/test.doc",
+        "/Users/mac/OrbStack/docker/images/tequila_builder:latest/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.doc",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7234/fs/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.doc"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "843819e8d2f3282aece5b64db4fa9e3f78385f7b292c0e8840ac1129ff90125c",
+      "extension": ".xls",
+      "bytes": 4096,
+      "file": "corpus/xls/843819e8d2f3282aece5b64db4fa9e3f78385f7b292c0e8840ac1129ff90125c.xls",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.10/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.11/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.16/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.13/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.12/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.8/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.9/testdata/xls.xls",
+        "/Users/mac/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.4.7/testdata/xls.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "bdc9cb5f13e01cecf773c897aef564a2ffb46614f07116e711d0ab64f65bdd41",
+      "extension": ".xls",
+      "bytes": 6656,
+      "file": "corpus/xls/bdc9cb5f13e01cecf773c897aef564a2ffb46614f07116e711d0ab64f65bdd41.xls",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.6/test/test.xls",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.xls",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.9/test/test.xls",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.4/test/test.xls",
+        "/Users/mac/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.3/test/test.xls",
+        "/Users/mac/OrbStack/docker/images/tequila_builder:latest/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.xls",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7234/fs/go/pkg/mod/github.com/richardlehane/mscfb@v1.0.7/test/test.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "b63801ee3272b0cc75820448ef00c7eb800842459450c53c57028ba67ee5218c",
+      "extension": ".xls",
+      "bytes": 18944,
+      "file": "corpus/xls/b63801ee3272b0cc75820448ef00c7eb800842459450c53c57028ba67ee5218c.xls",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20260211090229-a94e6286a811/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250605090825-a607610a1638/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20260514095712-dfa1a9764c1e/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250724060647-f5fd5c5a92ee/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.1-0.20260727040418-4de8e01ec78b/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.1-0.20260518014909-cb7c4f0191fd/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250625110707-22236418dabf/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20260828111305-06036831bba6/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20251223011352-812afcce0342/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20260827022550-5817be2a23ad/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20261001031929-c1eecc386a42/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20260828063644-f2073eb479d5/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.1-0.20260706035037-e84842557bb4/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20241231023817-3579a2f0b7b8/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250425040327-12b3360917e6/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250604043002-8b642855b07d/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.1-0.20260703091157-702cb3b7f1e8/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250725075657-c6e8ee112ca9/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20250529051217-89e7569545dc/testdata/002-test.xls",
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/docconv/v2@v2.0.0-20251202112927-376cb0328027/testdata/002-test.xls",
+        "/Users/mac/Developer/src/go/Project/docconv/testdata/002-test.xls",
+        "/Users/mac/OrbStack/docker/images/tequila_builder:latest/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20260828111305-06036831bba6/testdata/002-test.xls",
+        "/Users/mac/OrbStack/docker/volumes/buildx_buildkit_sw_builder0_state/runc-overlayfs/snapshots/snapshots/7234/fs/go/pkg/mod/github.com/!servicewall/docconv/v3@v3.0.0-20260828111305-06036831bba6/testdata/002-test.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "73ab13e7a2874023c2f3cde09eb9ec6f0e4e4c195c1c76156dc91f1633116a3e",
+      "extension": ".xls",
+      "bytes": 20480,
+      "file": "corpus/xls/73ab13e7a2874023c2f3cde09eb9ec6f0e4e4c195c1c76156dc91f1633116a3e.xls",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/xls@v1.0.1/Table.xls",
+        "/Users/mac/go/pkg/mod/github.com/sergeilem/xls@v0.0.1/Table.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "48521e23cd620283813142cc5b2fc63f5cad9c6f1aecde92dbc40ec062163f68",
+      "extension": ".xls",
+      "bytes": 77824,
+      "file": "corpus/xls/48521e23cd620283813142cc5b2fc63f5cad9c6f1aecde92dbc40ec062163f68.xls",
+      "sources": [
+        "/Users/mac/Work/2024-06-Proj-unicom-zyy-sa/41 交付给客户/01-部署前/防泄漏规则库说明.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    },
+    {
+      "sha256": "8dbd4b5c986638c0b4745c997085a2448cd74ecb252683a6599dd82880e36688",
+      "extension": ".xls",
+      "bytes": 1259520,
+      "file": "corpus/xls/8dbd4b5c986638c0b4745c997085a2448cd74ecb252683a6599dd82880e36688.xls",
+      "sources": [
+        "/Users/mac/go/pkg/mod/github.com/!servicewall/xls@v1.0.1/BigTable.xls"
+      ],
+      "selection_reason": "format/size quantile"
+    }
+  ],
+  "policy": "All priority-directory files plus up to 6 size quantiles per extension; not every collected file is tested."
+}

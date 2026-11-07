@@ -1,0 +1,11 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/ed2b9bb486e15d407515f8a6b2e5f255a108e5ea6132d6cc0c37bc473ee60052.xlsx",
+  "status": "error",
+  "error_type": "UnprocessableEntityError",
+  "error": "Not a valid XLSX file.",
+  "total_s": 0.0014014579355716705,
+  "peak_rss_mb": 469.296875,
+  "process_request_index": 6,
+  "wall_s": 0.005426499992609024
+}

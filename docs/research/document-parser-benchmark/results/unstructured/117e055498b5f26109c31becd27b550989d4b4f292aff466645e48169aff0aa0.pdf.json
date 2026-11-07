@@ -1,0 +1,20 @@
+{
+  "engine": "unstructured",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/117e055498b5f26109c31becd27b550989d4b4f292aff466645e48169aff0aa0.pdf",
+  "status": "ok",
+  "init_s": 4.292000085115433e-06,
+  "parse_s": 0.34590533294249326,
+  "total_s": 0.3459096249425784,
+  "chars": 341,
+  "blocks": 25,
+  "tables": 0,
+  "headings": 19,
+  "located_blocks": 25,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 462.546875,
+  "process_request_index": 23,
+  "wall_s": 0.3653831670526415
+}

@@ -1,0 +1,18 @@
+{
+  "engine": "unstructured",
+  "source": "fixtures/text-table.pdf",
+  "status": "ok",
+  "init_s": 8.643578249961138,
+  "parse_s": 17.54890729195904,
+  "total_s": 26.192485541920178,
+  "chars": 84,
+  "blocks": 6,
+  "tables": 0,
+  "headings": 5,
+  "located_blocks": 6,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 434.84375
+}

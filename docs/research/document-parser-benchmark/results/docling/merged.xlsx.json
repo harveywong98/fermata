@@ -1,0 +1,30 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/fixtures/merged.xlsx",
+  "conversion_status": "success",
+  "conversion_errors": [],
+  "convert_s": 0.005534500000067055,
+  "adapter_s": 0.0006175419548526406,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "ok",
+  "init_s": 3.4159747883677483e-06,
+  "parse_s": 0.006177125032991171,
+  "total_s": 0.006180541007779539,
+  "chars": 202,
+  "blocks": 1,
+  "tables": 1,
+  "headings": 0,
+  "located_blocks": 1,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 1,
+  "peak_rss_mb": 358.421875,
+  "process_request_index": 2,
+  "wall_s": 0.008230792009271681
+}

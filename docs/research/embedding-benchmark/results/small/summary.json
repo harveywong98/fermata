@@ -1,0 +1,128 @@
+{
+  "model": {
+    "key": "small",
+    "repo": "CompendiumLabs/bge-small-zh-v1.5-gguf",
+    "revision": "5bf683e6a1bd454bbb60ba051088c50731d63fcb",
+    "file": "bge-small-zh-v1.5-f16.gguf",
+    "url": "https://huggingface.co/CompendiumLabs/bge-small-zh-v1.5-gguf/resolve/5bf683e6a1bd454bbb60ba051088c50731d63fcb/bge-small-zh-v1.5-f16.gguf",
+    "download_exit": 0
+  },
+  "file_sha256": "ab9b81d9cd329c712eee379cf0068eabe6a5e2a01d0def61535eba9384085e2c",
+  "image": "sha256:154486a033345cef6be663d03c58ae1334b48f02da1236382e21efdc1067ddef",
+  "dataset_sha256": "fb3bc6970cc1eafe00a02f7a899834deca2ebe770f5875d150a43513fb80aaed",
+  "dimension": 512,
+  "max_tokens": 53,
+  "startup_s": 1.702878792071715,
+  "container_memory_peak_bytes": 132276224,
+  "batch_single_cosine": 1.0,
+  "metrics": {
+    "names/short/single": {
+      "n": 61,
+      "hit@1": 0.3114754098360656,
+      "hit@3": 0.5737704918032787,
+      "hit@5": 0.7377049180327869,
+      "hit@10": 0.8360655737704918,
+      "mrr@10": 0.4738810824876399
+    },
+    "names/context/single": {
+      "n": 61,
+      "hit@1": 0.639344262295082,
+      "hit@3": 0.8360655737704918,
+      "hit@5": 0.8524590163934426,
+      "hit@10": 0.9180327868852459,
+      "mrr@10": 0.7382058287795993
+    },
+    "names/context/multi": {
+      "n": 6,
+      "recall@3": 0.7208333333333333,
+      "recall@5": 0.8041666666666667,
+      "recall@10": 0.9333333333333333,
+      "recall@20": 0.9666666666666667,
+      "complete@3": 0.5,
+      "complete@5": 0.6666666666666666,
+      "complete@10": 0.8333333333333334,
+      "complete@20": 0.8333333333333334
+    },
+    "descriptions/short/single": {
+      "n": 61,
+      "hit@1": 0.32786885245901637,
+      "hit@3": 0.6557377049180327,
+      "hit@5": 0.8032786885245902,
+      "hit@10": 0.9016393442622951,
+      "mrr@10": 0.5224694249284413
+    },
+    "descriptions/context/single": {
+      "n": 61,
+      "hit@1": 0.8032786885245902,
+      "hit@3": 0.9672131147540983,
+      "hit@5": 0.9836065573770492,
+      "hit@10": 0.9836065573770492,
+      "mrr@10": 0.8830601092896175
+    },
+    "descriptions/context/multi": {
+      "n": 6,
+      "recall@3": 0.6763888888888889,
+      "recall@5": 0.9375,
+      "recall@10": 0.9791666666666666,
+      "recall@20": 1.0,
+      "complete@3": 0.16666666666666666,
+      "complete@5": 0.8333333333333334,
+      "complete@10": 0.8333333333333334,
+      "complete@20": 1
+    }
+  },
+  "performance": {
+    "names": {
+      "requests": 13,
+      "items": 100,
+      "total_s": 0.5152352498844266,
+      "items_per_s": 194.08609954856774,
+      "request_p50_ms": 32.93600003235042,
+      "request_p95_ms": 70.84947540424757
+    },
+    "descriptions": {
+      "requests": 13,
+      "items": 100,
+      "total_s": 0.9975023319711909,
+      "items_per_s": 100.2503921994722,
+      "request_p50_ms": 60.444499948062,
+      "request_p95_ms": 129.2134835850447
+    },
+    "short": {
+      "requests": 61,
+      "items": 61,
+      "total_s": 0.8021401193691418,
+      "items_per_s": 76.0465640940321,
+      "request_p50_ms": 12.242082972079515,
+      "request_p95_ms": 17.234040889889002
+    },
+    "context": {
+      "requests": 67,
+      "items": 67,
+      "total_s": 1.2436105018714443,
+      "items_per_s": 53.87538935959065,
+      "request_p50_ms": 15.728041995316744,
+      "request_p95_ms": 36.94660367909818
+    }
+  },
+  "docker_command": [
+    "docker",
+    "run",
+    "-d",
+    "--name",
+    "privacy-embedding-benchmark",
+    "--cpus",
+    "4",
+    "-p",
+    "127.0.0.1:18087:8080",
+    "-v",
+    "/Users/mac/Developer/src/python/privacy-react-demo/research/embedding-benchmark/models:/models:ro",
+    "-e",
+    "MODEL_FILE=bge-small-zh-v1.5-f16.gguf",
+    "-e",
+    "POOLING=cls",
+    "-e",
+    "CONTEXT=512",
+    "privacy-embedding-benchmark:b8576"
+  ]
+}

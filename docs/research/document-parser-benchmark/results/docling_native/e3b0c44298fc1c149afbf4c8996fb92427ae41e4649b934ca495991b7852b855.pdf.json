@@ -1,0 +1,33 @@
+{
+  "engine": "docling_native",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/pdf/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.pdf",
+  "conversion_status": "failure",
+  "conversion_errors": [
+    "component_type=<DoclingComponentType.USER_INPUT: 'user_input'> module_name='' error_message='docling-parse could not load document e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855: Failed to load document with key key=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855: parsing of key=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 from bytesio: unable to find trailer dictionary while recovering damaged file' category=<FailureCategory.BACKEND_FAILURE: 'backend_failure'> page_no=None"
+  ],
+  "convert_s": 0.487298334017396,
+  "adapter_s": 0.0002757500624284148,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": false,
+    "native": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "error",
+  "init_s": 6.607774459058419,
+  "parse_s": 0.7976875000167638,
+  "total_s": 7.405461959075183,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 381.890625,
+  "process_request_index": 1,
+  "wall_s": 7.499090583994985
+}

@@ -1,0 +1,32 @@
+{
+  "engine": "docling",
+  "source": "/Users/mac/Developer/src/python/privacy-react-demo/research/document-parser-benchmark/corpus/xlsx/a53966f8e62c2c2b459143dd3ec0c5a1a782ad2ef3714ed89bac88a8d1ada99f.xlsx",
+  "conversion_status": "failure",
+  "conversion_errors": [
+    "component_type=<DoclingComponentType.PIPELINE: 'pipeline'> module_name='SimplePipeline' error_message=\"1 validation error for TableData\\n  Value error, Table of 50001x23 cells exceeds the limit of 1000000 cells [type=value_error, input_value={'num_rows': 50001, 'num_...: 23, 'table_cells': []}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.14/v/value_error\" category=<FailureCategory.UNKNOWN: 'unknown'> page_no=None"
+  ],
+  "convert_s": 19.66795195802115,
+  "adapter_s": 0.0003072499530389905,
+  "config": {
+    "pdf_ocr": false,
+    "pdf_table_structure": true,
+    "device": "cpu",
+    "threads": 4
+  },
+  "status": "error",
+  "init_s": 4.00003045797348e-06,
+  "parse_s": 19.668408083962277,
+  "total_s": 19.668412083992735,
+  "chars": 0,
+  "blocks": 0,
+  "tables": 0,
+  "headings": 0,
+  "located_blocks": 0,
+  "replacement_chars": 0,
+  "warnings": [],
+  "table_rows": 0,
+  "table_html": 0,
+  "peak_rss_mb": 1477.390625,
+  "process_request_index": 51,
+  "wall_s": 19.671978792059235
+}
