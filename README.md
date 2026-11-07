@@ -45,7 +45,7 @@ tools/        工具实现与注册
 knowledge/    文档处理、入库与检索
 web/          接口与页面
 skills/       业务操作规范
-tests/        测试
+tests/        learning 学习示例、regression 回归测试
 docs/         设计与参考资料
 compose/      按服务拆分的容器配置
 ```
@@ -54,8 +54,14 @@ compose/      按服务拆分的容器配置
 
 ```sh
 uv run pytest -q
+# 学习切分 API（本地 tokenizer），-s 展示输入输出：
+uv run pytest tests/learning/test_chunking_api.py -q -s
+# 学习 Embedding API（需先启动 embedding）：
+uv run pytest tests/learning/test_embedding_api.py -q -s
 # 应用、数据库与 Embedding 服务启动后：
 uv run python scripts/smoke.py
 ```
+
+默认只运行 `tests/regression/`。学习示例的依赖与调用方式见 [测试说明](tests/README.md)。
 
 [任务清单](TASKS.md) · [系统结构](docs/ARCHITECTURE.md) · [选型说明](docs/DECISIONS.md) · [评测方法](docs/EVALUATION.md)
