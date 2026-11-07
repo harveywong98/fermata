@@ -4,9 +4,9 @@ import sys
 from time import perf_counter
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from knowledge.application.retrieval import search
-from knowledge.contracts import SearchRequest
-from knowledge.embedding.client import MODEL, profile
+from rag.application.retrieval import search
+from rag.contracts import SearchRequest
+from rag.embedding.client import MODEL, profile
 
 
 def call_api(prompt, options, context):

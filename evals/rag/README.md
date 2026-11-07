@@ -1,6 +1,6 @@
 # RAG 检索评测
 
-用 promptfoo 执行和查看检索评测，Python 复用 `knowledge/`；不 fork promptfoo，不接入 Ragas 或 Langfuse。
+用 promptfoo 执行和查看检索评测，Python 复用 `rag/`；不 fork promptfoo，不接入 Ragas 或 Langfuse。
 
 当前是 BGE-base、现有切分和拼接规则的基线，演示语料由本项目编写，5 个问题只用于跑通流程，不代表真实业务效果。没有答案生成或模型裁判，默认不调用收费模型。
 

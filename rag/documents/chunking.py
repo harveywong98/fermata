@@ -1,6 +1,6 @@
 """按模型 token 预算将父单元切成子块，保留字符范围与来源。"""
 import re
-from knowledge.embedding.tokenizer import tokens
+from rag.embedding.tokenizer import tokens
 
 
 def split_section(section, size=400, overlap=40):

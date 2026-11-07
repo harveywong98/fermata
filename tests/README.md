@@ -5,7 +5,7 @@
 | `regression/` | 行为、边界、错误处理和接口兼容性 | `uv run pytest -q` |
 | `learning/` | 看懂 API 的输入、参数和返回结构 | `uv run pytest tests/learning -q -s` |
 
-在项目根目录运行。默认回归测试不调用外部服务，但切分相关测试需要本地 BGE tokenizer（默认 `knowledge/models/tokenizer/`）。
+在项目根目录运行。默认回归测试不调用外部服务，但切分相关测试需要本地 BGE tokenizer（默认 `rag/models/tokenizer/`）。
 
 学习示例只打印关键结构、实际数据类型和少量样例值，不验证正确性；正确性断言由回归测试负责。学习示例使用真实调用：
 

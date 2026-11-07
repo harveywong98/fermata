@@ -4,7 +4,7 @@ services:
     ports:
     - 127.0.0.1:18087:8080
     volumes:
-    - ${KNOWLEDGE_MODEL_DIR:-./knowledge/models}:/models:ro
+    - ${KNOWLEDGE_MODEL_DIR:-./rag/models}:/models:ro
     command: -m /models/bge-base-zh-v1.5-f16.gguf --embedding --pooling cls --no-mmap --host 0.0.0.0 --port 8080 -c 512 -b
       2048 -ub 2048 -t 4 -tb 4 -ngl 0 -np 1
     cpus: 4

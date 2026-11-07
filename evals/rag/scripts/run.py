@@ -7,8 +7,8 @@ import subprocess
 import sys
 
 from evals.rag.scripts.prepare import CORPUS, KNOWLEDGE_BASE
-from knowledge.embedding.client import profile
-from knowledge.storage.repository import db
+from rag.embedding.client import profile
+from rag.storage.repository import db
 
 HERE = Path(__file__).resolve().parents[1]
 

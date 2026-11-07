@@ -11,4 +11,4 @@ mkdir -p /private/tmp/privacy-history
 tar -xzf docs/history/legacy-20261107.tar.gz -C /private/tmp/privacy-history
 ```
 
-解压后保留原 `archive/` 层级。历史包包含旧本地配置和数据，仅作为本机备份，已加入 `.gitignore`，不随源码提交。当前运行资产位于 `knowledge/data/` 和 `knowledge/models/`，与本备份不同。
+解压后保留原 `archive/` 层级。历史包包含旧本地配置和数据，仅作为本机备份，已加入 `.gitignore`，不随源码提交。当前运行资产位于 `rag/data/` 和 `rag/models/`，与本备份不同。

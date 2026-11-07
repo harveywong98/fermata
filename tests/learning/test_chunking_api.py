@@ -5,8 +5,8 @@
 """
 import json
 
-from knowledge.documents.parsing import parse_file
-from knowledge.documents.chunking import split_section
+from rag.documents.parsing import parse_file
+from rag.documents.chunking import split_section
 
 
 def test_parse_and_split_api(tmp_path):

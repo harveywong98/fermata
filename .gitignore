@@ -3,8 +3,8 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-knowledge/data/
-knowledge/models/
+rag/data/
+rag/models/
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/

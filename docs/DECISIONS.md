@@ -15,7 +15,7 @@
 - 解析器：先看 [综合选型](research/document-parser-benchmark/PARSER-SELECTION.md)，核对数据再看 [三方对比](research/document-parser-benchmark/COMPARISON-THREE.md)。`REPORT.md` 和 `SUMMARY-CORRECTED.md` 是更早的双方对照与修订，保留追溯，不作为并列的当前结论。
 - Embedding：看 [完整报告](research/embedding-benchmark/REPORT.md)。实验 README 主要保留复现入口；61 个合成单目标用例的 Top5 命中不能外推成企业业务准确率。
 - 知识管理交互：看 [页面参考](research/rag-product-ui/README.md) 和 [分块源码调研](research/rag-product-ui/SOURCE-CHUNKING.md)。参考产品的能力不等于本项目已经实现。
-- 分块实现：[设计说明](../knowledge/CHUNKING.md)；运行和边界：[知识模块说明](../knowledge/README.md)。
+- 分块实现：[设计说明](../rag/CHUNKING.md)；运行和边界：[知识模块说明](../rag/README.md)。
 
 ## 原始实验如何处理
 

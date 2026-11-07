@@ -26,9 +26,9 @@ def test_unfinished_agent_exits_with_todo():
 
 def test_paths_resolve_from_project_root(tmp_path):
     env = {**os.environ, 'PYTHONPATH': os.pathsep.join([str(ROOT), os.environ.get('PYTHONPATH', '')]),
-           'KNOWLEDGE_DATA_DIR': 'knowledge/data'}
+           'KNOWLEDGE_DATA_DIR': 'rag/data'}
     result = subprocess.run([sys.executable, '-c',
                              'from config import DATA_DIR; print(DATA_DIR)'],
                             cwd=tmp_path, env=env, text=True, capture_output=True, timeout=30)
     assert result.returncode == 0, result.stderr
-    assert result.stdout.strip() == str(ROOT / 'knowledge/data')
+    assert result.stdout.strip() == str(ROOT / 'rag/data')

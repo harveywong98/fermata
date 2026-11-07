@@ -1,8 +1,8 @@
-"""HTTP 适配层；知识业务逻辑位于 knowledge 包。"""
+"""HTTP 适配层；知识业务逻辑位于 rag 包。"""
 from uuid import UUID
 from fastapi import APIRouter, File, Form, UploadFile
-from knowledge.application import service, retrieval
-from knowledge.contracts import SplitRequest, PublishRequest, SearchRequest
+from rag.application import service, retrieval
+from rag.contracts import SplitRequest, PublishRequest, SearchRequest
 
 router = APIRouter()
 

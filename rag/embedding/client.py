@@ -5,8 +5,8 @@ import json
 import math
 import httpx
 from config import EMBEDDING_URL, MODEL_DIR
-from knowledge.embedding.tokenizer import tokens
-from knowledge.contracts import KnowledgeError
+from rag.embedding.tokenizer import tokens
+from rag.contracts import KnowledgeError
 
 MODEL = 'BAAI/bge-base-zh-v1.5'
 

@@ -10,7 +10,7 @@ import json
 import httpx
 
 from config import EMBEDDING_URL
-from knowledge.embedding.client import MODEL, embed
+from rag.embedding.client import MODEL, embed
 
 
 def test_embedding_request_and_result_structure():

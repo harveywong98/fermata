@@ -5,9 +5,9 @@ from unittest.mock import patch, MagicMock
 from uuid import uuid4
 
 from fastapi.testclient import TestClient
-from knowledge.application import drafts, service, retrieval
-from knowledge.contracts import KnowledgeError
-from knowledge.contracts import SplitRequest, PublishRequest
+from rag.application import drafts, service, retrieval
+from rag.contracts import KnowledgeError
+from rag.contracts import SplitRequest, PublishRequest
 from tools import search_knowledge
 from web.app import app
 

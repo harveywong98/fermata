@@ -7,9 +7,9 @@ from pathlib import Path
 from types import SimpleNamespace
 from uuid import UUID
 
-from knowledge.application import service
-from knowledge.contracts import PublishRequest, SplitRequest
-from knowledge.storage.repository import initialize
+from rag.application import service
+from rag.contracts import PublishRequest, SplitRequest
+from rag.storage.repository import initialize
 
 KNOWLEDGE_BASE = '__eval_fermata_demo_v1'
 CORPUS = Path(__file__).resolve().parents[1] / 'corpus'

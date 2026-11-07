@@ -11,6 +11,6 @@ def local_path(name, default):
     return path if path.is_absolute() else ROOT / path
 
 # 知识能力的本地资源目录；可通过环境变量覆盖。
-DATA_DIR = local_path('KNOWLEDGE_DATA_DIR', 'knowledge/data')
-MODEL_DIR = local_path('KNOWLEDGE_MODEL_DIR', 'knowledge/models')
+DATA_DIR = local_path('KNOWLEDGE_DATA_DIR', 'rag/data')
+MODEL_DIR = local_path('KNOWLEDGE_MODEL_DIR', 'rag/models')
 EMBEDDING_URL = os.getenv('EMBEDDING_URL', 'http://127.0.0.1:18087').rstrip('/')

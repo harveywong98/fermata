@@ -18,7 +18,7 @@ uv run python main.py
 
 访问 http://127.0.0.1:8018 ，接口文档位于 http://127.0.0.1:8018/docs 。
 
-Compose 默认只启动 Embedding，promptfoo 和 Langfuse 按需启用，容器名统一以 `fe_` 开头。知识库数据库仍通过 `DATABASE_URL` 单独配置。应用按单进程运行。模型和数据配置见 [知识模块说明](knowledge/README.md)。
+Compose 默认只启动 Embedding，promptfoo 和 Langfuse 按需启用，容器名统一以 `fe_` 开头。知识库数据库仍通过 `DATABASE_URL` 单独配置。应用按单进程运行。模型和数据配置见 [知识模块说明](rag/README.md)。
 
 辅助服务（Docker Compose 2.20+）：
 
@@ -44,7 +44,7 @@ Langfuse 首次访问时注册本地账号。数据保存在 Docker 命名卷中
 main.py       应用入口
 agent/        Agent、提示词与会话
 tools/        工具实现与注册
-knowledge/    文档处理、入库与检索
+rag/    文档处理、入库与检索
 web/          接口与页面
 skills/       业务操作规范
 tests/        learning 学习示例、regression 回归测试

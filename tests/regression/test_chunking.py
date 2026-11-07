@@ -1,5 +1,5 @@
-from knowledge.documents.chunking import split_section
-from knowledge.embedding.tokenizer import tokens
+from rag.documents.chunking import split_section
+from rag.embedding.tokenizer import tokens
 
 
 def test_budget_coverage_and_overlap():
