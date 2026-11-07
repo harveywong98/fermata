@@ -196,3 +196,6 @@ docs/history/*.tar.gz
 *.h5
 *.hdf5
 *.tflite
+
+# 评测运行产物；测试集、配置和精选记录通过 Git 维护。
+/evals/rag/results/

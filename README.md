@@ -22,6 +22,8 @@ Compose 默认只启动 Embedding，promptfoo 和 Langfuse 按需启用，容器
 
 辅助服务（Docker Compose 2.20+）：
 
+promptfoo 直接定义在根 `compose.yaml`，可用 `docker compose up -d promptfoo` 单独启动。统一从根 `compose.yaml` 启动；`compose/` 下的文件由它引入，不单独启动。在 IDEA 的 Docker Compose 运行配置中选择根文件，项目名使用 `fermata`，启用需要的 profile（`eval` 或 `tracing`）。单独运行子文件会使用不同的项目名，与已有 `fe_` 容器发生命名冲突。
+
 ```sh
 docker compose --profile eval up -d       # Embedding + promptfoo
 docker compose --profile tracing up -d    # Embedding + Langfuse 全套
@@ -46,8 +48,9 @@ knowledge/    文档处理、入库与检索
 web/          接口与页面
 skills/       业务操作规范
 tests/        learning 学习示例、regression 回归测试
+evals/        promptfoo 评测配置、数据集和运行入口
 docs/         设计与参考资料
-compose/      按服务拆分的容器配置
+compose/      Embedding 与 Langfuse 子配置
 ```
 
 ## 开发
@@ -63,5 +66,7 @@ uv run python scripts/smoke.py
 ```
 
 默认只运行 `tests/regression/`。学习示例的依赖与调用方式见 [测试说明](tests/README.md)。
+
+RAG 效果评测见 [评测目录](evals/rag/README.md)：准备演示知识库后运行 `uv run python -m evals.rag.run`，用本机 `promptfoo view --port 15501` 查看历史；本机 CLI 与 Compose 的 promptfoo 数据独立。
 
 [任务清单](TASKS.md) · [系统结构](docs/ARCHITECTURE.md) · [选型说明](docs/DECISIONS.md) · [评测方法](docs/EVALUATION.md)

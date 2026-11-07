@@ -1,0 +1,39 @@
+# 演示数据集 v1：reference 是供阅读或未来模型裁判使用的参考答案。
+# expected_evidence 是当前确定性评分依据：文件名 + 原文短句，不绑定变化的块 ID。
+- description: 发布前能否检索
+  vars:
+    query: 上传完文档就能搜到了吗？
+    reference: 不能，必须人工确认发布后才会生成向量并可被检索。
+    expected_evidence:
+      - file_name: publishing.txt
+        quote: 只有人工确认发布后才会生成向量，文档才可被检索。
+- description: 放弃编辑的影响
+  vars:
+    query: 修改已发布文档后放弃草稿，会把原文档删除吗？
+    reference: 不会，放弃编辑草稿不会删除已发布文档。
+    expected_evidence:
+      - file_name: publishing.txt
+        quote: 放弃编辑草稿不会删除已发布文档。
+- description: 扫描件限制
+  vars:
+    query: 我能上传扫描版 PDF 自动识别文字吗？
+    reference: 当前不支持扫描件 OCR，没有可提取文本时报告解析失败。
+    expected_evidence:
+      - file_name: parsing.txt
+        quote: 当前 PDF 解析提取文本，不支持扫描件 OCR。
+- description: Top K 与父块去重
+  vars:
+    query: 为什么 Top K 为 5，却返回不足 5 条？
+    reference: 多个命中子块可能属于同一父块，父块去重后返回条数可能少于 Top K。
+    expected_evidence:
+      - file_name: retrieval.txt
+        quote: 同一父块的多个命中会去重，因此最终返回条数可能少于 Top K。
+- description: 跨文档证据
+  vars:
+    query: 上传文件的大小限制是什么，检索返回的父正文长度又是多少？
+    reference: 单个文件最大 20 MiB；返回父正文最多 6000 字符，截断时有标记。
+    expected_evidence:
+      - file_name: parsing.txt
+        quote: 单个文件最大为 20 MiB。
+      - file_name: retrieval.txt
+        quote: 返回的父块正文最多保留前 6000 个字符

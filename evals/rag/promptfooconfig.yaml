@@ -1,0 +1,17 @@
+description: Fermata RAG 演示检索基线（不代表真实业务准确率）
+prompts:
+  - '{{query}}'
+providers:
+  - id: file://provider.py
+    label: bge-base-current-top5
+    config:
+      knowledge_base: __eval_fermata_demo_v1
+      top_k: 5
+tests: file://cases.yaml
+defaultTest:
+  assert:
+    - type: python
+      value: file://score.py
+      metric: evidence_coverage
+evaluateOptions:
+  maxConcurrency: 1

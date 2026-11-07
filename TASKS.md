@@ -54,8 +54,11 @@
 
 ## 本地评测与观测
 
-- [x] Compose 按服务拆分到 `compose/`，加入 promptfoo（`eval`）、Langfuse 及必要依赖（`tracing`），默认只启动 Embedding；容器名统一使用 `fe_` 前缀。
-- [ ] 待讨论：明确首个评测任务、样本及判分标准，再接入 promptfoo；优先级待与 Agent 最小闭环一起确认。
+- [x] 根 Compose 定义 promptfoo（`eval`），`compose/` 保留 Embedding、Langfuse 及必要依赖（`tracing`），默认只启动 Embedding；容器名统一使用 `fe_` 前缀。
+- [x] `evals/rag/` 接入 promptfoo 检索基线，提供公开演示语料、问题及原文证据标注，记录覆盖率、首次证据排名和运行快照。
+- [ ] 积累真实业务问题及人工标注证据；演示集只验证流程，不作为业务准确率。
+- [ ] 待讨论：在基线上比较切分预算、重叠与拼接策略，为各方案隔离索引；再评估其他模型及不同向量维度，明确范围后调整优先级。
+- [ ] 待讨论：需要语义评分时配置固定裁判模型并接入 promptfoo 内置 RAG 指标；当前不调用模型裁判。
 - [ ] 待讨论：明确需要记录的调用和数据范围，再接入 Langfuse tracing；部署服务不代表应用已上报轨迹。
 
 ## 4. 后续按需要扩展

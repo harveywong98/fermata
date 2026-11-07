@@ -68,7 +68,7 @@ PG复用 `127.0.0.1:5432/privacy_knowledge_demo`，账号在未提交的.env中�
 
 ## 验证
 
-API 学习示例在 `tests/learning/`，行为回归测试在 `tests/regression/`。切分与 Embedding 的输入输出示例及运行依赖见 [测试说明](../tests/README.md)。
+API 学习示例在 `tests/learning/`，行为回归测试在 `tests/regression/`。切分、Embedding 与 Search 的输入输出示例及运行依赖见 [测试说明](../tests/README.md)。检索效果评测单独放在 [evals/rag/](../evals/rag/README.md)。
 
 ```sh
 uv run pytest -q

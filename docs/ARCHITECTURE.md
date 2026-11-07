@@ -21,9 +21,11 @@ Agent 到知识模块是普通 Python 调用，不需要 `KNOWLEDGE_API_URL` 或
 
 ## 本地辅助服务
 
-根 `compose.yaml` 通过 `include` 汇总 `compose/` 下的 Embedding、promptfoo 和 Langfuse 配置；相对路径和 `.env` 均以项目根目录为基准。默认只启动 Embedding，`eval` profile 启用 promptfoo，`tracing` profile 启用 Langfuse 全套。所有容器名以 `fe_` 开头，仅将页面和对象存储端口绑定到本机。Langfuse 使用独立的 PostgreSQL、ClickHouse、Redis 和 MinIO；不会复用应用的 `DATABASE_URL`。数据使用 Docker 命名卷持久化。
+根 `compose.yaml` 直接定义 promptfoo，通过 `include` 引入 `compose/` 下的 Embedding 和 Langfuse 配置；相对路径和 `.env` 均以项目根目录为基准。默认只启动 Embedding，`eval` profile 启用 promptfoo，`tracing` profile 启用 Langfuse 全套。所有容器名以 `fe_` 开头，仅将页面和对象存储端口绑定到本机。Langfuse 使用独立的 PostgreSQL、ClickHouse、Redis 和 MinIO；不会复用应用的 `DATABASE_URL`。数据使用 Docker 命名卷持久化。
 
-部署参考 [promptfoo 自托管说明](https://www.promptfoo.dev/docs/usage/self-hosting/) 和 [Langfuse 官方 Compose](https://github.com/langfuse/langfuse/blob/main/docker-compose.yml)，只保留本地运行所需组件。当前仅提供服务部署，Agent tracing 与项目评测用例尚未接入，规划见 `TASKS.md`。
+部署参考 [promptfoo 自托管说明](https://www.promptfoo.dev/docs/usage/self-hosting/) 和 [Langfuse 官方 Compose](https://github.com/langfuse/langfuse/blob/main/docker-compose.yml)，只保留本地运行所需组件。Agent tracing 尚未接入。
+
+`evals/rag/` 的 Python provider 直接调用 `knowledge.application.retrieval.search`，由宿主机 promptfoo CLI 执行，无需 Web 服务。演示资料使用专用知识库名称，与业务资料逻辑隔离；仍共用现有 PostgreSQL。测试集在 Git 中维护，运行快照保存在忽略的 `evals/rag/results/`。本机 CLI 历史与 Compose 容器卷独立，操作方式见 [评测说明](../evals/rag/README.md)。
 
 ## 配置、资源与迁移
 

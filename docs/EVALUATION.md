@@ -2,7 +2,7 @@
 
 日期：2026-11-06
 
-本地工具：Compose 按 `eval` / `tracing` profile 分别提供 [promptfoo](http://localhost:15500) 与 [Langfuse](http://localhost:13000)，启动见 [项目 README](../README.md)。当前尚未配置项目评测用例或 Agent 轨迹上报。
+项目实践见 [RAG 评测](../evals/rag/README.md)：用本机 promptfoo CLI 执行演示检索基线，按原文证据计分，结果用本机 viewer 查看。Compose 仍提供独立的 promptfoo 与 Langfuse 服务；当前未接入模型裁判或 Agent 轨迹上报。
 
 设计评测时，先把“测什么”“怎么跑”“怎么评分”分开。它们是独立的问题，不是一棵从简单到复杂的分类树。
 

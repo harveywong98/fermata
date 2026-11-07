@@ -1,0 +1,3 @@
+知识库支持 PDF、DOCX、XLSX、TXT 和 Markdown 文档，单个文件最大为 20 MiB。
+
+当前 PDF 解析提取文本，不支持扫描件 OCR。没有可提取文本时应报告解析失败。
