@@ -1,11 +1,11 @@
 """观察真实 Search 及评测 provider 的输入输出，不验证检索正确性。
 
 依赖：根 .env 数据库配置、Embedding 服务和演示知识库。
-准备：uv run python -m evals.rag.prepare
+准备：uv run python -m evals.rag.scripts.prepare
 运行：uv run pytest tests/learning/test_search_api.py -q -s
 """
-from evals.rag.provider import call_api
-from evals.rag.prepare import KNOWLEDGE_BASE
+from evals.rag.scripts.provider import call_api
+from evals.rag.scripts.prepare import KNOWLEDGE_BASE
 
 
 def test_search_result_structure():

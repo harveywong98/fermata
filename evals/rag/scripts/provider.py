@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 from time import perf_counter
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from knowledge.application.retrieval import search
 from knowledge.contracts import SearchRequest
 from knowledge.embedding.client import MODEL, profile

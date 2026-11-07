@@ -25,7 +25,7 @@ Agent 到知识模块是普通 Python 调用，不需要 `KNOWLEDGE_API_URL` 或
 
 部署参考 [promptfoo 自托管说明](https://www.promptfoo.dev/docs/usage/self-hosting/) 和 [Langfuse 官方 Compose](https://github.com/langfuse/langfuse/blob/main/docker-compose.yml)，只保留本地运行所需组件。Agent tracing 尚未接入。
 
-`evals/rag/` 的 Python provider 直接调用 `knowledge.application.retrieval.search`，由宿主机 promptfoo CLI 执行，无需 Web 服务。演示资料使用专用知识库名称，与业务资料逻辑隔离；仍共用现有 PostgreSQL。测试集在 Git 中维护，运行快照保存在忽略的 `evals/rag/results/`。本机 CLI 历史与 Compose 容器卷独立，操作方式见 [评测说明](../evals/rag/README.md)。
+`evals/rag/` 的 Python provider 直接调用 `knowledge.application.retrieval.search`，由宿主机 promptfoo CLI 执行，无需 Web 服务。演示资料使用专用知识库名称，与业务资料逻辑隔离；仍共用现有 PostgreSQL。测试集在 Git 中维护，最新结果导出至忽略的 `evals/rag/results/results.json`，历史运行由 promptfoo 本机数据库保存。本机 CLI 历史与 Compose 容器卷独立，操作方式见 [评测说明](../evals/rag/README.md)。
 
 ## 配置、资源与迁移
 

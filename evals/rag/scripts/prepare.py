@@ -1,6 +1,6 @@
 """准备专用演示知识库；复用应用上传/预览/发布，不修改其他知识库。
 
-运行：uv run python -m evals.rag.prepare
+运行：uv run python -m evals.rag.scripts.prepare
 需要根 .env 数据库配置、本地 tokenizer 和运行中的 Embedding。
 """
 from pathlib import Path
@@ -12,7 +12,7 @@ from knowledge.contracts import PublishRequest, SplitRequest
 from knowledge.storage.repository import initialize
 
 KNOWLEDGE_BASE = '__eval_fermata_demo_v1'
-CORPUS = Path(__file__).parent / 'corpus'
+CORPUS = Path(__file__).resolve().parents[1] / 'corpus'
 
 
 def main():

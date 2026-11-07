@@ -67,6 +67,6 @@ uv run python scripts/smoke.py
 
 默认只运行 `tests/regression/`。学习示例的依赖与调用方式见 [测试说明](tests/README.md)。
 
-RAG 效果评测见 [评测目录](evals/rag/README.md)：准备演示知识库后运行 `uv run python -m evals.rag.run`，用本机 `promptfoo view --port 15501` 查看历史；本机 CLI 与 Compose 的 promptfoo 数据独立。
+RAG 效果评测见 [评测目录](evals/rag/README.md)：准备演示知识库后运行 `uv run python -m evals.rag.scripts.run`，用本机 `promptfoo view --port 15501` 查看历史；本机 CLI 与 Compose 的 promptfoo 数据独立。
 
 [任务清单](TASKS.md) · [系统结构](docs/ARCHITECTURE.md) · [选型说明](docs/DECISIONS.md) · [评测方法](docs/EVALUATION.md)

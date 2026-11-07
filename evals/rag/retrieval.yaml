@@ -2,16 +2,18 @@ description: Fermata RAG 演示检索基线（不代表真实业务准确率）
 prompts:
   - '{{query}}'
 providers:
-  - id: file://provider.py
+  - id: file://scripts/provider.py
     label: bge-base-current-top5
     config:
       knowledge_base: __eval_fermata_demo_v1
       top_k: 5
 tests: file://cases.yaml
+# 相对于执行目录（run.py 固定为本目录）；每次覆盖最新导出，历史运行由 promptfoo 保存。
+outputPath: results/results.json
 defaultTest:
   assert:
     - type: python
-      value: file://score.py
+      value: file://scripts/score.py
       metric: evidence_coverage
 evaluateOptions:
   maxConcurrency: 1

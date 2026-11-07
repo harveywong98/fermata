@@ -1,7 +1,7 @@
 """评测评分器不能把错误来源、缺失证据或部分召回算作全部通过。"""
 import json
 import pytest
-from evals.rag.score import get_assert
+from evals.rag.scripts.score import get_assert
 
 
 def test_evidence_requires_correct_source_and_complete_coverage():

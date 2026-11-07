@@ -4,6 +4,16 @@
 
 当前是 BGE-base、现有切分和拼接规则的基线，演示语料由本项目编写，5 个问题只用于跑通流程，不代表真实业务效果。没有答案生成或模型裁判，默认不调用收费模型。
 
+## 怎么测、怎么决策
+
+先看 `retrieval.yaml` 的知识库和 Top K，再看 `cases.yaml` 的问题与预期证据；`corpus/` 是这些证据对应的演示原文。`scripts/` 负责执行和接入，通常无需修改。
+
+- 比较切分、Embedding 或拼接方式时，固定问题、证据标注及其他条件，一次只改变一个因素。
+- 先看证据覆盖率，判断所需资料是否找全；再看首次证据排名，判断有用资料是否靠前，同时观察耗时。
+- 对失败题检查返回片段：区分真实漏检与原文匹配规则的局限。不能仅凭这 5 道演示题的通过率选择方案，更不能据此判断回答质量。
+
+当前只实现单套检索基线；多方案对比需要分别准备相应索引并运行，尚未自动化。
+
 ## 运行
 
 在项目根目录执行，需要根 `.env` 的数据库配置、本地 BGE 模型与 tokenizer。CLI 运行在宿主机，使用当前 Python 环境；不需要启动 Web 应用。
@@ -12,15 +22,15 @@
 uv sync --locked
 npm install -g promptfoo@0.125.1
 docker compose up -d embedding
-uv run python -m evals.rag.prepare
-uv run python -m evals.rag.run
+uv run python -m evals.rag.scripts.prepare
+uv run python -m evals.rag.scripts.run
 # 查看本机 CLI 保存的实验历史
 promptfoo view --port 15501
 ```
 
 `prepare` 仅上传 `corpus/*.txt` 到专用知识库 `__eval_fermata_demo_v1`，使用 400 token / 40 overlap，重复执行跳过相同文件，不删除或替换已有文档。修改语料后，应先在知识管理页删除该评测库中旧文件再准备；不要在此库中手工编辑切块或混入其他资料。它与业务库按名称隔离，共用现有数据库，不是独立数据库。
 
-`run` 检查文档哈希及模型版本后，只执行检索，关闭缓存和自动分享。每次保存到 `results/<UTC时间>/`：逐题结果、配置与评分脚本副本、语料哈希、模型版本、索引批次和处理参数、代码版本及源码哈希。执行失败会保留非零退出码，不能当作“检索无结果”。
+`run` 检查文档哈希及模型版本后，只执行检索，关闭缓存和自动分享。YAML 直接引用本目录的测试集、provider 和评分脚本，不复制文件。`outputPath` 固定为 `results/results.json`（`run.py` 将执行目录固定为 `evals/rag/`），每次覆盖最新结果；历史运行由 promptfoo 本机数据库保存。执行失败会保留非零退出码，不能当作“检索无结果”。
 
 结果同时写入本机 promptfoo 历史。Compose 的 `15500` 页面使用独立的容器数据卷，不会自动看到本机 CLI 历史；本版用 `15501` 的本机 viewer 查看，避免把两处存储混为一谈。不会自动上传到公共分享服务。
 
@@ -30,10 +40,10 @@ promptfoo view --port 15501
 | --- | --- |
 | `corpus/` | 可公开提交的演示原文 |
 | `cases.yaml` | 问题、参考答案、预期证据 |
-| `promptfooconfig.yaml` | Provider、Top K 与评分配置 |
-| `provider.py` | 调用现有检索，返回 hits、context 和运行信息 |
-| `score.py` | 根据原文证据计算覆盖率和首次命中排名 |
-| `prepare.py` / `run.py` | 准备演示索引 / 运行并保存实验 |
+| `retrieval.yaml` | Provider、Top K 与评分配置 |
+| `scripts/provider.py` | 调用现有检索，返回 hits、context 和运行信息 |
+| `scripts/score.py` | 根据原文证据计算覆盖率和首次命中排名 |
+| `scripts/prepare.py` / `scripts/run.py` | 准备演示索引 / 运行并保存实验 |
 
 新增案例时填写 `query`、`reference` 与 `expected_evidence`。证据使用文件名和原文短句，不使用切分后会变化的 Chunk ID。当前 `reference` 仅作人工阅读参考，评分依据是 `expected_evidence`；两者须人工保持一致。
 
